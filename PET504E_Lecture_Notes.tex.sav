@@ -1,11 +1,14 @@
 % This is Lecture Notes for PET504E Advanced Well Test Analysis
 %
 \documentclass{llncs}
+
+\usepackage{graphicx}
 \usepackage{llncsdoc}
 \usepackage{savesym}
 \savesymbol{note}
 \usepackage{color} % Allow text colors
-
+\usepackage{enumerate}
+\usepackage{amsmath}
 %\usepackage{fullpage}
 %\usepackage[finalnew]{trackchanges}
 %\usepackage[finalold]{trackchanges}
@@ -14,142 +17,146 @@
 \usepackage[margins]{trackchanges}
 %\usepackage[margins, movemargins]{trackchanges}
 %\usepackage[margins, adjustmargins]{trackchanges}
+%
 \addeditor{Murat \c{C}{\i}nar}
 \restoresymbol{Trck}{note}
+ \numberwithin{equation}{section}
 %
-\usepackage[usenames,dvipsnames]{pstricks}
-\usepackage{epsfig}
-\usepackage{pst-grad} % For gradients
-\usepackage{pst-plot} % For axes
+%\usepackage{nomencl}
+%\makenomenclature
 %
 \begin{document}
-\markboth{PET504E Advanced Well Test Analysis}{PET504E Advanced Well Test Analysis}
-\thispagestyle{empty}
-\begin{flushleft}
-\LARGE\bfseries Lecture Notes\\[1cm]
-\end{flushleft}
-\rule{\textwidth}{1pt}
-\vspace{2pt}
-\begin{flushright}
-\Huge
-\begin{tabular}{@{}l}
-PET504E \\
-Advanced Well Test \\
-Analysis\\[6pt]
-{\Large January 2012}
-\end{tabular}
-\end{flushright}
-\rule{\textwidth}{1pt}
+    \markboth{PET504E Advanced Well Test Analysis}{PET504E Advanced Well Test Analysis}
+    \thispagestyle{empty}
+    \begin{flushleft}
+        \LARGE\bfseries Lecture Notes\\[1cm]
+    \end{flushleft}
+    \rule{\textwidth}{1pt}
+    \vspace{2pt}
+    \begin{flushright}
+        \Huge
+            \begin{tabular}{@{}l}
+                PET504E \\
+                Advanced Well Test \\
+                Analysis\\[6pt]
+                {\Large January 2012}
+            \end{tabular}
+        \end{flushright}
+    \rule{\textwidth}{1pt}
 
-\begin{flushleft}
-\LARGE\bfseries by\\ Prof. Dr. Mustafa Onur \\[2cm]
+    \begin{flushleft}
+        \LARGE\bfseries by\\ Prof. Dr. Mustafa Onur \\[2cm]
 
-\end{flushleft}
-\vfill
+    \end{flushleft}
+    \vfill
 
-
-\section{Introduction}
+    \section{Introduction}
 %
-The term "Well Testing" is used in Petroleum Industry means the measuring of a formation's
-(or reservoir's) pressure (and/or rate) response to flow from a well. The term "Well Testing"
-is generally used with the term "Pressure Transient Analysis", interchangeably. It is an indirect
-measurement technique as opposed to direct methods such as fluid sampling or coring. Well testing
-provides dynamic information on the reservoir whereas direct measurements only provide static
-information, which is not sufficient for predicting the behavior of the reservoir.\\
+    The term "Well Testing" is used in Petroleum Industry means the measuring of a formation's
+    (or reservoir's) pressure (and/or rate) response to flow from a well. The term "Well Testing"
+    is generally used with the term "Pressure Transient Analysis", interchangeably. It is an indirect
+    measurement technique as opposed to direct methods such as fluid sampling or coring. Well testing
+    provides dynamic information on the reservoir whereas direct measurements only provide static
+    information, which is not sufficient for predicting the behavior of the reservoir.\\
 
-Simply, the objective of well testing is to deduce quantitative information about the well/reservoir system
-under consideration from its response to a given input. Input (or input signal) is used for perturbing one or
-wells so that the output (signal) exhibiting the response of the reservoir is obtained at the perturbated well and/or
-adjacent wells. In practice, the input is equivalent to controlling the well behavior \remove[Murat \c{C}{\i}nar]{and} created by changing
-the flow rate or the pressure at the well (Mathematically specifying the well behavior is equivalent to specifying 
-a boundary condition). A common example for creating an input signal is \add[Murat \c{C}{\i}nar]{a} build up test 
-\change[Murat \c{C}{\i}nar]{in which}{where} we change the rate to zero by shutting-in the well. Reservoir response,
-\remove[Murat \c{C}{\i}nar]{which is} also called output signal, to a given input is monitored by measuring the
-pressure change (or rate change) at the \remove[Murat \c{C}{\i}nar]{same}  well. This process is illustrated as,
+    Simply, the objective of well testing is to deduce quantitative information about the well/reservoir system
+    under consideration from its response to a given input. Input (or input signal) is used for perturbing one or
+    wells so that the output (signal) exhibiting the response of the reservoir is obtained at the perturbated well and/or
+    adjacent wells. In practice, the input is equivalent to controlling the well behavior \remove[Murat \c{C}{\i}nar]{and} created by changing
+    the flow rate or the pressure at the well (Mathematically specifying the well behavior is equivalent to specifying
+    a boundary condition). A common example for creating an input signal is \add[Murat \c{C}{\i}nar]{a} build up test
+    \change[Murat \c{C}{\i}nar]{in which}{where} we change the rate to zero by shutting-in the well. Reservoir response,
+    \remove[Murat \c{C}{\i}nar]{which is} also called output signal, to a given input is monitored by measuring the
+    pressure change (or rate change) at the \remove[Murat \c{C}{\i}nar]{same}  well. This process is illustrated as,
 
-\begin{figure}[h]
-\setlength{\unitlength}{0.14in} % selecting unit length
-\centering % used for centering Figure
-\begin{picture}(32,15) % picture environment with the size (dimensions)
-% 32 length units wide, and 15 units high.
-\put(3,4){\framebox(6,3){Input}}
-\put(13,4){\framebox(6,3){System}}
-\put(23,4){\framebox(6,3){Output}}
-\put(14,3){(Unknown)}
-\put(6,1){I}
-\put(16,1){S}
-\put(26,1){O}
-\put(9,5.5){\vector(1,0){4}}
-\put(19,5.5){\vector(1,0){4}}
-\put(9,1){\vector(1,0){4}}
-\put(19,1){\vector(1,0){4}}
-\end{picture}
-\label{input_output} % label to refer figure in text
-\end{figure}
+    \begin{figure}[h]
+        \setlength{\unitlength}{0.14in} % selecting unit length
+        \centering % used for centering Figure
+        \begin{picture}(32,15) % picture environment with the size (dimensions)
+        % 32 length units wide, and 15 units high.
+            \put(3,4){\framebox(6,3){Input}}
+            \put(13,4){\framebox(6,3){System}}
+            \put(23,4){\framebox(6,3){Output}}
+            \put(14,3){(Unknown)}
+            \put(6,1){I}
+            \put(16,1){S}
+            \put(26,1){O}
+            \put(9,5.5){\vector(1,0){4}}
+            \put(19,5.5){\vector(1,0){4}}
+            \put(9,1){\vector(1,0){4}}
+            \put(19,1){\vector(1,0){4}}
+        \end{picture}
+        \caption{Block diagram ?????}
+        \label{input_output} % label to refer figure in text
+    \end{figure}
 
-Typical examples for input and output signals as used in petroleum industry are shown in the following figures;
+    Typical examples for input and output signals as used in petroleum industry are shown in the following figures;
+    \begin{figure}
+        \begin{center}
+        \includegraphics[scale=0.75]{Transient_phenomena.pdf}
+        \caption{Typical input and output signals - Transient phenomena.}
+        \label{Transient_phenomena}
+        \end{center}
+    \end{figure}
 
-% Generated with LaTeXDraw 2.0.8
-% Thu Jan 19 09:34:39 MAGT 2012
-% \usepackage[usenames,dvipsnames]{pstricks}
-% \usepackage{epsfig}
-% \usepackage{pst-grad} % For gradients
-% \usepackage{pst-plot} % For axes
-\scalebox{1} % Change this value to rescale the drawing.
-{
-\begin{pspicture}(0,-2.95)(12.194062,2.95)
-\definecolor{color6322}{rgb}{0.6,0.6,0.6}
-\rput(1.9009376,0.95){\psaxes[linewidth=0.04,labels=none,ticks=x,ticksize=0.08cm,Dx=3,Dy=3,showorigin=false]{->}(0,0)(0,0)(6,2)}
-\usefont{T1}{ptm}{m}{n}
-\rput(8.524062,0.96){time}
-\usefont{T1}{ptm}{m}{n}
-\rput(1.2646875,2.76){rate}
-\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](4.9009376,2.85)(4.9009376,1.13)
-\usefont{T1}{ptm}{m}{n}
-\rput(4.949844,0.52){At}
-\psline[linewidth=0.04cm,linecolor=red](4.9209375,0.95)(7.6009374,0.95)
-\usefont{T1}{ptm}{m}{n}
-\rput(6.0085936,1.68){q = 0}
-\pscustom[linewidth=0.04,linecolor=red]
-{
-\newpath
-\moveto(1.8809375,2.79)
-\lineto(2.4023657,2.68)
-\curveto(2.6630812,2.625)(3.1845093,2.57)(3.4452233,2.57)
-\curveto(3.7059374,2.57)(4.2273655,2.57)(4.488081,2.57)
-\curveto(4.748795,2.57)(4.9573655,2.57)(4.8009377,2.57)
-}
-\usefont{T1}{ptm}{m}{n}
-\rput(10.236875,2.705){\large Input}
-\rput(1.9009376,-2.25){\psaxes[linewidth=0.04,labels=none,ticks=x,ticksize=0.08cm,Dx=3,Dy=3,showorigin=false]{->}(0,0)(0,0)(6,2)}
-\usefont{T1}{ptm}{m}{n}
-\rput(8.524062,-2.24){time}
-\usefont{T1}{ptm}{m}{n}
-\rput(0.79640627,-0.64){pressure}
-\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](4.9009376,-0.35)(4.9009376,-2.07)
-\usefont{T1}{ptm}{m}{n}
-\rput(4.949844,-2.68){At}
-\psline[linewidth=0.04cm](4.9209375,-2.25)(7.6209373,-2.23)
-\usefont{T1}{ptm}{m}{n}
-\rput(10.969687,-0.495){\large Output signal}
-\usefont{T1}{ptm}{m}{n}
-\rput(0.789375,-1.12){at the}
-\usefont{T1}{ptm}{m}{n}
-\rput(0.85625,-1.52){bottom hole}
-\psline[linewidth=0.04cm,linecolor=blue](1.9409375,-0.57)(4.8809376,-1.63)
-\psdots[dotsize=0.12](4.9009376,-1.65)
-\psline[linewidth=0.03cm,linecolor=color6322,linestyle=dashed,dash=0.16cm 0.16cm](1.8809375,-0.55)(7.6209373,-0.55)
-\pscustom[linewidth=0.04,linecolor=blue]
-{
-\newpath
-\moveto(4.9209375,-1.65)
-\lineto(5.1709375,-1.3379998)
-\curveto(5.2959375,-1.1819996)(5.6709375,-0.9219995)(5.9209375,-0.8179999)
-\curveto(6.1709375,-0.7140002)(6.7334375,-0.61)(7.0459375,-0.61)
-\curveto(7.3584375,-0.61)(7.6084375,-0.61)(7.4209375,-0.61)
-}
-\end{pspicture}
-}
+
+    From reservoir response as monitored by the "output signal", we would like to determine information related to the followings
+    \begin{itemize}
+        \item Fluid in place; pore volume, ${\phi}hA$.
+        \item Ability of reservoir to transfer fluid, $kh$ (or transmissibility, $\frac{kh}{\mu}$).
+        \item Determination of average reservoir \change[Murat \c{C}{\i}nar]{average}{pressure}, $\overline{P}$, which is the driving force in the reservoir \Trcknote[Murat \c{C}{\i}nar]{Based upon the explanation you gave about the pressure decline recently, I am not sure if this statement is correct.}
+        \item Prediction of rate versus time data.
+        \item Initial recovery, is the reservoir worth producing.
+        \item Is there any damage around the wellbore impeding the flow? skin factor, $s$.
+        \item Reservoir description (type of reservoir, flow boundaries (faults)).
+        \item Distance to fluid interface \change[Murat \c{C}{\i}nar]{which}{that} is important determining swept zone for secondary and tertiary methods.
+    \end{itemize}
+    Interpretation of well test data consist of basically three steps:
+
+    \begin{enumerate}[(i)]
+        \item Determination of the one most appropriate reservoir / wellbore (mathematical) model \change[Murat \c{C}{\i}nar]{to}{of} the actual system. We also call such a model as the interpretation model. \change[Murat \c{C}{\i}nar]{Here our hope is that the model chosen will produce an output signal to a given input which is as close as possible to that of the actual system.}{Here our intention is to find a representative mathematical model that reproduces, as close as possible, the output of the actual system for a given input.} This is known as the inverse problem. \add[Murat \c{C}{\i}nar]{We are trying to obtain information about the physical system by using observed measurements.} Unfortunately, the solution of inverse problem often yields non-unique results. \change[Murat \c{C}{\i}nar]{With}{By} non-unique results, we mean that several different interpretation models \change[Murat \c{C}{\i}nar]{can}{may} generate an output signal (response) to a given input \change[Murat \c{C}{\i}nar]{which}{that} is similar (or identical) to that of the actual system. The inverse problem can be represented by the following equation.
+
+        \begin{equation}
+            \Sigma ={O}/{I}\;\approx S
+            \label{InvP}
+        \end{equation}
+
+            where $\Sigma$ denotes the interpretation model, $S$ denotes the actual system. In inverse problem, as can be seen from Eq.\ref{InvP}, it may be possible to obtain the same outputs to a given $I$ for different $\Sigma_{i}$'s\change[Murat \c{C}{\i}nar]{. However}{,however}, the number of alternative models (solutions) can be reduced as the number and the range of output signal measurements.\\
+
+        \item Once the appropriate model is determined, estimate the parameters of the actual system $S$. \change[Murat \c{C}{\i}nar]{Such parameters can be}{These parameters are} $kh$, $s$, $\phi$, $C$, $\lambda$, $w$ etc. This is known as \remove[Murat \c{C}{\i}nar]{the}parameter estimation\remove[Murat \c{C}{\i}nar]{problem}\change[Murat \c{C}{\i}nar]{.  It is}{ and} achieved by adjusting the parameters of the model by different \add[Murat \c{C}{\i}nar]{mathematical} methods to obtain an output signal, $\Omega$, that is always qualitatively identical (within some tolerance) to that of \add[Murat \c{C}{\i}nar]{the} actual system, $O$. The computation of $\Omega$ is known as 
+            the "\change[Murat \c{C}{\i}nar]{direct}{forward} problem" in mathematics. Contrary to the inverse problem, the solution of the \change[Murat \c{C}{\i}nar]{direct}{forward} problem is always unique for a given system; that is,
+        \begin{equation}
+            I\times \Sigma =\Omega \approx 0
+            \label{ForP}
+        \end{equation}
+            The adjusted parameters of the interpretation model are assumed to represent the parameters of the real system $S$.  \Trcknote[Murat \c{C}{\i}nar]{I think we should discuss this phrase. Does the real system have any parameters? I do not think so... This is something conceptual we need to think about}
+        \item Validate the results of the interpretation. This can be achieved by using the parameters determined from part $(ii)$ in the model
+              to generate output signals for the entire range of \add[Murat \c{C}{\i}nar]{the} test and by comparing these outputs with the \change[Murat \c{C}{\i}nar]{measured ones}{physical measurements}.
+    \end{enumerate}
+
+    \begin{figure}
+        \begin{center}
+        \includegraphics[scale=0.6]{Homogenous_vs_Heterogenous_dp.pdf}
+        \caption{Homogeneous vs heterogeneous reservoir, pressure difference .}
+        \label{Homogenous_vs_Heterogenous_dp}
+        \end{center}
+    \end{figure}
+
+    \begin{figure}
+        \begin{center}
+        \includegraphics[scale=0.6]{Homogenous_vs_Heterogenous_dpder.pdf}
+        \caption{Homogeneous vs heterogeneous reservoir - logarithmic derivative.}
+        \label{Homogenous_vs_Heterogenous_dpder}
+        \end{center}
+    \end{figure}
+
+
+    %\nomenclature[1]{$R$}{Ideal gas constant {$(8.314 J/gmol \cdot K)$}}%
+    %\nomenclature{${\alpha }$}{Reaction order}%
+    %\printnomenclature
+
+    \bibliographystyle{plain}
+    \bibliography{References}
 
 %
 \end{document}

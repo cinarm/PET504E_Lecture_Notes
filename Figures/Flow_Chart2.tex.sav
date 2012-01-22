@@ -1,0 +1,26 @@
+% Generated with LaTeXDraw 2.0.8
+% Sun Jan 22 05:19:19 MAGT 2012
+\documentclass{article}
+
+\begin{document}
+    \begin{figure}[h]
+        \setlength{\unitlength}{0.14in} % selecting unit length
+        \centering % used for centering Figure
+        \begin{picture}(32,15) % picture environment with the size (dimensions)
+        % 32 length units wide, and 15 units high.
+            \put(3,4){\framebox(6,3){Input}}
+            \put(13,4){\framebox(6,3){System}}
+            \put(23,4){\framebox(6,3){Output}}
+            \put(14,3){(Unknown)}
+            \put(6,1){I}
+            \put(16,1){S}
+            \put(26,1){O}
+            \put(9,5.5){\vector(1,0){4}}
+            \put(19,5.5){\vector(1,0){4}}
+            \put(9,1){\vector(1,0){4}}
+            \put(19,1){\vector(1,0){4}}
+        \end{picture}
+    \end{figure}
+
+
+\end{document} 

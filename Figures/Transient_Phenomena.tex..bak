@@ -1,0 +1,64 @@
+% Generated with LaTeXDraw 2.0.8
+% Sun Jan 22 05:19:19 MAGT 2012
+\documentclass{article}
+
+ \usepackage[usenames,dvipsnames]{pstricks}
+ \usepackage{epsfig}
+\usepackage{pst-grad} % For gradients
+\usepackage{pst-plot} % For axes
+\begin{document}
+\scalebox{1} % Change this value to rescale the drawing.
+{
+\begin{pspicture}(0,-7.98125)(9.890938,7.94125)
+\definecolor{color3279}{rgb}{0.6,0.6,0.6}
+\rput(1.70125,5.94125){\psaxes[linewidth=0.04,labels=none,ticks=x,ticksize=0.08cm,Dx=3,Dy=3,showorigin=false]{->}(0,0)(0,0)(6,2)}
+\usefont{T1}{ptm}{m}{n}
+\rput(8.324375,5.95125){time}
+\usefont{T1}{ptm}{m}{n}
+\rput(0.5967187,7.55125){pressure}
+\psline[linewidth=0.04cm,linecolor=color3279,linestyle=dashed,dash=0.16cm 0.16cm](4.70125,7.84125)(4.70125,6.12125)
+\usefont{T1}{ptm}{m}{n}
+\rput(4.7501564,5.51125){$\Delta$t}
+\psline[linewidth=0.04cm,linecolor=blue](1.74125,7.76125)(4.64125,6.66125)
+\psdots[dotsize=0.12](4.70125,6.64125)
+\usefont{T1}{ptm}{m}{n}
+\rput(9.544375,-7.38875){time}
+\usefont{T1}{ptm}{m}{n}
+\rput(5.9175,-7.82875){t1}
+\usefont{T1}{ptm}{m}{n}
+\rput(1.8765625,-6.56875){bottom hole}
+\psdots[dotsize=0.12](5.92125,-7.03875)
+\pscustom[linewidth=0.04,linecolor=blue]
+{
+\newpath
+\moveto(4.70125,6.64125)
+\lineto(4.7888355,6.78125)
+\curveto(4.832629,6.85125)(4.9202147,6.99125)(4.964009,7.06125)
+\curveto(5.0078015,7.13125)(5.117284,7.27125)(5.182974,7.34125)
+\curveto(5.2486634,7.41125)(5.40194,7.527917)(5.4895263,7.5745835)
+\curveto(5.5771117,7.62125)(5.752285,7.69125)(5.8398705,7.714584)
+\curveto(5.927456,7.737917)(6.1245265,7.76125)(6.234009,7.76125)
+\curveto(6.343491,7.76125)(6.562456,7.76125)(6.67194,7.76125)
+\curveto(6.7814236,7.76125)(6.9784913,7.76125)(7.24125,7.76125)
+}
+\psdots[dotsize=0.12](4.34125,6.80125)
+\psdots[dotsize=0.12](3.90125,6.94125)
+\psdots[dotsize=0.12](3.62125,7.02125)
+\psdots[dotsize=0.12](3.32125,7.20125)
+\psdots[dotsize=0.12](3.02125,7.32125)
+\psdots[dotsize=0.12](2.66125,7.36125)
+\psdots[dotsize=0.12](2.30125,7.54125)
+\psdots[dotsize=0.12](2.10125,7.60125)
+\psdots[dotsize=0.12](1.86125,7.74125)
+\psdots[dotsize=0.12](4.84125,6.92125)
+\psdots[dotsize=0.12](5.04125,7.12125)
+\psdots[dotsize=0.12](5.24125,7.40125)
+\psdots[dotsize=0.12](5.50125,7.58125)
+\psdots[dotsize=0.12](5.88125,7.70125)
+\psdots[dotsize=0.12](6.10125,7.76125)
+\psdots[dotsize=0.12](6.36125,7.76125)
+\psdots[dotsize=0.12](6.70125,7.74125)
+\psdots[dotsize=0.12](7.04125,7.78125)
+\end{pspicture}
+}
+\end{document} 
