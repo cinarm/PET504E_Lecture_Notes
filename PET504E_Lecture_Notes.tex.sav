@@ -21,6 +21,8 @@
 \addeditor{Murat \c{C}{\i}nar}
 \restoresymbol{Trck}{note}
  \numberwithin{equation}{section}
+ \numberwithin{figure}{section}
+ \numberwithin{table}{section}
 %
 %\usepackage{nomencl}
 %\makenomenclature
@@ -52,7 +54,7 @@
 
     \section{Introduction}
 %
-    The term "Well Testing" is used in Petroleum Industry means the measuring of a formation's
+    The term "Well Testing" \add[Murat \c{C}{\i}nar]{as it} is used in Petroleum Industry means the measuring of a formation's
     (or reservoir's) pressure (and/or rate) response to flow from a well. The term "Well Testing"
     is generally used with the term "Pressure Transient Analysis", interchangeably. It is an indirect
     measurement technique as opposed to direct methods such as fluid sampling or coring. Well testing
@@ -60,7 +62,7 @@
     information, which is not sufficient for predicting the behavior of the reservoir.\\
 
     Simply, the objective of well testing is to deduce quantitative information about the well/reservoir system
-    under consideration from its response to a given input. Input (or input signal) is used for perturbing one or
+    under consideration from its response to a given input. Input (or input signal) is used for perturbing one or more
     wells so that the output (signal) exhibiting the response of the reservoir is obtained at the perturbated well and/or
     adjacent wells. In practice, the input is equivalent to controlling the well behavior \remove[Murat \c{C}{\i}nar]{and} created by changing
     the flow rate or the pressure at the well (Mathematically specifying the well behavior is equivalent to specifying
@@ -90,7 +92,7 @@
         \label{input_output} % label to refer figure in text
     \end{figure}
 
-    Typical examples for input and output signals as used in petroleum industry are shown in the following figures;
+    Typical examples for input and output signals as used in petroleum industry are shown in Fig. \ref{Transient_phenomena}.
     \begin{figure}
         \begin{center}
         \includegraphics[scale=0.75]{Transient_phenomena.pdf}
@@ -100,7 +102,7 @@
     \end{figure}
 
 
-    From reservoir response as monitored by the "output signal", we would like to determine information related to the followings
+    From reservoir response as monitored by the "output signal", we would like to determine information related to the followings:
     \begin{itemize}
         \item Fluid in place; pore volume, ${\phi}hA$.
         \item Ability of reservoir to transfer fluid, $kh$ (or transmissibility, $\frac{kh}{\mu}$).
@@ -123,7 +125,7 @@
 
             where $\Sigma$ denotes the interpretation model, $S$ denotes the actual system. In inverse problem, as can be seen from Eq.\ref{InvP}, it may be possible to obtain the same outputs to a given $I$ for different $\Sigma_{i}$'s\change[Murat \c{C}{\i}nar]{. However}{,however}, the number of alternative models (solutions) can be reduced as the number and the range of output signal measurements.\\
 
-        \item Once the appropriate model is determined, estimate the parameters of the actual system $S$. \change[Murat \c{C}{\i}nar]{Such parameters can be}{These parameters are} $kh$, $s$, $\phi$, $C$, $\lambda$, $w$ etc. This is known as \remove[Murat \c{C}{\i}nar]{the}parameter estimation\remove[Murat \c{C}{\i}nar]{problem}\change[Murat \c{C}{\i}nar]{.  It is}{ and} achieved by adjusting the parameters of the model by different \add[Murat \c{C}{\i}nar]{mathematical} methods to obtain an output signal, $\Omega$, that is always qualitatively identical (within some tolerance) to that of \add[Murat \c{C}{\i}nar]{the} actual system, $O$. The computation of $\Omega$ is known as 
+        \item Once the appropriate model is determined, estimate the parameters of the actual system $S$. \change[Murat \c{C}{\i}nar]{Such parameters can be}{These parameters are} $kh$, $s$, $\phi$, $C$, $\lambda$, $w$ etc. This is known as \remove[Murat \c{C}{\i}nar]{the}parameter estimation\remove[Murat \c{C}{\i}nar]{problem}\change[Murat \c{C}{\i}nar]{.  It is}{ and} achieved by adjusting the parameters of the model by different \add[Murat \c{C}{\i}nar]{mathematical} methods to obtain an output signal, $\Omega$, that is always qualitatively identical (within some tolerance) to that of \add[Murat \c{C}{\i}nar]{the} actual system, $O$. The computation of $\Omega$ is known as
             the "\change[Murat \c{C}{\i}nar]{direct}{forward} problem" in mathematics. Contrary to the inverse problem, the solution of the \change[Murat \c{C}{\i}nar]{direct}{forward} problem is always unique for a given system; that is,
         \begin{equation}
             I\times \Sigma =\Omega \approx 0
@@ -133,6 +135,41 @@
         \item Validate the results of the interpretation. This can be achieved by using the parameters determined from part $(ii)$ in the model
               to generate output signals for the entire range of \add[Murat \c{C}{\i}nar]{the} test and by comparing these outputs with the \change[Murat \c{C}{\i}nar]{measured ones}{physical measurements}.
     \end{enumerate}
+
+    \begin{figure}
+        \begin{center}
+        \includegraphics[scale=1]{Build_up.pdf}
+        \caption{Parameters estimated based on the analysis of buildup data.}
+        \label{Build_up}
+        \end{center}
+    \end{figure}
+
+    \change[Murat \c{C}{\i}nar]{To illustrate an example of direct and inverse problems, let's consider single phase flow in a closed cylindrical reservoir produced by a single well at the center.}{Now we consider single phase flow in a cylindrical reservoir produced by a well at the center.} The\change[Murat \c{C}{\i}nar]{pd.E}{partial differential equation (PDE)} describing the flow is given by,
+    \begin{equation}
+        \frac{1}{r}\frac{\partial }{\partial r}\left( \frac{kr}{\mu }\frac{\partial p}{\partial r} \right)=\phi {{c}_{t}}\frac{\partial p}{\partial t}
+        \label{A}
+    \end{equation}
+    or if $k$, $\mu$ are constant,
+    \begin{equation}
+        \frac{1}{r}\frac{\partial }{\partial r}\left( r\frac{\partial p}{\partial r} \right)=\frac{\phi {{c}_{t}}\mu }{k}\frac{\partial p}{\partial t}=\frac{1}{\eta }\frac{\partial p}{\partial t}
+        \label{B}
+    \end{equation}
+
+    \change[Murat \c{C}{\i}nar]{$\eta =\frac{\phi {{c}_{t}}\mu }{k}$}{$\eta =\frac{k}{\phi {{c}_{t}}\mu }$ } is the hydraulic diffusivity\change[Murat \c{C}{\i}nar]{which is}{;} a measure of the \change[Murat \c{C}{\i}nar]{rapidity with}{speed at} which a pressure disturbance \add[Murat \c{C}{\i}nar]{propagates} through the formation.
+    If we specify, $k$, $\phi$, $c_{t}$, $\mu$, and the flow rate, then $p(r,t)$ is uniquely determined. This is an example for the \change[Murat \c{C}{\i}nar]{direct}{forward} problem.\\
+
+    Inverse problem, given $q$ and $p$, \add[Murat \c{C}{\i}nar]{helps us to}
+    \begin{enumerate}
+        \item determine the PDE that describes the reservoir best
+        \item find $k$, $\phi$, etc.
+    \end{enumerate}
+
+    \remove[Murat \c{C}{\i}nar]{
+    During the past ten years, a lot of work has been done to develop models to a wide variety of reservoir / well configurations such as fractures, layered reservoirs, multiple porosities (composite zones), fractured wells, slanted and horizontal wells, etc. Well testing literature is almost complete for single phase problems, but some work needs to be done for multi-phase problems and heterogeneous reservoir systems.\\
+
+    Recently, people are much focused on the model recognition problem and the computer-aided parameter estimation by using non-linear regression techniques. Pressure derivatives and integrals are proven to be very useful in identifying the appropriate mathematical model from flow regime analysis. Currently, a lot of work is on artificial intelligence (AI) techniques for model recognition, such as rule-based expert and neural networks approaches.}
+
+    \Trcknote[Murat \c{C}{\i}nar]{I added the following paragraph}Analytical solutions have been presented in the literature for a variety of different well and reservoir settings for single phase flow. A summary of these responses are given by Bourdet \cite{Bourdet_2002_1}.
 
     \begin{figure}
         \begin{center}
@@ -150,7 +187,56 @@
         \end{center}
     \end{figure}
 
+    \begin{figure}
+        \begin{center}
+        \includegraphics[scale=0.3]{Flow_Chart1.pdf}
+        \caption{Flow diagram of computer aided parameter estimation.}
+        \label{Flow_Chart1}
+        \end{center}
+    \end{figure}
 
+    \section{Flow Equations}
+
+    In this chapter, we will derive the equations which describe the fluid flow in porous media. Such equations are derived from the conservation of mass and the momentum equation as given by Darcy's semi-empirical equation. With the exception of thermal recovery schemes, all well-testing models assume isothermal conditions in the reservoir and thus the energy conservation is not needed.
+    \subsection{Conservation of mass}
+    For a single phase fluid \remove[Murat \c{C}{\i}nar]{(or a fluid composed of one hydrocarbon component)}, the mathematical form of the mass balance in porous media is given by
+    \begin{equation}
+        -\nabla \cdot \left( \rho \mathbf{v} \right)=\frac{\partial \left( \rho \phi  \right)}{\partial t}
+        \label{continuity}
+    \end{equation}
+    \Trcknote[Murat \c{C}{\i}nar]{I removed the constant -5.615 from the equation}
+    where $\rho$ is the density of the fluid in \change[Murat \c{C}{\i}nar]{$lbm/ft^{3}$}{$\mathbf{M}/\mathbf{L}^{3}$} and $\mathbf{v}$ is the fluid velocity vector in \change[Murat \c{C}{\i}nar]{$RB/ft^{2}day$}{$\mathbf{L}/\mathbf{T}$}. Note that the units of Eq. \ref{continuity} is \change[Murat \c{C}{\i}nar]{$lbm/ft^{3}day$}{$\mathbf{M}/\mathbf{L}^3\mathbf{T}$} It is also important to note that Eq. \ref{continuity} applies for any coordinate system and can be derived either from a mass balance done on a control volume for a coordinate system under consideration or from \remove[Murat \c{C}{\i}nar]{a} divergence theorem (or Gauss Theorem see Supplement II).
+
+    In\change[Murat \c{C}{\i}nar]{x-y-x}{Cartesian} coordinate system,
+    \begin{equation}
+        \nabla \cdot \left( \rho \mathbf{v} \right)=\frac{\partial }{\partial x}\left( \rho {{v}_{x}} \right)+\frac{\partial }{\partial y}\left( \rho {{v}_{y}} \right)+\frac{\partial }{\partial z}\left( \rho {{v}_{z}} \right)
+        \label{continuity_Cartesian}
+    \end{equation}
+
+    In\change[Murat \c{C}{\i}nar]{r-$\theta$-z}{cylindrical} coordinate system,
+    \begin{equation}
+        \nabla \cdot \left( \rho \mathbf{v} \right)=\frac{1}{r}\frac{\partial }{\partial r}\left( r\rho {{v}_{r}} \right)+\frac{1}{r}\frac{\partial }{\partial \theta }\left( \rho {{v}_{\theta }} \right)+\frac{\partial }{\partial z}\left( \rho {{v}_{z}} \right)
+        \label{continuity_cylindrical}
+    \end{equation}
+    \Trcknote[Murat \c{C}{\i}nar]{typo in the equation corrected} 
+    \subsection{Conservation of momentum in porous media}
+    The principle of momentum conservation is described by the equation of motion. For most hydrocarbon fluids, the shear stress - shear rate behavior \change[Murat \c{C}{\i}nar]{can be}{is} described by the Newton's law of friction, combined with the equation of motion, results in the well known Navier-Stokes equation. Solution of the Navier-Stokes equation with the appropriate boundary conditions yields the velocity distribution of a given problem. Although, it is possible to solve Navier-Stokes in pipe flow, it is almost impossible to solve due to complexity of the pore geometry and its distribution. This hinders the formation of the boundary conditions for flow through a porous medium. Therefore, a different approach \change[Murat \c{C}{\i}nar]{must be}{is} taken. In 1856, \change[Murat \c{C}{\i}nar]{a Frecnh hyraulic engineer Henry} Darcy discovered that \change[Murat \c{C}{\i}nar]{the velocity vector and the pressure gradient for a single phase viscous flow}{for a single phase viscous flow in porous media, the velocity is proportional to the pressure gradient with a proportionality constant $k$. The general form of Darcy's Law including gravity effects is given by Eq.}\ref{Darcy's_Law}.
+    \begin{equation}
+        \mathbf{v}=-\frac{\mathbf{k}}{\mu }\left( \nabla p-\rho g\nabla z' \right)
+        \label{Darcy's_Law}
+    \end{equation}   
+    \Trcknote[Murat \c{C}{\i}nar]{I removed the filed unit constants} 
+    where $\mathbf{v}$ is defined as a volumetric flow rate across a unit cross-section area (solid+fluid) averaged over a small region of space. The unit of $\mathbf{v}$ is in \change[Murat \c{C}{\i}nar]{$RB/ft^{2}day$}{$\mathbf{L}/\mathbf{T}$}. Eq. \ref{Darcy's_Law} yield\add[Murat \c{C}{\i}nar]{s} a velocity vector \change[Murat \c{C}{\i}nar]{which}{that} replaces the solution of Navier-Stokes equation. In Eq. \ref{Darcy's_Law} $\mathbf{k}$ is \change[Murat \c{C}{\i}nar]{a}{the} permeability tensor. Operationally, $\mathbf{k}$ acts like a matrix in \change[Murat \c{C}{\i}nar]{x-y-z}{coordinate system}, we usually \change[Murat \c{C}{\i}nar]{use}{assume}
+    \begin{equation}
+\mathbf{k}\,\nabla p=\begin{pmatrix}
+k_{x}&0&0\\
+0 & k_{y} & 0\\
+ 0& 0 & k_{z}
+\end{pmatrix}
+
+        \label{Permeability_Tensor}
+    \end{equation}    
+    
     %\nomenclature[1]{$R$}{Ideal gas constant {$(8.314 J/gmol \cdot K)$}}%
     %\nomenclature{${\alpha }$}{Reaction order}%
     %\printnomenclature
