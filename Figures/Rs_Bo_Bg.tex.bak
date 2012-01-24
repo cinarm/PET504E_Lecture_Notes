@@ -1,0 +1,57 @@
+% Generated with LaTeXDraw 2.0.8
+% Sun Jan 22 05:19:19 MAGT 2012
+\documentclass{article}
+
+ \usepackage[usenames,dvipsnames]{pstricks}
+ \usepackage{epsfig}
+\usepackage{pst-grad} % For gradients
+\usepackage{pst-plot} % For axes
+\begin{document}
+\scalebox{0.5} % Change this value to rescale the drawing.
+{
+\begin{pspicture}(0,-4.312135)(12.763437,4.352135)
+\rput(0.85375,1.293698){\psaxes[linewidth=0.04,labels=none,ticks=none,ticksize=0.10583333cm]{->}(0,0)(0,0)(5,3)}
+\psline[linewidth=0.04cm](1.39375,1.8336979)(2.87375,3.613698)
+\psline[linewidth=0.04cm](2.87375,3.613698)(5.01375,3.613698)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](2.87375,3.593698)(2.87375,1.273698)
+\usefont{T1}{ptm}{m}{n}
+\rput(2.8534374,0.9736979){\small pb}
+\usefont{T1}{ptm}{m}{n}
+\rput(5.245625,0.7836979){Pressure}
+\usefont{T1}{ptm}{m}{n}
+\rput(0.174375,4.1836977){R_{s}}
+\rput(7.59375,1.2536979){\psaxes[linewidth=0.04,labels=none,ticks=none,ticksize=0.10583333cm]{->}(0,0)(0,0)(5,3)}
+\psline[linewidth=0.04cm](8.13375,1.793698)(9.61375,3.5736978)
+\psline[linewidth=0.04cm](9.59375,3.5536978)(11.79375,3.493698)
+\psline[linewidth=0.04cm,linestyle=dashed,dash=0.16cm 0.16cm](9.61375,3.5536978)(9.61375,1.2336979)
+\usefont{T1}{ptm}{m}{n}
+\rput(9.593437,0.93369794){\small p_{b}}
+\usefont{T1}{ptm}{m}{n}
+\rput(12.105625,0.80369794){Pressure}
+\usefont{T1}{ptm}{m}{n}
+\rput(6.934531,4.1436977){B_{o}}
+\usefont{T1}{ptm}{m}{n}
+\rput(11.215157,4.133698){\small B_{o} > 1}
+\rput(4.79375,-3.586302){\psaxes[linewidth=0.04,labels=none,ticks=none,ticksize=0.10583333cm]{->}(0,0)(0,0)(5,3)}
+\usefont{T1}{ptm}{m}{n}
+\rput(6.7934375,-3.906302){\small p_{b}}
+\usefont{T1}{ptm}{m}{n}
+\rput(9.185625,-4.096302){Pressure}
+\usefont{T1}{ptm}{m}{n}
+\rput(4.1375,-0.69630206){B_{g}}
+\usefont{T1}{ptm}{m}{n}
+\rput(8.0051565,-1.1063021){\small B_{g} < 1}
+\pscustom[linewidth=0.04]
+{
+\newpath
+\moveto(5.47375,-0.94630206)
+\lineto(5.740416,-1.446302)
+\curveto(5.87375,-1.696302)(6.17375,-2.112969)(6.3404164,-2.279636)
+\curveto(6.507083,-2.4463022)(6.907083,-2.6963022)(7.140416,-2.779636)
+\curveto(7.37375,-2.862969)(7.8404164,-2.9463022)(8.07375,-2.9463022)
+\curveto(8.307084,-2.9463022)(8.640416,-2.9463022)(8.740417,-2.9463022)
+\curveto(8.840416,-2.9463022)(8.97375,-2.9463022)(9.07375,-2.9463022)
+}
+\end{pspicture}
+}
+\end{document} 

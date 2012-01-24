@@ -1,0 +1,35 @@
+% Generated with LaTeXDraw 2.0.8
+% Tue Jan 24 08:40:54 MAGT 2012
+\usepackage[usenames,dvipsnames]{pstricks}
+\usepackage{epsfig}
+\usepackage{pst-grad} % For gradients
+ \usepackage{pst-plot} % For axes
+ \begin{document}
+ \begin{figure}
+\scalebox{1} % Change this value to rescale the drawing.
+{
+\begin{pspicture}(0,-4.595)(16.829687,4.595)
+\psline[linewidth=0.04cm](2.04,-0.975)(11.24,2.065)
+\psline[linewidth=0.04cm](2.78,-2.975)(11.98,0.065)
+\psline[linewidth=0.04cm](0.0,4.345)(14.52,4.365)
+\psline[linewidth=0.04cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{->}(7.12,4.345)(7.2,-4.215)
+\psline[linewidth=0.04cm](2.8,-2.975)(4.96,-2.975)
+\usefont{T1}{ptm}{m}{n}
+\rput(15.831094,4.415){Earth surface}
+\psline[linewidth=0.04cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{->}(5.98,0.325)(9.0,1.305)
+\psline[linewidth=0.04cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{->}(7.16,0.705)(8.46,-3.255)
+\usefont{T1}{ptm}{m}{n}
+\rput{20.0}(-0.2491521,-1.2119882){\rput(3.31,-1.325){reservoir}}
+\usefont{T1}{ptm}{m}{n}
+\rput(8.593437,-3.605){z}
+\usefont{T1}{ptm}{m}{n}
+\rput(8.86,1.675){r}
+\usefont{T1}{ptm}{m}{n}
+\rput(7.22125,-4.445){z'}
+\rput{-90.0}(6.715,1.125){\psarc[linewidth=0.04,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{->}(3.92,-2.795){0.16}{0.0}{180.0}}
+\usefont{T1}{ptm}{m}{n}
+\rput(4.8192186,-2.685){\theta}
+\end{pspicture}
+}
+ \begin{end}
+ \end{document}

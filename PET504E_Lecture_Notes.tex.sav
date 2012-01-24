@@ -25,15 +25,6 @@
  \numberwithin{equation}{section}
  \numberwithin{figure}{section}
  \numberwithin{table}{section}
-
-\usepackage{mdframed}
-\usepackage{caption}
-\newenvironment{aside}
-  {\begin{mdframed}[style=0,%
-      leftline=false,rightline=false,leftmargin=2em,rightmargin=2em,%
-          innerleftmargin=0pt,innerrightmargin=0pt,linewidth=0.75pt,%
-      skipabove=7pt,skipbelow=7pt]\small}
-  {\end{mdframed}}
 %
 %\usepackage{nomencl}
 %\makenomenclature
@@ -291,7 +282,7 @@
         \,\,\,\,\,\frac{1}{r}\,\frac{\partial }{\partial r}\left[ r\frac{{{k}_{r}}}{\mu }\rho \left( \frac{\partial p}{\partial r}-\gamma \frac{\partial z'}{\partial r} \right) \right]+\frac{\partial }{\partial z}\left[ \frac{{{k}_{z}}}{\mu }\rho \left( \frac{\partial p}{\partial z}-\gamma \frac{\partial z'}{\partial z} \right) \right]=\frac{\partial }{\partial t}\left( \rho \phi  \right)
     \label{Continuity_Darcy_Cylindrical}
     \end{equation}
-    
+
     \vspace{15pt}
     \large{\textbf{Remark on gravity term:}}\\
     \rule{\textwidth}{1pt}
@@ -311,9 +302,145 @@
     \end{equation*}\\
     \rule{\textwidth}{1pt}\\
     \vspace{15pt}
-        
-    \change[Murat \c{C}{\i}nar]{If we}{Now} consider a single well \change[Murat \c{C}{\i}nar]{in}{at} the center of a cylindrical reservoir, then Eq. \ref{Continuity_Darcy_Cylindrical} correctly describes the fluid flow for both partially penetrating and fully penetrating cases.
+
+    \change[Murat \c{C}{\i}nar]{If we}{Now} consider a single well \change[Murat \c{C}{\i}nar]{in}{at} the center of a cylindrical reservoir, then Eq. \ref{Continuity_Darcy_Cylindrical} correctly describes the fluid flow for both partially penetrating and fully penetrating cases, see Fig \ref{PartialvsFullPenet}.\\
+    \begin{figure}
+        \begin{center}
+        \includegraphics[scale=0.6]{PartialvsFullPenet.pdf}
+        \caption{(a) Fully penetrated vertical well. (b) Partially penetrated vertical well.}
+        \label{PartialvsFullPenet}
+        \end{center}
+    \end{figure}
+    \remove[Murat \c{C}{\i}nar]{Recalling our general continuity equation for the single phase flow gives,}
+    \add[Murat \c{C}{\i}nar]{Now define formation volume factor $B$ as,}
+
+    \begin{equation}
+        B=\frac{{{V}_{reservoir}}}{{{V}_{SC}}}=\frac{{m}/{\rho }\;}{{{{m}/{\rho }\;}_{SC}}}=\frac{{{\rho }_{SC}}}{\rho }\quad ;\quad {{\rho }_{SC}}\,\text{is}\,\text{constant}
+    \label{Formation_Volume_Factor}
+    \end{equation}
+
+    \remove[Murat \c{C}{\i}nar]{which we call it as Formation volume factor, then we can write Equation (2.8) as}
+    \add[Murat \c{C}{\i}nar]{Recall general continuity equation,} Eq. \ref{continuity} and insert Eq. \ref{Formation_Volume_Factor}, then we have,
+
+    \begin{equation}
+        -\nabla \cdot \left( \frac{\mathbf{v}}{B} \right)=\frac{\partial }{\partial t}\left( \frac{\phi }{B} \right)
+    \label{Continuity_B}
+    \end{equation}
+
+    $B=B(p)$, $\rho=\rho(p)$, and $\phi=\phi(p)\rightarrow$ single valued functions of $p$
+    \add[Murat \c{C}{\i}nar]{Expanding right hand side (RHS) of} Eq. \ref{Continuity_B},
+
+    \begin{equation}
+        \begin{split}
+            \frac{\partial }{\partial t}\left( \frac{\phi }{B} \right)&= \phi \frac{\partial }{\partial t}\left( \frac{1}{B} \right)+\frac{1}{B}\frac{\partial \phi }{\partial t} \\
+            &=\phi \left( -\frac{1}{{{B}^{2}}}\frac{dB}{dp} \right)\frac{\partial p}{\partial t}+\frac{1}{B}\frac{d\phi }{dt}\frac{\partial p}{\partial t} \\
+            &=\frac{\phi }{B}\left( -\frac{1}{B}\frac{dB}{dp}+\frac{1}{\phi}\frac{d\phi }{dt} \right)\frac{\partial p}{\partial t} \\
+    \end{split}
+    \label{Continuity_B_Expand_RHS}
+    \end{equation}
+    \Trcknote[Murat \c{C}{\i}nar]{Typo in Eq corrected.}
+    \remove[Murat \c{C}{\i}nar]{but} Fluid and rock compressibilities are defined, respectively, by,
+
+    \begin{equation}
+    {{c}_{fluid}}=-\frac{1}{V}\frac{dV}{dp}=-\frac{1}{B}\frac{dB}{d\rho }=\frac{1}{\rho }\frac{d\rho }{dp}
+    \label{Fluid_compressibility}
+    \end{equation}
+
+    \begin{equation}
+    {{c}_{r}}={{c}_{f}}=\frac{1}{\phi }\frac{d\phi }{dp}
+    \label{Rock_compressibility}
+    \end{equation}
+
+    (here $p$ is the fluid pressure in the pore, therefore, $\frac{d\phi }{dp}>0$.) \\
+    Using Eqs. \ref{Fluid_compressibility} and \ref{Rock_compressibility} in Eq. \ref{Continuity_B_Expand_RHS} and the resulting equation in Eq. \ref{Continuity_B} gives,
+
+    \begin{equation}
+        -\nabla \cdot \left( \frac{\mathbf{v}}{B} \right)=\frac{\phi {{c}_{t}}}{B}\frac{\partial p}{\partial t}
+    \label{Continuity_B_ct}
+    \end{equation}
+
+    \add[Murat \c{C}{\i}nar]{Note that here the total compressibility $c_{t}$ is defined as ${{ c }_{t}}={{c}_{fluid}}+{{c}_{r}}$. Under the assumptions of Darcy's Law we have,}
+
+    \begin{equation}
+        \nabla \cdot \left( \frac{\mathbf{k}}{\mu B}\left( \nabla p-\gamma\nabla z' \right) \right)=\frac{\phi {{c}_{t}}}{B}\frac{\partial p}{\partial t}
+    \label{Continuity_B_ct_Darcy}
+    \end{equation}
+    \subsection{Multiphase flow}
+    Three distinct phases, gas, oil, and water occur i a petroleum reservoir. Varying pressure conditions (isothermal system assumed) cause a mass exchange between \remove[Murat \c{C}{\i}nar]{the} two hydrocarbon phases \add[Murat \c{C}{\i}nar]{- oil-gas} (water-oil and gas-water systems \change[Murat \c{C}{\i}nar]{can be}{is} assumed immiscible). The \change[Murat \c{C}{\i}nar]{material}{mass} transfer between oil and gas is described by solution gas-oil ration, $R_{s}$, which gives the amount of gas dissolved in oil as a function of pressure, i.e. $[V_{dissolved \, gas}/V_{o}]_{STC}$.\\
+
+    The fluid flow equations (based on $\beta$-model) with the introduction of phase saturations for oil-water-gas system \change[Murat \c{C}{\i}nar]{can be}{is} written as;
+
+    \begin{equation}
+    -\nabla \cdot \left( \frac{\mathbf{v}_{o}}{{{B}_{o}}} \right)=\frac{\partial }{\partial t}\left( \frac{\phi {{S}_{o}}}{{{B}_{o}}} \right)\quad for\,oil
+    \label{Continuity_oil}
+    \end{equation}
+
+    \begin{equation}
+    -\nabla \cdot \left( \frac{\mathbf{v}_{w}}{{{B}_{w}}} \right)=\frac{\partial }{\partial t}\left( \frac{\phi {{S}_{w}}}{{{B}_{w}}} \right)\quad for\,water
+    \label{Continuity_water}
+    \end{equation}
+
+    \begin{equation}
+    -\nabla \cdot \left( \frac{{{R}_{s}}{{\mathbf{v}}_{o}}}{{{B}_{o}}}+\frac{{{\mathbf{v}}_{g}}}{{{B}_{g}}} \right)=\frac{\partial }{\partial t}\left[ \phi \left( \frac{{{R}_{s}}}{{{B}_{o}}}{{S}_{o}}+\frac{{{S}_{g}}}{{{B}_{g}}} \right) \right]\quad for\,gas
+    \label{Continuity_gas}
+    \end{equation}
+
+    With introducing relative permeability \remove[Murat \c{C}{\i}nar]{concept}, the velocity vector for each phase is given by,
+
+    \begin{equation}
+    {{\mathbf{v}}_{\varphi}}=-\frac{\mathbf{k}\,{{k}_{r\varphi}}}{{{\mu }_{\varphi}}}\left( \nabla {{p}_{\varphi}}-{{\gamma }_{\varphi}}\nabla z' \right)
+    \label{Darcy_multiphase}
+    \end{equation}
+
+    where $\varphi = o, w, or g$.\\
+
+    Using Eq. \ref{Darcy_multiphase} in Eqs. \ref{Continuity_oil}, \ref{Continuity_water}, and \ref{Continuity_gas} for corresponding \change[Murat \c{C}{\i}nar]{Hydro Carbon component}{phase},
+
+    \begin{equation}
+    \nabla \cdot \left( \frac{\mathbf{k}\,{{k}_{ro}}}{{{B}_{o}}{{\mu }_{o}}}\left( \nabla {{p}_{o}}-{{\gamma }_{o}}\nabla z' \right) \right)=\frac{\partial }{\partial t}\left( \frac{\phi {{S}_{o}}}{{{B}_{o}}} \right)
+    \label{Continuity_oil_Darcy}
+    \end{equation}
+
+    \begin{equation}
+    \nabla \cdot \left( \frac{\mathbf{k}\,{{k}_{rw}}}{{{B}_{w}}{{\mu }_{w}}}\left( \nabla {{p}_{w}}-{{\gamma }_{w}}\nabla z' \right) \right)=\frac{\partial }{\partial t}\left( \frac{\phi {{S}_{w}}}{{{B}_{w}}} \right)
+    \label{Continuity_water_Darcy}
+    \end{equation}
+
+    \begin{equation}
+    \begin{split}
+    & \nabla \cdot \left( \frac{{{R}_{s}}\mathbf{k}\,{{k}_{ro}}}{{{B}_{o}}{{\mu }_{o}}}\left( \nabla {{p}_{o}}-{{\gamma }_{o}}\nabla z' \right)+\frac{\mathbf{k}\,{{k}_{rg}}}{{{B}_{g}}{{\mu }_{g}}}\left( \nabla {{p}_{g}}-{{\gamma }_{g}}\nabla z' \right) \right) \\
+    & \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad =\frac{\partial }{\partial t}\left[ \phi \left( \frac{{{R}_{s}}}{{{B}_{o}}}{{S}_{o}}+\frac{{{S}_{g}}}{{{B}_{g}}} \right) \right] \\
+    \end{split}
+    \label{Continuity_gas_Darcy}
+    \end{equation}  
+ 
+    \begin{figure}
+        \begin{center}
+        \includegraphics[scale=1]{Rs_Bo_Bg.pdf}
+        \caption{$R_{s}$, $B_{o}$, $B_{g}$ behavior.}
+        \label{Rs_Bo_Bg}
+        \end{center}
+    \end{figure}    
+         
+    It is important to note that $B$ defined by Eq. \ref{Formation_Volume_Factor}\add{C}{\i}nar]{,} considering oil, \remove[Murat \c{C}{\i}nar]{this} is \change[Murat \c{C}{\i}nar]{correct}{valid} if \change[Murat \c{C}{\i}nar]{we have a}{oil is} single component or \remove[Murat \c{C}{\i}nar]{if we are talking about} "black-oil" with no dissolved gas ($R_{s}=0$). \change[Murat \c{C}{\i}nar]{However}{On the other hand}, Eq. \ref{Continuity_B_ct_Darcy} is \change[Murat \c{C}{\i}nar]{correct}{valid} for black-oil problems with $R_{s}\neq0$ provided that \change[Murat \c{C}{\i}nar]{we are}{the pressure is} above bubble-point. \remove[Murat \c{C}{\i}nar]{If we are above bubble-point,}Eq. \ref{Continuity_oil_Darcy} and Eq. \ref{Continuity_gas_Darcy} \change[Murat \c{C}{\i}nar]{will be}{becomes} identical\add[Murat \c{C}{\i}nar]{ if the pressure is above bubble point}.
     
+    \change[Murat \c{C}{\i}nar]{Sometimes we write the flow equation}{In some cases, the flow equation is written} in terms of pseudo potential.
+
+    \begin{equation}
+        \Psi =\int_{{{p}_{0}}}^{p}{\frac{1}{\gamma }dp}-\left( z'-{{z}_{0}}' \right)
+    \label{Pseudo_Potential}
+    \end{equation} 
+    $\gamma=\mathbf{M}/\mathbf{L}^{2}\mathbf{T}^{2})$ and $\gamma=\gamma(p)$.
+
+    where $z'$ is measured positive in the direction of gravity and ${{z}_{0}}'$ is the datum where \remove[Murat \c{C}{\i}nar]{we take as reference}${{p}_{0}}$ \add[Murat \c{C}{\i}nar]{is measured}.
+    
+
+
+
+
+
+
+
     %\nomenclature[1]{$R$}{Ideal gas constant {$(8.314 J/gmol \cdot K)$}}%
     %\nomenclature{${\alpha }$}{Reaction order}%
     %\printnomenclature

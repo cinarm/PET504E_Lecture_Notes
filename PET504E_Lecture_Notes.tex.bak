@@ -147,7 +147,7 @@
         \end{center}
     \end{figure}
 
-    \change[Murat \c{C}{\i}nar]{To illustrate an example of direct and inverse problems, let's consider single phase flow in a closed cylindrical reservoir produced by a single well at the center.}{Now we consider single phase flow in a cylindrical reservoir produced by a well at the center.} The\change[Murat \c{C}{\i}nar]{pd.E}{partial differential equation (PDE)} describing the flow is given by,
+    \change[Murat \c{C}{\i}nar]{To illustrate an example of direct and inverse problems, let's consider single phase flow in a closed cylindrical reservoir produced by a single well at the center.}{Now we consider single phase flow in a cylindrical reservoir produced by a well at the center.} The\change[Murat \c{C}{\i}nar]{pd.E}{partial differential equation (p.d.e.)} describing the flow is given by,
     \begin{equation}
         \frac{1}{r}\frac{\partial }{\partial r}\left( \frac{kr}{\mu }\frac{\partial p}{\partial r} \right)=\phi {{c}_{t}}\frac{\partial p}{\partial t}
         \label{A}
@@ -163,7 +163,7 @@
 
     Inverse problem, given $q$ and $p$, \add[Murat \c{C}{\i}nar]{helps us to}
     \begin{enumerate}
-        \item determine the PDE that describes the reservoir best
+        \item determine the p.d.e. that describes the reservoir best
         \item find $k$, $\phi$, etc.
     \end{enumerate}
 
@@ -267,7 +267,7 @@
         \label{Specific_weight}
     \end{equation*}
 
-    It follows from Eq. \ref{Darcy_velocity}, \ref{continuity_Cartesian}, and \ref{continuity} that the PDE describing conservation of mass in \remove[Murat \c{C}{\i}nar]{x-y-z}{Cartesian} coordinate system is
+    It follows from Eq. \ref{Darcy_velocity}, \ref{continuity_Cartesian}, and \ref{continuity} that the p.d.e. describing conservation of mass in \remove[Murat \c{C}{\i}nar]{x-y-z}{Cartesian} coordinate system is
     \begin{equation}
         \begin{split}
             & \,\,\,\,\,\,\ \frac{\partial }{\partial x}\left[ \rho \frac{{{k}_{x}}}{\mu }\left( \frac{\partial p}{\partial x}-\gamma \frac{\partial z'}{\partial x} \right) \right] \\
@@ -282,7 +282,7 @@
         \,\,\,\,\,\frac{1}{r}\,\frac{\partial }{\partial r}\left[ r\frac{{{k}_{r}}}{\mu }\rho \left( \frac{\partial p}{\partial r}-\gamma \frac{\partial z'}{\partial r} \right) \right]+\frac{\partial }{\partial z}\left[ \frac{{{k}_{z}}}{\mu }\rho \left( \frac{\partial p}{\partial z}-\gamma \frac{\partial z'}{\partial z} \right) \right]=\frac{\partial }{\partial t}\left( \rho \phi  \right)
     \label{Continuity_Darcy_Cylindrical}
     \end{equation}
-    
+
     \vspace{15pt}
     \large{\textbf{Remark on gravity term:}}\\
     \rule{\textwidth}{1pt}
@@ -302,7 +302,7 @@
     \end{equation*}\\
     \rule{\textwidth}{1pt}\\
     \vspace{15pt}
-        
+
     \change[Murat \c{C}{\i}nar]{If we}{Now} consider a single well \change[Murat \c{C}{\i}nar]{in}{at} the center of a cylindrical reservoir, then Eq. \ref{Continuity_Darcy_Cylindrical} correctly describes the fluid flow for both partially penetrating and fully penetrating cases, see Fig \ref{PartialvsFullPenet}.\\
     \begin{figure}
         \begin{center}
@@ -313,23 +313,23 @@
     \end{figure}
     \remove[Murat \c{C}{\i}nar]{Recalling our general continuity equation for the single phase flow gives,}
     \add[Murat \c{C}{\i}nar]{Now define formation volume factor $B$ as,}
-    
+
     \begin{equation}
         B=\frac{{{V}_{reservoir}}}{{{V}_{SC}}}=\frac{{m}/{\rho }\;}{{{{m}/{\rho }\;}_{SC}}}=\frac{{{\rho }_{SC}}}{\rho }\quad ;\quad {{\rho }_{SC}}\,\text{is}\,\text{constant}
     \label{Formation_Volume_Factor}
-    \end{equation}    
-    
+    \end{equation}
+
     \remove[Murat \c{C}{\i}nar]{which we call it as Formation volume factor, then we can write Equation (2.8) as}
     \add[Murat \c{C}{\i}nar]{Recall general continuity equation,} Eq. \ref{continuity} and insert Eq. \ref{Formation_Volume_Factor}, then we have,
-    
+
     \begin{equation}
-        \nabla \cdot \left( \frac{\mathbf{v}}{B} \right)=\frac{\partial }{\partial t}\left( \frac{\phi }{B} \right)
+        -\nabla \cdot \left( \frac{\mathbf{v}}{B} \right)=\frac{\partial }{\partial t}\left( \frac{\phi }{B} \right)
     \label{Continuity_B}
-    \end{equation}  
-       
+    \end{equation}
+
     $B=B(p)$, $\rho=\rho(p)$, and $\phi=\phi(p)\rightarrow$ single valued functions of $p$
     \add[Murat \c{C}{\i}nar]{Expanding right hand side (RHS) of} Eq. \ref{Continuity_B},
-    
+
     \begin{equation}
         \begin{split}
             \frac{\partial }{\partial t}\left( \frac{\phi }{B} \right)&= \phi \frac{\partial }{\partial t}\left( \frac{1}{B} \right)+\frac{1}{B}\frac{\partial \phi }{\partial t} \\
@@ -337,23 +337,206 @@
             &=\frac{\phi }{B}\left( -\frac{1}{B}\frac{dB}{dp}+\frac{1}{\phi}\frac{d\phi }{dt} \right)\frac{\partial p}{\partial t} \\
     \end{split}
     \label{Continuity_B_Expand_RHS}
-    \end{equation} 
+    \end{equation}
     \Trcknote[Murat \c{C}{\i}nar]{Typo in Eq corrected.}
     \remove[Murat \c{C}{\i}nar]{but} Fluid and rock compressibilities are defined, respectively, by,
-    
+
     \begin{equation}
     {{c}_{fluid}}=-\frac{1}{V}\frac{dV}{dp}=-\frac{1}{B}\frac{dB}{d\rho }=\frac{1}{\rho }\frac{d\rho }{dp}
     \label{Fluid_compressibility}
-    \end{equation}     
-    
+    \end{equation}
+
     \begin{equation}
     {{c}_{r}}={{c}_{f}}=\frac{1}{\phi }\frac{d\phi }{dp}
     \label{Rock_compressibility}
+    \end{equation}
+
+    (here $p$ is the fluid pressure in the pore, therefore, $\frac{d\phi }{dp}>0$.) \\
+    Using Eqs. \ref{Fluid_compressibility} and \ref{Rock_compressibility} in Eq. \ref{Continuity_B_Expand_RHS} and the resulting equation in Eq. \ref{Continuity_B} gives,
+
+    \begin{equation}
+        -\nabla \cdot \left( \frac{\mathbf{v}}{B} \right)=\frac{\phi {{c}_{t}}}{B}\frac{\partial p}{\partial t}
+    \label{Continuity_B_ct}
+    \end{equation}
+
+    \add[Murat \c{C}{\i}nar]{Note that here the total compressibility $c_{t}$ is defined as ${{ c }_{t}}={{c}_{fluid}}+{{c}_{r}}$. Under the assumptions of Darcy's Law we have,}
+
+    \begin{equation}
+        \nabla \cdot \left( \frac{\mathbf{k}}{\mu B}\left( \nabla p-\gamma\nabla z' \right) \right)=\frac{\phi {{c}_{t}}}{B}\frac{\partial p}{\partial t}
+    \label{Continuity_B_ct_Darcy}
+    \end{equation}
+    \subsection{Multiphase flow}
+    Three distinct phases, gas, oil, and water occur i a petroleum reservoir. Varying pressure conditions (isothermal system assumed) cause a mass exchange between \remove[Murat \c{C}{\i}nar]{the} two hydrocarbon phases \add[Murat \c{C}{\i}nar]{- oil-gas} (water-oil and gas-water systems \change[Murat \c{C}{\i}nar]{can be}{is} assumed immiscible). The \change[Murat \c{C}{\i}nar]{material}{mass} transfer between oil and gas is described by solution gas-oil ration, $R_{s}$, which gives the amount of gas dissolved in oil as a function of pressure, i.e. $[V_{dissolved \, gas}/V_{o}]_{STC}$.\\
+
+    The fluid flow equations (based on $\beta$-model) with the introduction of phase saturations for oil-water-gas system \change[Murat \c{C}{\i}nar]{can be}{is} written as;
+
+    \begin{equation}
+    -\nabla \cdot \left( \frac{\mathbf{v}_{o}}{{{B}_{o}}} \right)=\frac{\partial }{\partial t}\left( \frac{\phi {{S}_{o}}}{{{B}_{o}}} \right)\quad for\,oil
+    \label{Continuity_oil}
+    \end{equation}
+
+    \begin{equation}
+    -\nabla \cdot \left( \frac{\mathbf{v}_{w}}{{{B}_{w}}} \right)=\frac{\partial }{\partial t}\left( \frac{\phi {{S}_{w}}}{{{B}_{w}}} \right)\quad for\,water
+    \label{Continuity_water}
+    \end{equation}
+
+    \begin{equation}
+    -\nabla \cdot \left( \frac{{{R}_{s}}{{\mathbf{v}}_{o}}}{{{B}_{o}}}+\frac{{{\mathbf{v}}_{g}}}{{{B}_{g}}} \right)=\frac{\partial }{\partial t}\left[ \phi \left( \frac{{{R}_{s}}}{{{B}_{o}}}{{S}_{o}}+\frac{{{S}_{g}}}{{{B}_{g}}} \right) \right]\quad for\,gas
+    \label{Continuity_gas}
+    \end{equation}
+
+    With introducing relative permeability \remove[Murat \c{C}{\i}nar]{concept}, the velocity vector for each phase is given by,
+
+    \begin{equation}
+    {{\mathbf{v}}_{\varphi}}=-\frac{\mathbf{k}\,{{k}_{r\varphi}}}{{{\mu }_{\varphi}}}\left( \nabla {{p}_{\varphi}}-{{\gamma }_{\varphi}}\nabla z' \right)
+    \label{Darcy_multiphase}
+    \end{equation}
+
+    where $\varphi = o, w, or g$.\\
+
+    Using Eq. \ref{Darcy_multiphase} in Eqs. \ref{Continuity_oil}, \ref{Continuity_water}, and \ref{Continuity_gas} for corresponding \change[Murat \c{C}{\i}nar]{Hydro Carbon component}{phase},
+
+    \begin{equation}
+    \nabla \cdot \left( \frac{\mathbf{k}\,{{k}_{ro}}}{{{B}_{o}}{{\mu }_{o}}}\left( \nabla {{p}_{o}}-{{\gamma }_{o}}\nabla z' \right) \right)=\frac{\partial }{\partial t}\left( \frac{\phi {{S}_{o}}}{{{B}_{o}}} \right)
+    \label{Continuity_oil_Darcy}
+    \end{equation}
+
+    \begin{equation}
+    \nabla \cdot \left( \frac{\mathbf{k}\,{{k}_{rw}}}{{{B}_{w}}{{\mu }_{w}}}\left( \nabla {{p}_{w}}-{{\gamma }_{w}}\nabla z' \right) \right)=\frac{\partial }{\partial t}\left( \frac{\phi {{S}_{w}}}{{{B}_{w}}} \right)
+    \label{Continuity_water_Darcy}
+    \end{equation}
+
+    \begin{equation}
+    \begin{split}
+    & \nabla \cdot \left( \frac{{{R}_{s}}\mathbf{k}\,{{k}_{ro}}}{{{B}_{o}}{{\mu }_{o}}}\left( \nabla {{p}_{o}}-{{\gamma }_{o}}\nabla z' \right)+\frac{\mathbf{k}\,{{k}_{rg}}}{{{B}_{g}}{{\mu }_{g}}}\left( \nabla {{p}_{g}}-{{\gamma }_{g}}\nabla z' \right) \right) \\
+    & \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad =\frac{\partial }{\partial t}\left[ \phi \left( \frac{{{R}_{s}}}{{{B}_{o}}}{{S}_{o}}+\frac{{{S}_{g}}}{{{B}_{g}}} \right) \right] \\
+    \end{split}
+    \label{Continuity_gas_Darcy}
+    \end{equation}
+
+    \begin{figure}
+        \begin{center}
+        \includegraphics[scale=1]{Rs_Bo_Bg.pdf}
+        \caption{$R_{s}$, $B_{o}$, $B_{g}$ behavior.}
+        \label{Rs_Bo_Bg}
+        \end{center}
+    \end{figure}
+
+    It is important to note that $B$ defined by Eq. \ref{Formation_Volume_Factor}\add[Murat \c{C}{\i}nar]{,} considering oil, \remove[Murat \c{C}{\i}nar]{this} is \change[Murat \c{C}{\i}nar]{correct}{valid} if \change[Murat \c{C}{\i}nar]{we have a}{oil is} single component or \remove[Murat \c{C}{\i}nar]{if we are talking about} "black-oil" with no dissolved gas ($R_{s}=0$). \change[Murat \c{C}{\i}nar]{However}{On the other hand}, Eq. \ref{Continuity_B_ct_Darcy} is \change[Murat \c{C}{\i}nar]{correct}{valid} for black-oil problems with $R_{s}\neq0$ provided that \change[Murat \c{C}{\i}nar]{we are}{the pressure is} above bubble-point. \remove[Murat \c{C}{\i}nar]{If we are above bubble-point,}Eq. \ref{Continuity_oil_Darcy} and Eq. \ref{Continuity_gas_Darcy} \change[Murat \c{C}{\i}nar]{will be}{becomes} identical\add[Murat \c{C}{\i}nar]{ if the pressure is above bubble point}.
+
+    \change[Murat \c{C}{\i}nar]{Sometimes we write the flow equation}{In some cases, the flow equation is written} in terms of pseudo potential.
+
+    \begin{equation}
+        \psi =\int_{{{p}_{0}}}^{p}{\frac{1}{\gamma }dp}-\left( z'-{{z}_{0}}' \right)
+    \label{Pseudo_Potential}
+    \end{equation}  
+
+    where $z'$ is measured positive in the direction of gravity and ${{z}_{0}}'$ is the datum where \remove[Murat \c{C}{\i}nar]{we take as reference}${{p}_{0}}$ \add[Murat \c{C}{\i}nar]{is measured}. Also $\gamma=\mathbf{M}/\mathbf{L}^{2}\mathbf{T}^{2})$ and $\gamma=\gamma(p)$.
+    
+    \begin{equation*}
+        \begin{split}
+             \nabla \psi & =\nabla \int_{{{p}_{0}}}^{p}{\frac{1}{\gamma }dp}-\nabla \left( z'-{{z}_{0}}' \right) \\
+            & =\frac{d}{dp}\left\{ \int_{{{p}_{0}}}^{p}{\frac{1}{\gamma }dp} \right\}\nabla p-\nabla z' \\
+            & =\frac{1}{\gamma }\nabla p-\nabla z' \\
+        \end{split}
+    \end{equation*}  
+
+    Then,
+    
+    \begin{equation}
+        \gamma \,\nabla \psi =\nabla p-\gamma \,\nabla z'
+    \label{Pseudo_Potential_1}
+    \end{equation}  
+
+    and
+
+    \begin{equation}
+        \frac{\partial \psi }{\partial t}=\frac{1}{\gamma }\frac{\partial p}{\partial t}
+    \label{Pseudo_Potential_2}
+    \end{equation}      
+    
+    Using Eqs. \ref{Pseudo_Potential_1} and \ref{Pseudo_Potential_2} in Eq. \ref{Continuity_B_ct_Darcy} we obtain,
+    
+    \begin{equation}
+        \nabla \cdot \left( \frac{\mathbf{k}\gamma }{B\mu }\nabla \psi  \right)=\frac{\phi {{c}_{t}}\gamma }{B}\frac{\partial \psi }{\partial t}
+    \label{Pseudo_Potential_Final}
     \end{equation}     
     
-    here $p$ is the fluid pressure in the pore, therefore, $\frac{d\phi }{dp}>0$.
-    
+    If we consider that we have stress dependent reservoir, that is permeability decreases as the fluid pressure in the pores decreases, then
+    \begin{equation*}
+        \mathbf{k}=k\left( p \right)\widetilde{\mathbf{k}}
+    \end{equation*}      
+        where the entries of $\widetilde{\mathbf{k}}$ are independent of pressure. It has been observed that tight (and geothermal) reservoirs are \remove[Murat \c{C}{\i}nar]{good} examples of stress dependent reservoirs. Then Eq. \ref{Pseudo_Potential_Final} \change[Murat \c{C}{\i}nar]{can be}{is} expressed as
         
+    \begin{equation}
+        \nabla \cdot \left( \frac{k\left( p \right)\widetilde{\mathbf{k}}\gamma }{B\mu }\nabla \psi  \right)=\frac{\phi {{c}_{t}}\gamma }{B}\frac{\partial \psi }{\partial t}
+    \label{Pseudo_Potential_Final_Stress_dependent}
+    \end{equation}
+    \remove[Murat \c{C}{\i}nar]{
+    It is important to note that Eq. 2.38 is non-linear because $\phi$, $c_{t}$, $\gamma$, $\mu$, $B$, and $k$ are all pressure dependent (or potential). To partially linearize the Eq. 2.38 (or Eq. 2.14), we normally define a pseudo pressure function if gravity effects are not important.}
+    \Trcknote[Murat \c{C}{\i}nar]{Following paragraph is added.}A pseudo pressure function is defined to partially linearize Eq. \ref{Pseudo_Potential_Final_Stress_dependent} (or Eq. \ref{Continuity_B_ct_Darcy}) under the assumption that the gravity effects are not important.
+    
+    \begin{equation}
+        m\left( p \right)=\int_{{{p}_{0}}}^{p}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}dp}
+    \label{Pseudo_Pressure}
+    \end{equation}    
+    
+    \begin{equation}
+        \nabla m\left( p \right)=\frac{d}{dp}m\left( p \right)\nabla p=\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}\nabla p
+    \label{Pseudo_Pressure_1}
+    \end{equation}     
+
+    \begin{equation}
+        \frac{\partial m\left( p \right)}{\partial t}=\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}\frac{\partial p}{\partial t}
+    \label{Pseudo_Pressure_2}
+    \end{equation}      
+    
+    If \change[Murat \c{C}{\i}nar]{we don't have gravity effects note that}{gravity effects are ignored,} Eq. \ref{Continuity_B_ct_Darcy} reduces to
+    
+    \begin{equation}
+        \nabla \cdot \left( \frac{k\left( p \right)\widetilde{\mathbf{k}}}{B\left( p \right)\mu \left( p \right)}\nabla p \right)=\frac{\phi {{c}_{t}}}{B}\frac{\partial p}{\partial t}
+    \label{Continuity_B_ct_Darcy_Nogravity}
+    \end{equation}     
+    
+    Using Eqs. \ref{Pseudo_Pressure}, \ref{Pseudo_Pressure_1}, and \ref{Pseudo_Pressure_2} in \ref{Continuity_B_ct_Darcy_Nogravity} gives
+
+    \begin{equation}
+        \nabla \cdot \left( \widetilde{\mathbf{k}}\nabla m\left( p \right) \right)=\frac{\phi \left( p \right){{c}_{t}}\left( p \right)\mu \left( p \right)}{k\left( p \right)}\frac{\partial m\left( p \right)}{\partial t}
+    \label{Pseudo_Pressure_Continuity}
+    \end{equation}     
+    
+    Note Eq. \ref{Pseudo_Pressure_Continuity} is still non-linear. \remove[Murat \c{C}{\i}nar]{In} Eq. \ref{Pseudo_Potential_Final_Stress_dependent} \change[Murat \c{C}{\i}nar]{we have written our basic flow equations}{is the expression of basic flow equations} in terms of the potential $\psi$. Therefore, to partially linearize Eq. \ref{Pseudo_Potential_Final_Stress_dependent}, \change[Murat \c{C}{\i}nar]{we can define a "pseudo pressure" by}{a "pseudo pressure" is defined as}
+   
+    \begin{equation}
+        m\left( \psi  \right)=\int_{{{\psi }_{0}}}^{\psi }{\frac{k\left( \psi  \right)\gamma \left( \psi  \right)}{\mu \left( \psi  \right)B\left( \psi  \right)}d\psi }
+    \label{Pseudo_Pressure_potential}
+    \end{equation}     
+   
+    \subsection{Diffusivity equation for single phase gas flow - real gas flow}
+    For \change[Murat \c{C}{\i}nar]{gas}{gases} $\mu$, $\rho$ are strong functions of pressure. Permeability typically is independent of pressure\change[Murat \c{C}{\i}nar]{ although}{, however,} at low pressures Klinkenberg effect may cause some pressure dependence in permeability and/or \change[Murat \c{C}{\i}nar]{if we have tight reservoirs}{tight reservoirs are considered} as discussed earlier. To account for the dependence of $k/ \mu B_{g}$ on pressure,\remove[Murat \c{C}{\i}nar]{we can use} Eq.\ref{Pseudo_Pressure} or \ref{Pseudo_Pressure_potential} \add[Murat \c{C}{\i}nar]{is used}. Note that Eq. \ref{Pseudo_Pressure_Continuity} is also valid for \change[Murat \c{C}{\i}nar]{real flow of}{flow of real} gases in porous media.\\
+    
+    With some modifications, the above procedure is the current approach used to derive the p.d.e. for gas flow. The method was first introduced in the literature by Al-Hussainy, Ramey and Crawford \cite{Al-Hussainy_1966_1}. Below \remove[Murat \c{C}{\i}nar]{we will derive}the p.d.e. \add[Murat \c{C}{\i}nar]{is derived} using Al-Hussainy et. al. \cite{Al-Hussainy_1966_1} approach. \remove[Murat \c{C}{\i}nar]{Since Eq. 2.32 is also valid for real gases, we have}\Trcknote[Murat \c{C}{\i}nar]{The following sentence is added.} Note that Eq. \ref{Continuity_B_ct_Darcy_Nogravity} holds for real gases. \change[Murat \c{C}{\i}nar]{Further, assuming}{Assuming} $k(p)\mathbf{k}$ is independent of pressure and same in all directions, then Eq. \ref{Continuity_B_ct_Darcy_Nogravity} \change[Murat \c{C}{\i}nar]{can be written as}{becomes}
+    \begin{equation}   
+        \nabla \cdot \left( \frac{1}{B\left( p \right)\mu \left( p \right)}\nabla p \right)=\frac{\phi {{c}_{t}}}{kB}\frac{\partial p}{\partial t}
+        \label{Gas_Flow_1}
+    \end{equation}   
+    
+    Since $B=\frac{{{\left( {{\rho }_{g}} \right)}_{SC}}}{{{\rho }_{g}}}$ and ${{\left( {{\rho }_{g}} \right)}_{SC}}$ is constant Eq. \ref{Gas_Flow_1} is equivalent to
+    
+    \begin{equation}
+        \nabla \cdot \left( \frac{\rho }{\mu }\nabla p \right)=\frac{\phi {{c}_{t}}\rho }{k}\frac{\partial p}{\partial t}
+        \label{Gas_Flow_2}
+    \end{equation}   
+     
+    Recall that $\rho$ for real gases is given by the following equation of state (EOS),
+     
+    \begin{equation}
+        \rho =\frac{pM}{zRT}
+        \label{Real_Gas_Law}
+    \end{equation}     
+     
+     
+      
     %\nomenclature[1]{$R$}{Ideal gas constant {$(8.314 J/gmol \cdot K)$}}%
     %\nomenclature{${\alpha }$}{Reaction order}%
     %\printnomenclature
