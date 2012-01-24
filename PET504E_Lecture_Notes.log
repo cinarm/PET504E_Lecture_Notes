@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.18)  23 JAN 2012 17:04
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.23)  24 JAN 2012 02:13
 entering extended mode
-**D:/Murat_Cinar/ITU/Lectures/PET504E/PET504E_Lecture_Notes/PET504E_Lecture_Not
-es.tex
+**C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/PET504E_Lectu
+re_Notes.tex
 
-(D:/Murat_Cinar/ITU/Lectures/PET504E/PET504E_Lecture_Notes/PET504E_Lecture_Note
-s.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+(C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/PET504E_Lectur
+e_Notes.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
 lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
@@ -16,7 +16,7 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-(D:\Murat_Cinar\ITU\Lectures\PET504E\PET504E_Lecture_Notes\llncs.cls
+(C:\Users\Cinar\Documents\murat_cinar\ITU\Lectures\PET504E\Notes\llncs.cls
 Document Class: llncs 2010/07/12 v2.17 
  LaTeX document class for Lecture Notes in Computer Science
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -37,7 +37,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \c@tracingmulticols=\count87
 \mult@box=\box26
 \multicol@leftmargin=\dimen103
@@ -82,13 +82,12 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \multicolundershoot=\dimen110
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
-\multicol@sort@counter=\count95
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\aliascnt.sty"
 Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\carlisle\remreset.sty"))
-\c@chapter=\count96
+\c@chapter=\count95
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
 LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
@@ -110,11 +109,11 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \tocparanum=\dimen118
 \tocparatotal=\dimen119
 \tocsubparanum=\dimen120
-\@tempcntc=\count97
+\@tempcntc=\count96
 \fnindent=\dimen121
-\c@@inst=\count98
-\c@@auth=\count99
-\c@auco=\count100
+\c@@inst=\count97
+\c@@auth=\count98
+\c@auco=\count99
 \instindent=\dimen122
 \authrun=\box52
 \authorrunning=\toks14
@@ -122,21 +121,21 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \titrun=\box53
 \titlerunning=\toks16
 \toctitle=\toks17
-\c@theorem=\count101
-\c@case=\count102
-\c@conjecture=\count103
-\c@corollary=\count104
-\c@definition=\count105
-\c@example=\count106
-\c@exercise=\count107
-\c@lemma=\count108
-\c@note=\count109
-\c@problem=\count110
-\c@property=\count111
-\c@proposition=\count112
-\c@question=\count113
-\c@solution=\count114
-\c@remark=\count115
+\c@theorem=\count100
+\c@case=\count101
+\c@conjecture=\count102
+\c@corollary=\count103
+\c@definition=\count104
+\c@example=\count105
+\c@exercise=\count106
+\c@lemma=\count107
+\c@note=\count108
+\c@problem=\count109
+\c@property=\count110
+\c@proposition=\count111
+\c@question=\count112
+\c@solution=\count113
+\c@remark=\count114
 \headlineindent=\dimen123
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
@@ -158,27 +157,20 @@ File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count116
+File: pdftex.def 2010/09/14 v0.05b Graphics/color for pdfTeX
+\Gread@gobject=\count115
 ))
 \Gin@req@height=\dimen124
 \Gin@req@width=\dimen125
 )
-(D:\Murat_Cinar\ITU\Lectures\PET504E\PET504E_Lecture_Notes\llncsdoc.sty)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\savesym\savesym.sty"
-
-LaTeX Warning: You have requested package `savesym',
-               but the package provides `savesymbol'.
-
-Package: savesymbol 2003/06/01 v1.1 Saves and restores symbols
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\framed\framed.sty"
+Package: framed 2007/10/04 v 0.95: framed or shaded text with page breaks
+\fb@frw=\dimen126
+\fb@frh=\dimen127
+\FrameRule=\dimen128
+\FrameSep=\dimen129
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -186,7 +178,14 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+(C:\Users\Cinar\Documents\murat_cinar\ITU\Lectures\PET504E\Notes\llncsdoc.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\savesym\savesym.sty"
+
+LaTeX Warning: You have requested package `savesym',
+               but the package provides `savesymbol'.
+
+Package: savesymbol 2003/06/01 v1.1 Saves and restores symbols
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks19
 )
@@ -201,73 +200,74 @@ Package: amstext 2000/06/29 v2.01
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks20
-\ex@=\dimen126
+\ex@=\dimen130
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen127
+\pmbraise@=\dimen131
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count117
+\inf@bad=\count116
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count118
-\leftroot@=\count119
+\uproot@=\count117
+\leftroot@=\count118
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count120
-\DOTSCASE@=\count121
+\classnum@=\count119
+\DOTSCASE@=\count120
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box54
 \strutbox@=\box55
-\big@size=\dimen128
+\big@size=\dimen132
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 
 
 Package amsmath Warning: Unable to redefine math accent \vec.
 
-\macc@depth=\count122
-\c@MaxMatrixCols=\count123
+\macc@depth=\count121
+\c@MaxMatrixCols=\count122
 \dotsspace@=\muskip10
-\c@parentequation=\count124
-\dspbrk@lvl=\count125
+\c@parentequation=\count123
+\dspbrk@lvl=\count124
 \tag@help=\toks21
-\row@=\count126
-\column@=\count127
-\maxfields@=\count128
+\row@=\count125
+\column@=\count126
+\maxfields@=\count127
 \andhelp@=\toks22
-\eqnshift@=\dimen129
-\alignsep@=\dimen130
-\tagshift@=\dimen131
-\tagwidth@=\dimen132
-\totwidth@=\dimen133
-\lineht@=\dimen134
+\eqnshift@=\dimen133
+\alignsep@=\dimen134
+\tagshift@=\dimen135
+\tagwidth@=\dimen136
+\totwidth@=\dimen137
+\lineht@=\dimen138
 \@envbody=\toks23
 \multlinegap=\skip46
 \multlinetaggap=\skip47
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-) (D:\Murat_Cinar\ITU\Lectures\PET504E\PET504E_Lecture_Notes\trackchanges.sty
+)
+(C:\Users\Cinar\Documents\murat_cinar\ITU\Lectures\PET504E\Notes\trackchanges.s
+ty
 Package: trackchanges 2009/04/22 v0.7.0 TrackChanges file 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count129
-\calc@Bcount=\count130
-\calc@Adimen=\dimen135
-\calc@Bdimen=\dimen136
+\calc@Acount=\count128
+\calc@Bcount=\count129
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
 \calc@Askip=\skip48
 \calc@Bskip=\skip49
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count131
+\calc@Ccount=\count130
 \calc@Cskip=\skip50
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\soul\soul.sty"
@@ -278,34 +278,38 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@buffer=\toks28
 \SOUL@token=\toks29
 \SOUL@spaceskip=\skip51
-\SOUL@ttwidth=\dimen137
-\SOUL@uldp=\dimen138
-\SOUL@ulht=\dimen139
+\SOUL@ttwidth=\dimen141
+\SOUL@uldp=\dimen142
+\SOUL@ulht=\dimen143
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\morefloats\morefloats.sty"
 Package: morefloats 2011/07/10 v1.0e Increase limit of unprocessed floats (HMM;
  DH)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-\c@maxfloats=\count132
 
+LaTeX Warning: You have requested, on input line 49, version
+               `2010/12/23' of package kvoptions,
+               but only version
+               `2010/02/22 v3.7 Keyval support for LaTeX options (HO)'
+               is available.
+
+\c@maxfloats=\count131
 
 Package maxfloats Warning: Maximum number of possible floats asked for: 36.
 (maxfloats)                LaTeX might run out of dimensions or memory
@@ -331,37 +335,53 @@ Package maxfloats Warning: Maximum number of possible floats asked for: 36.
 \bx@AI=\insert217
 \bx@AJ=\insert216
 )
-\c@userid=\count133
-\c@changenumber=\count134
-\c@storefootnote=\count135
-\c@numeditors=\count136
-\c@maxeditors=\count137
+\c@userid=\count132
+\c@changenumber=\count133
+\c@storefootnote=\count134
+\c@numeditors=\count135
+\c@maxeditors=\count136
 )
-(D:\Murat_Cinar\ITU\Lectures\PET504E\PET504E_Lecture_Notes\PET504E_Lecture_Note
-s.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-Package color Info: Redefining color UserColor on input line 57.
+(C:\Users\Cinar\Documents\murat_cinar\ITU\Lectures\PET504E\Notes\PET504E_Lectur
+e_Notes.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count137
+\scratchdimen=\dimen144
+\scratchbox=\box56
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count140
+\MPscratchDim=\dimen145
+\MPnumerator=\count141
+\everyMPtoPDFconversion=\toks31
+)
+Package color Info: Redefining color UserColor on input line 60.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--63
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
 
  []
 
-Package color Info: Redefining color UserColor on input line 67.
-Package color Info: Redefining color UserColor on input line 69.
 Package color Info: Redefining color UserColor on input line 70.
-Package color Info: Redefining color UserColor on input line 71.
 Package color Info: Redefining color UserColor on input line 72.
+Package color Info: Redefining color UserColor on input line 73.
+Package color Info: Redefining color UserColor on input line 74.
+Package color Info: Redefining color UserColor on input line 75.
+
+LaTeX Warning: Marginpar on page 1 moved.
+
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -369,48 +389,36 @@ Package color Info: Redefining color UserColor on input line 72.
 LaTeX Warning: Marginpar on page 2 moved.
 
 
-LaTeX Warning: Marginpar on page 2 moved.
 
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-
-pdfTeX warning: pdflatex.exe (file D:/Murat_Cinar/ITU/Lectures/PET504E/PET504E_
-Lecture_Notes/Transient_phenomena.pdf): PDF inclusion: found PDF version <1.6>,
- but at most version <1.5> allowed
+pdfTeX warning: (null) (file C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/
+PET504E/Notes/Transient_phenomena.pdf): PDF inclusion: found PDF version <1.6>,
+ but at most version <1.4> allowed
 <Transient_phenomena.pdf, id=8, 614.295pt x 794.97pt>
 File: Transient_phenomena.pdf Graphic file (type pdf)
 
 <use Transient_phenomena.pdf>
-Package pdftex.def Info: Transient_phenomena.pdf used on input line 98.
-(pdftex.def)             Requested size: 460.72011pt x 596.22604pt.
-
-Overfull \hbox (113.59657pt too wide) in paragraph at lines 98--99
+Overfull \hbox (113.59657pt too wide) in paragraph at lines 101--102
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 78.6378pt on input line 102.
+LaTeX Warning: Float too large for page by 78.6378pt on input line 105.
 
-[2] [3 <D:/Murat_Cinar/ITU/Lectures/PET504E/PET504E_Lecture_Notes/Transient_phe
-nomena.pdf>]
-Package color Info: Redefining color UserColor on input line 109.
-Package color Info: Redefining color UserColor on input line 109.
+[2] [3 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/Transie
+nt_phenomena.pdf>]
+Package color Info: Redefining color UserColor on input line 112.
+Package color Info: Redefining color UserColor on input line 112.
 
-
-LaTeX Warning: Marginpar on page 4 moved.
-
-Package color Info: Redefining color UserColor on input line 114.
-Package color Info: Redefining color UserColor on input line 119.
-Package color Info: Redefining color UserColor on input line 119.
-Package color Info: Redefining color UserColor on input line 119.
-Package color Info: Redefining color UserColor on input line 119.
-Package color Info: Redefining color UserColor on input line 119.
-Package color Info: Redefining color UserColor on input line 119.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
+Package color Info: Redefining color UserColor on input line 117.
+Package color Info: Redefining color UserColor on input line 122.
+Package color Info: Redefining color UserColor on input line 122.
+Package color Info: Redefining color UserColor on input line 122.
+Package color Info: Redefining color UserColor on input line 122.
+Package color Info: Redefining color UserColor on input line 122.
+Package color Info: Redefining color UserColor on input line 122.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
@@ -423,20 +431,23 @@ LaTeX Warning: Marginpar on page 4 moved.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
-Package color Info: Redefining color UserColor on input line 126.
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+LaTeX Warning: Marginpar on page 4 moved.
+
+Package color Info: Redefining color UserColor on input line 129.
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-Package color Info: Redefining color UserColor on input line 128.
-Package color Info: Redefining color UserColor on input line 128.
-Package color Info: Redefining color UserColor on input line 128.
-Package color Info: Redefining color UserColor on input line 128.
-Package color Info: Redefining color UserColor on input line 128.
-Package color Info: Redefining color UserColor on input line 128.
-Package color Info: Redefining color UserColor on input line 129.
-Package color Info: Redefining color UserColor on input line 129.
+Package color Info: Redefining color UserColor on input line 131.
+Package color Info: Redefining color UserColor on input line 131.
+Package color Info: Redefining color UserColor on input line 131.
+Package color Info: Redefining color UserColor on input line 131.
+Package color Info: Redefining color UserColor on input line 131.
+Package color Info: Redefining color UserColor on input line 131.
+Package color Info: Redefining color UserColor on input line 132.
+Package color Info: Redefining color UserColor on input line 132.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
@@ -458,12 +469,12 @@ LaTeX Warning: Marginpar on page 4 moved.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
-Package color Info: Redefining color UserColor on input line 134.
+Package color Info: Redefining color UserColor on input line 137.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
-Package color Info: Redefining color UserColor on input line 136.
-Package color Info: Redefining color UserColor on input line 136.
+Package color Info: Redefining color UserColor on input line 139.
+Package color Info: Redefining color UserColor on input line 139.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
@@ -472,23 +483,20 @@ LaTeX Warning: Marginpar on page 4 moved.
 
 <Build_up.pdf, id=37, 252.42505pt x 83.31929pt>
 File: Build_up.pdf Graphic file (type pdf)
- <use Build_up.pdf>
-Package pdftex.def Info: Build_up.pdf used on input line 141.
-(pdftex.def)             Requested size: 252.42442pt x 83.31906pt.
- [4]
-Package color Info: Redefining color UserColor on input line 147.
-Package color Info: Redefining color UserColor on input line 147.
+ <use Build_up.pdf> [4]
+Package color Info: Redefining color UserColor on input line 150.
+Package color Info: Redefining color UserColor on input line 150.
 
 
 LaTeX Warning: Marginpar on page 5 moved.
 
-Package color Info: Redefining color UserColor on input line 158.
-Package color Info: Redefining color UserColor on input line 158.
-Package color Info: Redefining color UserColor on input line 158.
-Package color Info: Redefining color UserColor on input line 158.
-Package color Info: Redefining color UserColor on input line 159.
+Package color Info: Redefining color UserColor on input line 161.
+Package color Info: Redefining color UserColor on input line 161.
+Package color Info: Redefining color UserColor on input line 161.
+Package color Info: Redefining color UserColor on input line 161.
+Package color Info: Redefining color UserColor on input line 162.
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
@@ -504,12 +512,12 @@ LaTeX Warning: Marginpar on page 5 moved.
 
 LaTeX Warning: Marginpar on page 5 moved.
 
-Package color Info: Redefining color UserColor on input line 161.
+Package color Info: Redefining color UserColor on input line 164.
 
 LaTeX Warning: Marginpar on page 5 moved.
 
-Package color Info: Redefining color UserColor on input line 170.
-Package color Info: Redefining color UserColor on input line 172.
+Package color Info: Redefining color UserColor on input line 173.
+Package color Info: Redefining color UserColor on input line 175.
 
 LaTeX Warning: Marginpar on page 5 moved.
 
@@ -517,72 +525,66 @@ LaTeX Warning: Marginpar on page 5 moved.
 File: Homogenous_vs_Heterogenous_dp.pdf Graphic file (type pdf)
 
 <use Homogenous_vs_Heterogenous_dp.pdf>
-Package pdftex.def Info: Homogenous_vs_Heterogenous_dp.pdf used on input line 1
-76.
-(pdftex.def)             Requested size: 305.57437pt x 200.85432pt.
-
 <Homogenous_vs_Heterogenous_dpder.pdf, id=44, 509.2867pt x 334.75464pt>
 File: Homogenous_vs_Heterogenous_dpder.pdf Graphic file (type pdf)
 
 <use Homogenous_vs_Heterogenous_dpder.pdf>
-Package pdftex.def Info: Homogenous_vs_Heterogenous_dpder.pdf used on input lin
-e 184.
-(pdftex.def)             Requested size: 305.57437pt x 200.85432pt.
 
+pdfTeX warning: (null) (file C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/
+PET504E/Notes/Flow_Chart1.pdf): PDF inclusion: found PDF version <1.5>, but at 
+most version <1.4> allowed
 <Flow_Chart1.pdf, id=45, 1107.75858pt x 719.50508pt>
 File: Flow_Chart1.pdf Graphic file (type pdf)
  <use Flow_Chart1.pdf>
-Package pdftex.def Info: Flow_Chart1.pdf used on input line 192.
-(pdftex.def)             Requested size: 332.33014pt x 215.85318pt.
-Package color Info: Redefining color UserColor on input line 202.
+Package color Info: Redefining color UserColor on input line 205.
 
-[5 <D:/Murat_Cinar/ITU/Lectures/PET504E/PET504E_Lecture_Notes/Build_up.pdf>]
-[6 <D:/Murat_Cinar/ITU/Lectures/PET504E/PET504E_Lecture_Notes/Homogenous_vs_Het
-erogenous_dp.pdf> <D:/Murat_Cinar/ITU/Lectures/PET504E/PET504E_Lecture_Notes/Ho
-mogenous_vs_Heterogenous_dpder.pdf>]
-Package color Info: Redefining color UserColor on input line 207.
-Package color Info: Redefining color UserColor on input line 208.
-Package color Info: Redefining color UserColor on input line 208.
-Package color Info: Redefining color UserColor on input line 208.
-Package color Info: Redefining color UserColor on input line 208.
-
-
-LaTeX Warning: Marginpar on page 7 moved.
-
-
-LaTeX Warning: Marginpar on page 7 moved.
-
-
-LaTeX Warning: Marginpar on page 7 moved.
-
-
-LaTeX Warning: Marginpar on page 7 moved.
-
+[5 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/Build_up.pd
+f>] [6 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/Homogen
+ous_vs_Heterogenous_dp.pdf> <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/
+PET504E/Notes/Homogenous_vs_Heterogenous_dpder.pdf>]
 Package color Info: Redefining color UserColor on input line 210.
+Package color Info: Redefining color UserColor on input line 211.
+Package color Info: Redefining color UserColor on input line 211.
+Package color Info: Redefining color UserColor on input line 211.
+Package color Info: Redefining color UserColor on input line 211.
+
 
 LaTeX Warning: Marginpar on page 7 moved.
 
-Package color Info: Redefining color UserColor on input line 216.
-Package color Info: Redefining color UserColor on input line 221.
-Package color Info: Redefining color UserColor on input line 223.
-Package color Info: Redefining color UserColor on input line 223.
-Package color Info: Redefining color UserColor on input line 223.
-Package color Info: Redefining color UserColor on input line 223.
-[7 <D:/Murat_Cinar/ITU/Lectures/PET504E/PET504E_Lecture_Notes/Flow_Chart1.pdf, 
-page is rotated 270 degrees>]
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+Package color Info: Redefining color UserColor on input line 213.
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+Package color Info: Redefining color UserColor on input line 219.
+Package color Info: Redefining color UserColor on input line 224.
+Package color Info: Redefining color UserColor on input line 226.
+Package color Info: Redefining color UserColor on input line 226.
+Package color Info: Redefining color UserColor on input line 226.
+Package color Info: Redefining color UserColor on input line 226.
+[7 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/Flow_Chart1
+.pdf, page is rotated 270 degrees>]
 
 LaTeX Warning: Marginpar on page 8 moved.
 
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-Package color Info: Redefining color UserColor on input line 228.
-Package color Info: Redefining color UserColor on input line 229.
-Package color Info: Redefining color UserColor on input line 229.
-Package color Info: Redefining color UserColor on input line 229.
-Package color Info: Redefining color UserColor on input line 229.
-Package color Info: Redefining color UserColor on input line 229.
-Package color Info: Redefining color UserColor on input line 229.
+Package color Info: Redefining color UserColor on input line 231.
+Package color Info: Redefining color UserColor on input line 232.
+Package color Info: Redefining color UserColor on input line 232.
+Package color Info: Redefining color UserColor on input line 232.
+Package color Info: Redefining color UserColor on input line 232.
+Package color Info: Redefining color UserColor on input line 232.
+Package color Info: Redefining color UserColor on input line 232.
 
 LaTeX Warning: Marginpar on page 8 moved.
 
@@ -601,48 +603,109 @@ LaTeX Warning: Marginpar on page 8 moved.
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-Package color Info: Redefining color UserColor on input line 255.
-Package color Info: Redefining color UserColor on input line 255.
+Package color Info: Redefining color UserColor on input line 258.
+Package color Info: Redefining color UserColor on input line 258.
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-Package color Info: Redefining color UserColor on input line 261.
+Package color Info: Redefining color UserColor on input line 270.
+[8]
+Package color Info: Redefining color UserColor on input line 280.
+ <Z_Aside.pdf, id=133, 247.98749pt x 140.0171pt>
+File: Z_Aside.pdf Graphic file (type pdf)
+ <use Z_Aside.pdf>
+Package color Info: Redefining color UserColor on input line 295.
+Package color Info: Redefining color UserColor on input line 295.
 
-(D:\Murat_Cinar\ITU\Lectures\PET504E\PET504E_Lecture_Notes\PET504E_Lecture_Note
-s.bbl) [8]
-(D:\Murat_Cinar\ITU\Lectures\PET504E\PET504E_Lecture_Notes\PET504E_Lecture_Note
-s.aux) ) 
+
+LaTeX Warning: Marginpar on page 9 moved.
+
+Package color Info: Redefining color UserColor on input line 299.
+Package color Info: Redefining color UserColor on input line 306.
+Package color Info: Redefining color UserColor on input line 306.
+
+
+pdfTeX warning: (null) (file C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/
+PET504E/Notes/PartialvsFullPenet.pdf): PDF inclusion: found PDF version <1.6>, 
+but at most version <1.4> allowed
+<PartialvsFullPenet.pdf, id=134, 486.5377pt x 174.13054pt>
+File: PartialvsFullPenet.pdf Graphic file (type pdf)
+
+<use PartialvsFullPenet.pdf>
+Package color Info: Redefining color UserColor on input line 314.
+Package color Info: Redefining color UserColor on input line 315.
+
+
+LaTeX Warning: Marginpar on page 9 moved.
+
+[9 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/Z_Aside.pdf
+>]
+
+LaTeX Warning: Marginpar on page 10 moved.
+
+Package color Info: Redefining color UserColor on input line 322.
+Package color Info: Redefining color UserColor on input line 323.
+
+LaTeX Warning: Marginpar on page 10 moved.
+
+Package color Info: Redefining color UserColor on input line 331.
+Package color Info: Redefining color UserColor on input line 341.
+Package color Info: Redefining color UserColor on input line 342.
+
+LaTeX Warning: Marginpar on page 10 moved.
+
+[10 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/PartialvsF
+ullPenet.pdf>]
+Package color Info: Redefining color UserColor on input line 362.
+
+Overfull \hbox (27.77847pt too wide) in paragraph at lines 362--363
+[]$[]$[][]\OT1/cmr/m/n/12 Note[] [][][]that[] [][][]here[] [][][]the[] [][][]to
+[]-[]tal[] [][][]com[]-[]press[]-[]ibil[]-[]ity[] [][][][][] [][][]is[] [][][]d
+e[]-[]fined[] [][][]as[] [][][][].[]
+ []
+
+
+(C:\Users\Cinar\Documents\murat_cinar\ITU\Lectures\PET504E\Notes\PET504E_Lectur
+e_Notes.bbl) [11]
+(C:\Users\Cinar\Documents\murat_cinar\ITU\Lectures\PET504E\Notes\PET504E_Lectur
+e_Notes.aux) ) 
 Here is how much of TeX's memory you used:
- 2583 strings out of 494045
- 34481 string characters out of 3145966
- 179493 words of memory out of 3000000
- 5831 multiletter control sequences out of 15000+200000
- 13198 words of font info for 47 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 43i,10n,21p,1314b,753s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/latxfont/line10.pfb>
-Output written on PET504E_Lecture_Notes.pdf (8 pages, 3006033 bytes).
+ 2783 strings out of 494019
+ 37119 string characters out of 3143882
+ 182139 words of memory out of 3000000
+ 6019 multiletter control sequences out of 15000+200000
+ 15481 words of font info for 55 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 42i,18n,21p,1321b,753s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/latxfont/line10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmr8a.pfb>
+Output written on PET504E_Lecture_Notes.pdf (11 pages, 3093643 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
+ 243 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

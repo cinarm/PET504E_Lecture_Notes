@@ -3,6 +3,8 @@
 \documentclass{llncs}
 
 \usepackage{graphicx}
+\usepackage{framed,color}
+\definecolor{shadecolor}{rgb}{0.3921,0.58431,0.9294}
 \usepackage{llncsdoc}
 \usepackage{savesym}
 \savesymbol{note}
@@ -47,7 +49,8 @@
     \rule{\textwidth}{1pt}
 
     \begin{flushleft}
-        \LARGE\bfseries by\\ Prof. Dr. Mustafa Onur \\[2cm]
+        \LARGE\bfseries by\\ Prof. Dr. Mustafa Onur \\[0.5cm]
+        Dr. Murat \c{C}{\i}nar\\
 
     \end{flushleft}
     \vfill
@@ -218,16 +221,16 @@
         \nabla \cdot \left( \rho \mathbf{v} \right)=\frac{1}{r}\frac{\partial }{\partial r}\left( r\rho {{v}_{r}} \right)+\frac{1}{r}\frac{\partial }{\partial \theta }\left( \rho {{v}_{\theta }} \right)+\frac{\partial }{\partial z}\left( \rho {{v}_{z}} \right)
         \label{continuity_cylindrical}
     \end{equation}
-    \Trcknote[Murat \c{C}{\i}nar]{typo in the equation corrected} 
+    \Trcknote[Murat \c{C}{\i}nar]{typo in the equation corrected}
     \subsection{Conservation of momentum in porous media}
-    The principle of momentum conservation is described by the equation of motion. For most hydrocarbon fluids, the shear stress - shear rate behavior \change[Murat \c{C}{\i}nar]{can be}{is} described by the Newton's law of friction, combined with the equation of motion, results in the well known Navier-Stokes equation. Solution of the Navier-Stokes equation with the appropriate boundary conditions yields the velocity distribution of a given problem. Although, it is possible to solve Navier-Stokes in pipe flow, it is almost impossible to solve due to complexity of the pore geometry and its distribution. This hinders the formation of the boundary conditions for flow through a porous medium. Therefore, a different approach \change[Murat \c{C}{\i}nar]{must be}{is} taken. In 1856, \change[Murat \c{C}{\i}nar]{a Frecnh hyraulic engineer Henry} Darcy discovered that \change[Murat \c{C}{\i}nar]{the velocity vector and the pressure gradient for a single phase viscous flow}{for a single phase viscous flow in porous media, the velocity is proportional to the pressure gradient with a proportionality constant $k$. The general form of Darcy's Law including gravity effects is given by Eq.}\ref{Darcy's_Law}.
+    The principle of momentum conservation is described by the equation of motion. For most hydrocarbon fluids, the shear stress - shear rate behavior \change[Murat \c{C}{\i}nar]{can be}{is} described by the Newton's law of friction, combined with the equation of motion, results in the well known Navier-Stokes equation. Solution of the Navier-Stokes equation with the appropriate boundary conditions yields the velocity distribution of a given problem. Although, it is possible to solve Navier-Stokes in pipe flow, it is almost impossible to solve due to complexity of the pore geometry and its distribution. This hinders the formation of the boundary conditions for flow through a porous medium. Therefore, a different approach \change[Murat \c{C}{\i}nar]{must be}{is} taken. In 1856, \change[Murat \c{C}{\i}nar]{a French hydraulic engineer Henry} Darcy discovered that \change[Murat \c{C}{\i}nar]{the velocity vector and the pressure gradient for a single phase viscous flow}{for a single phase viscous flow in porous media, the velocity is proportional to the pressure gradient with a proportionality constant $k$. The general form of Darcy's Law including gravity effects is given by Eq.}\ref{Darcy's_Law}.
     \begin{equation}
         \mathbf{v}=-\frac{\mathbf{k}}{\mu }\left( \nabla p-\rho g\nabla z' \right)
         \label{Darcy's_Law}
-    \end{equation}   
-    \Trcknote[Murat \c{C}{\i}nar]{I removed the filed unit constants} 
+    \end{equation}
+    \Trcknote[Murat \c{C}{\i}nar]{I removed the filed unit constants}
     where $\mathbf{v}$ is defined as a volumetric flow rate across a unit cross-section area (solid+fluid) averaged over a small region of space. The unit of $\mathbf{v}$ is in \change[Murat \c{C}{\i}nar]{$RB/ft^{2}day$}{$\mathbf{L}/\mathbf{T}$}. Eq. \ref{Darcy's_Law} yield\add[Murat \c{C}{\i}nar]{s} a velocity vector \change[Murat \c{C}{\i}nar]{which}{that} replaces the solution of Navier-Stokes equation. In Eq. \ref{Darcy's_Law} $\mathbf{k}$ is \change[Murat \c{C}{\i}nar]{a}{the} permeability tensor. Operationally, $\mathbf{k}$ acts like a matrix in \change[Murat \c{C}{\i}nar]{x-y-z}{coordinate system}, we usually \change[Murat \c{C}{\i}nar]{use}{assume}
-    \begin{equation} 
+    \begin{equation*}
         \mathbf{k}\,\nabla p=\begin{bmatrix}
              {{k}_{x}} & 0 & 0  \\
              0 & {{k}_{y}} & 0  \\
@@ -242,26 +245,127 @@
             & {{k}_{z}}\frac{\partial p}{\partial z} \\
             \end{bmatrix}
         \label{Permeability_Tensor}
-    \end{equation} 
-    \begin{equation} 
+    \end{equation*}
+    \begin{equation*}
         \nabla {z}'=\begin{bmatrix}
         & \frac{\partial {z}'}{\partial x} & \\
         & \frac{\partial {z}'}{\partial y} & \\
         &\frac{\partial {z}'}{\partial z}  &
-        \end{bmatrix}   
+        \end{bmatrix}
         \label{Z}
-    \end{equation}  
+    \end{equation*}
     where, ${z}'$ is the direction in which gravity acts, i.e., the direction towards the center of the earth.
     In \change[Murat \c{C}{\i}nar]{x-y-z}{Cartesian} coordinate system, \remove[Murat \c{C}{\i}nar]{Eq. 2.5} for each velocity component,
     \begin{equation}
     {{v}_{\xi }}=-\frac{{{k}_{\xi }}}{\mu }\left( \frac{\partial p}{\partial \xi }-\rho g\frac{\partial z'}{\partial \xi } \right),\quad \xi =x,y,z
         \label{Darcy_velocity}
-    \end{equation}      
-    
-    \remove[Murat \c{C}{\i}nar]{We generally denote $\gamma$ as the specific weight of fluid and define as,}
-    
+    \end{equation}
 
+    We generally denote $\gamma$ as the specific weight of fluid and define as,
+    \begin{equation*}
+        \gamma =\rho g
+        \label{Specific_weight}
+    \end{equation*}
+
+    It follows from Eq. \ref{Darcy_velocity}, \ref{continuity_Cartesian}, and \ref{continuity} that the PDE describing conservation of mass in \remove[Murat \c{C}{\i}nar]{x-y-z}{Cartesian} coordinate system is
+    \begin{equation}
+        \begin{split}
+            & \,\,\,\,\,\,\ \frac{\partial }{\partial x}\left[ \rho \frac{{{k}_{x}}}{\mu }\left( \frac{\partial p}{\partial x}-\gamma \frac{\partial z'}{\partial x} \right) \right] \\
+            & +\frac{\partial }{\partial y}\left[ \rho \frac{{{k}_{y}}}{\mu }\left( \frac{\partial p}{\partial y}-\gamma \frac{\partial z'}{\partial y} \right) \right] \\
+            & +\frac{\partial }{\partial z}\left[ \rho \frac{{{k}_{z}}}{\mu }\left( \frac{\partial p}{\partial z}-\gamma \frac{\partial z'}{\partial z} \right) \right]=\frac{\partial }{\partial t}\left( \rho \phi  \right) \\
+        \end{split}
+    \label{Continuity_Darcy}
+    \end{equation}
+
+    In \change[Murat \c{C}{\i}nar]{r-z}{Cylindrical} coordinates (neglecting flow in $\theta$ direction)
+    \begin{equation}
+        \,\,\,\,\,\frac{1}{r}\,\frac{\partial }{\partial r}\left[ r\frac{{{k}_{r}}}{\mu }\rho \left( \frac{\partial p}{\partial r}-\gamma \frac{\partial z'}{\partial r} \right) \right]+\frac{\partial }{\partial z}\left[ \frac{{{k}_{z}}}{\mu }\rho \left( \frac{\partial p}{\partial z}-\gamma \frac{\partial z'}{\partial z} \right) \right]=\frac{\partial }{\partial t}\left( \rho \phi  \right)
+    \label{Continuity_Darcy_Cylindrical}
+    \end{equation}
     
+    \vspace{15pt}
+    \large{\textbf{Remark on gravity term:}}\\
+    \rule{\textwidth}{1pt}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[scale=1]{Z_Aside.pdf}
+        \label{Z_Aside}
+        \end{center}
+    \end{figure}
+    In \change[Murat \c{C}{\i}nar]{r-$\theta$-z}{Cylindrical} coordinates,\change[Murat \c{C}{\i}nar]{if reservoir is horizontal; i.e. $\theta'=0$}{assume $z$ and $z'$ are in the same direction then,}
+    \begin{equation*}
+        \frac{\partial z'}{\partial r}=\frac{\partial z'}{\partial \theta }=0\quad and\quad \frac{\partial z'}{\partial z}=1
+    \end{equation*}
+    \change[Murat \c{C}{\i}nar]{If we had a dip angle $\theta'$}{if the reservoir is dipping with an angle of $\theta'$},
+    \begin{equation*}
+        \frac{\partial z'}{\partial r}=\sin \theta '\quad \frac{\partial z'}{\partial \theta }=\cos \theta '\quad \frac{\partial z'}{\partial z}=\cos \theta '
+    \end{equation*}\\
+    \rule{\textwidth}{1pt}\\
+    \vspace{15pt}
+        
+    \change[Murat \c{C}{\i}nar]{If we}{Now} consider a single well \change[Murat \c{C}{\i}nar]{in}{at} the center of a cylindrical reservoir, then Eq. \ref{Continuity_Darcy_Cylindrical} correctly describes the fluid flow for both partially penetrating and fully penetrating cases, see Fig \ref{PartialvsFullPenet}.\\
+    \begin{figure}
+        \begin{center}
+        \includegraphics[scale=0.6]{PartialvsFullPenet.pdf}
+        \caption{(a) Fully penetrated vertical well. (b) Partially penetrated vertical well.}
+        \label{PartialvsFullPenet}
+        \end{center}
+    \end{figure}
+    \remove[Murat \c{C}{\i}nar]{Recalling our general continuity equation for the single phase flow gives,}
+    \add[Murat \c{C}{\i}nar]{Now define formation volume factor $B$ as,}
+    
+    \begin{equation}
+        B=\frac{{{V}_{reservoir}}}{{{V}_{SC}}}=\frac{{m}/{\rho }\;}{{{{m}/{\rho }\;}_{SC}}}=\frac{{{\rho }_{SC}}}{\rho }\quad ;\quad {{\rho }_{SC}}\,\text{is}\,\text{constant}
+    \label{Formation_Volume_Factor}
+    \end{equation}    
+    
+    \remove[Murat \c{C}{\i}nar]{which we call it as Formation volume factor, then we can write Equation (2.8) as}
+    \add[Murat \c{C}{\i}nar]{Recall general continuity equation,} Eq. \ref{continuity} and insert Eq. \ref{Formation_Volume_Factor}, then we have,
+    
+    \begin{equation}
+        -\nabla \cdot \left( \frac{\mathbf{v}}{B} \right)=\frac{\partial }{\partial t}\left( \frac{\phi }{B} \right)
+    \label{Continuity_B}
+    \end{equation}  
+       
+    $B=B(p)$, $\rho=\rho(p)$, and $\phi=\phi(p)\rightarrow$ single valued functions of $p$
+    \add[Murat \c{C}{\i}nar]{Expanding right hand side (RHS) of} Eq. \ref{Continuity_B},
+    
+    \begin{equation}
+        \begin{split}
+            \frac{\partial }{\partial t}\left( \frac{\phi }{B} \right)&= \phi \frac{\partial }{\partial t}\left( \frac{1}{B} \right)+\frac{1}{B}\frac{\partial \phi }{\partial t} \\
+            &=\phi \left( -\frac{1}{{{B}^{2}}}\frac{dB}{dp} \right)\frac{\partial p}{\partial t}+\frac{1}{B}\frac{d\phi }{dt}\frac{\partial p}{\partial t} \\
+            &=\frac{\phi }{B}\left( -\frac{1}{B}\frac{dB}{dp}+\frac{1}{\phi}\frac{d\phi }{dt} \right)\frac{\partial p}{\partial t} \\
+    \end{split}
+    \label{Continuity_B_Expand_RHS}
+    \end{equation} 
+    \Trcknote[Murat \c{C}{\i}nar]{Typo in Eq corrected.}
+    \remove[Murat \c{C}{\i}nar]{but} Fluid and rock compressibilities are defined, respectively, by,
+    
+    \begin{equation}
+    {{c}_{fluid}}=-\frac{1}{V}\frac{dV}{dp}=-\frac{1}{B}\frac{dB}{d\rho }=\frac{1}{\rho }\frac{d\rho }{dp}
+    \label{Fluid_compressibility}
+    \end{equation}     
+    
+    \begin{equation}
+    {{c}_{r}}={{c}_{f}}=\frac{1}{\phi }\frac{d\phi }{dp}
+    \label{Rock_compressibility}
+    \end{equation}     
+    
+    (here $p$ is the fluid pressure in the pore, therefore, $\frac{d\phi }{dp}>0$.) \\
+    Using Eqs. \ref{Fluid_compressibility} and \ref{Rock_compressibility} in Eq. \ref{Continuity_B_Expand_RHS} and the resulting equation in Eq. \ref{Continuity_B} gives,
+    
+    \begin{equation}
+        -\nabla \cdot \left( \frac{\mathbf{v}}{B} \right)=\frac{\phi {{c}_{t}}}{B}\frac{\partial p}{\partial t}
+    \label{Continuity_B_ct}
+    \end{equation}    
+    
+    \add[Murat \c{C}{\i}nar]{Note that here the total compressibility $c_{t}$ is defined as ${{ c }_{t}}={{c}_{fluid}}+{{c}_{r}}$. Under the assumptions of Darcy's Law we have,}
+
+    \begin{equation}
+        \nabla \cdot \left( \frac{\mathbf{k}}{\mu B}\left( \nabla p-\gamma\nabla z' \right) \right)=\frac{\phi {{c}_{t}}}{B}\frac{\partial p}{\partial t}
+    \label{Continuity_B_ct_Darcy}
+    \end{equation}     
+        
     %\nomenclature[1]{$R$}{Ideal gas constant {$(8.314 J/gmol \cdot K)$}}%
     %\nomenclature{${\alpha }$}{Reaction order}%
     %\printnomenclature
