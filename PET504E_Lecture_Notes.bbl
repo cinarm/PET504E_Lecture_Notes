@@ -10,4 +10,16 @@ D.~Bourdet.
 \newblock {\em Well test analysis: the use of advanced interpretation models}.
 \newblock Handbook of petroleum exploration and production. Elsevier, 2002.
 
+\bibitem{Kale_1980_1}
+D.~Kale and L.~Mattar.
+\newblock Solution of a non-linear gas flow equation by the perturbation
+  technique.
+\newblock {\em Journal of Canadian Petroleum Technology}, 19(4), 1980.
+
+\bibitem{Peres_1990_1}
+Alvaro~M.M. Peres, Kelson~V. Serra, and Albert~C. Reynolds.
+\newblock Toward a unified theory of well testing for nonlinear-radial-flow
+  problems with application to interference tests.
+\newblock {\em SPE Formation Evaluation}, 5(2):151--160, 1990.
+
 \end{thebibliography}
