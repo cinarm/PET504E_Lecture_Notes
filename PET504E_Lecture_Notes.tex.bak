@@ -367,34 +367,34 @@
         \nabla \cdot \left( \frac{\mathbf{k}}{\mu B}\left( \nabla p-\gamma\nabla z' \right) \right)=\frac{\phi {{c}_{t}}}{B}\frac{\partial p}{\partial t}
     \label{Continuity_B_ct_Darcy}
     \end{equation}
-    
+
     Now assuming negligible gravity effects and $k/\mu$ is constant then,
-    
+
     \begin{equation}
         \frac{k}{\mu }\nabla \cdot \left( \rho \nabla p \right)=\phi {{c}_{t}}\rho \frac{\partial p}{\partial t}
     \label{Continuity_B_ct_Darcy_No_Gravity1}
-    \end{equation}    
-    
+    \end{equation}
+
     \change[Murat \c{C}{\i}nar]{If we assume}{Assuming} $c{{\left( \nabla p \right)}^{2}}$ is small here $c=\frac{1}{\rho }\frac{\partial \rho }{\partial p}$, Eq. \ref{Continuity_B_ct_Darcy_No_Gravity1} is well approximated by
-    
+
     \begin{equation}
         \frac{k}{\mu }{{\nabla }^{2}}p=\phi {{c}_{t}}\frac{\partial p}{\partial t}
     \label{Continuity_B_ct_Darcy_No_Gravity1_approx}
-    \end{equation}     
-    
+    \end{equation}
+
     \vspace{15pt}
     \large{\textbf{Remark on coordinate systems:}}\\
     \rule{\textwidth}{1pt}
-    
+
     \begin{equation*}
         {{\nabla }^{2}}p=\frac{{{\partial }^{2}}p}{\partial {{x}^{2}}}+\frac{{{\partial }^{2}}p}{\partial {{y}^{2}}}+\frac{{{\partial }^{2}}p}{\partial {{z}^{2}}}\quad \text{in Cartesian coordinates}
     \label{Laplacian_Cartesian}
-    \end{equation*}     
+    \end{equation*}
 
     \begin{equation*}
         {{\nabla }^{2}}p=\frac{1}{r}\frac{\partial }{\partial r}\left( r\frac{\partial p}{\partial r} \right)+\frac{1}{{{r}^{2}}}\frac{{{\partial }^{2}}p}{\partial {{\theta }^{2}}}+\frac{{{\partial }^{2}}p}{\partial {{z}^{2}}}\quad \text{in cylindrical coordinates}
     \label{Laplacian_Cylindrical}
-    \end{equation*} 
+    \end{equation*}
 
     \begin{equation*}
         \begin{split}
@@ -402,53 +402,53 @@
     & +\frac{1}{{{r}^{2}}si{{n}^{2}}\theta }\frac{{{\partial }^{2}}p}{\partial {{\phi }^{2}}} \\
     \end{split}\quad \text{in spherical coordinates}
     \label{Laplacian_Spherical}
-    \end{equation*}     
-    
+    \end{equation*}
+
     \begin{figure}[H]
         \begin{center}
             \includegraphics[scale=0.65]{Coordinates.pdf}
         \caption{(a) Cartesian coordinates. (b) Cylindrical coordinates. (c) Spherical coordinates.}
         \label{Coordinates}
         \end{center}
-    \end{figure}       
+    \end{figure}
     \rule{\textwidth}{1pt}
-    \vspace{15pt}    
-    
+    \vspace{15pt}
+
     Further \change[Murat \c{C}{\i}nar]{if we assume}{assuming},
     \begin{equation}
         c=\frac{1}{\rho }\frac{\partial \rho }{\partial p}=\text{constant}
     \label{c_constant}
-    \end{equation} 
-    
+    \end{equation}
+
     \begin{equation*}
         \int_{{{p}_{i}}}^{p}{cdp}=\int_{{{\rho }_{i}}}^{\rho }{\frac{1}{\rho }d\rho }
-    \end{equation*}   
+    \end{equation*}
 
     \begin{equation*}
         c\left( p-{{p}_{i}} \right)=\ln \left( \frac{\rho }{{{\rho }_{i}}} \right)\quad ; \quad p_{i}\,\text{initial pressure}
-    \end{equation*}    
+    \end{equation*}
     or
     \begin{equation}
         \rho ={{\rho }_{i}}\exp \left[ -c\left( {{p}_{i}}-p \right) \right]
     \label{rho_func}
     \end{equation}
-    
+
     Using Taylor series representation of $\exp \left[ -c\left( {{p}_{i}}-p \right) \right]$ gives,
-    \begin{equation*}    
+    \begin{equation*}
         \begin{split}
          \rho &={{\rho }_{i}}\left[ 1-c\left( {{p}_{i}}-p \right)+\frac{{{c}^{2}}}{2}{{\left( {{p}_{i}}-p \right)}^{2}}+\cdots  \right] \\
         & ={{\rho }_{i}}\left[ 1-c\left( {{p}_{i}}-p \right)+\frac{{{c}^{2}}}{2}{{\left( {{p}_{i}}-\widetilde{p} \right)}^{2}} \right]\quad p<\widetilde{p}<{{p}_{i}} \\
         \end{split}
-    \end{equation*}   
+    \end{equation*}
     \begin{equation}
         \rho ={{\rho }_{i}}\left[ 1-c\left( {{p}_{i}}-p \right) \right]
     \label{rho_func_2}
-    \end{equation}   
+    \end{equation}
     \add[Murat \c{C}{\i}nar]{Note that} $c$ is very small for oil (or liquids); $c\approx10^{-5}\sim10^{-6}$. Using Eq. \ref{rho_func_2} in Eq. \ref{Continuity_B_ct_Darcy_No_Gravity1_approx}.
     \begin{equation}
         \frac{k}{\mu }{{\nabla }^{2}}p = \phi {{c}_{t}}\frac{\partial p}{\partial t}
     \label{Continuity_B_ct_Darcy_No_Gravity1_approx_rho}
-    \end{equation}     
+    \end{equation}
     \subsection{Multiphase flow}
     Three distinct phases, gas, oil, and water occur i a petroleum reservoir. Varying pressure conditions (isothermal system assumed) cause a mass exchange between \remove[Murat \c{C}{\i}nar]{the}two hydrocarbon phases \add[Murat \c{C}{\i}nar]{- oil-gas} (water-oil and gas-water systems \change[Murat \c{C}{\i}nar]{can be}{is} assumed immiscible). The \change[Murat \c{C}{\i}nar]{material}{mass} transfer between oil and gas is described by solution gas-oil ration, $R_{s}$, which gives the amount of gas dissolved in oil as a function of pressure, i.e. $[V_{dissolved \, gas}/V_{o}]_{STC}$.\\
 
@@ -666,9 +666,9 @@
         \caption{Radial flow geometry.}
         \end{center}
     \end{figure}
-    
+
     If reservoir is not horizontal, \remove[Murat \c{C}{\i}nar]{our general equation;} Eq. \ref{Continuity_B_ct_Darcy}, applies with $v_{\theta}=0$ and so Eq. \ref{Continuity_B_ct_Darcy} becomes in $r-z$ coordinates.
-    
+
     \begin{equation}
         \begin{split}
     & \frac{1}{r}\frac{\partial }{\partial r}\left[ \frac{r{{k}_{r}}}{\mu B}\left( \frac{\partial p}{\partial r}-\gamma \frac{\partial z'}{\partial r} \right) \right] \\
@@ -676,116 +676,540 @@
     \end{split}
         \label{Radial_Flow}
     \end{equation}
-    
-    \change[Murat \c{C}{\i}nar]{If we assume}{Now assume} $z=z'$ and $\theta=0$, then $\frac{\partial z'}{\partial r}=0$ 
+
+    \change[Murat \c{C}{\i}nar]{If we assume}{Now assume} $z=z'$ and $\theta=0$, then $\frac{\partial z'}{\partial r}=0$
     \begin{figure}
         \begin{center}
         \includegraphics[scale=1]{r_z.pdf}
         \end{center}
         \label{r_z}
         \caption{r-z coordinates.}
-    \end{figure}    
-  
+    \end{figure}
+
     For a completely penetrating well, it is physically reasonable to assume $v_{z}\approx0$ ($k_{z}\ll k_{r}$), i.e.,
     \begin{equation}
     \begin{split}
     & {{v}_{z}}=-\frac{{{k}_{z}}}{\mu }\left( \frac{\partial p}{\partial z}-\gamma \frac{\partial z'}{\partial z} \right)=0\quad ;\quad \frac{\partial z'}{\partial z}=1 \\
     & \frac{\partial p}{\partial z}-\gamma =0\quad ;\quad p\left( {{z}_{2}} \right)=p\left( {{z}_{1}} \right)+\gamma \left( {{z}_{2}}-{{z}_{1}} \right)\quad {{z}_{z}}>{{z}_{1}} \\
     \end{split}
-    \end{equation}    
- 
+    \end{equation}
+
         Then \remove[Murat \c{C}{\i}nar]{we arrive at}the general radial flow problem \add[Murat \c{C}{\i}nar]{becomes},
     \begin{equation}
         \frac{1}{r}\frac{\partial }{\partial r}\left( r\frac{{{k}_{r}}}{\mu B}\frac{\partial p}{\partial r} \right)=\frac{\phi {{c}_{t}}}{B}\frac{\partial p}{\partial t}
         \label{Radial_flow_general}
-    \end{equation} 
-    
+    \end{equation}
+
     where $\phi$, $c_{t}$, $B$, $k_{r}$, and $\mu$ \change[Murat \c{C}{\i}nar]{can be}{are} functions of pressure.
-    
+
     \change[Murat \c{C}{\i}nar]{Recalling our}{Recall} pseudo-pressure function defined as,
-    
+
     \begin{equation}
         m\left( p \right)=\int_{{{p}_{b}}}^{p}{\frac{{{k}_{r}}\left( p \right)}{\mu \left( p \right)B\left( p \right)}dp}
         \label{Pseudo_pressure_r}
-    \end{equation}     
-    
+    \end{equation}
+
     Using Eq. \ref{Pseudo_pressure_r}, \remove[Murat \c{C}{\i}nar]{we write} Eq. \ref{Radial_flow_general} \add[Murat \c{C}{\i}nar]{is written} as,
-    
+
     \begin{equation}
         \frac{1}{r}\frac{\partial }{\partial r}\left( r\frac{\partial m\left( p \right)}{\partial r} \right)=\frac{\phi {{c}_{t}}\mu }{{{k}_{r}}}\frac{\partial m\left( p \right)}{\partial t}
         \label{Radial_flow_Pseudo_pressure}
-    \end{equation}     
-    
-    \subsubsection{Dimensionless Variables} 
+    \end{equation}
+
+    \subsubsection{Dimensionless Variables}
     In well testing \change[Murat \c{C}{\i}nar]{for two reasons, we are using dimensionless variables to prevent our results,}{dimensionless variables are used for two main reasons;}
     \begin{enumerate}[(i)]
         \item minimize number of variables \change[Murat \c{C}{\i}nar]{(find group parameters)}{(by grouping parameters)}
         \item provide general solutions
-    \end{enumerate}    
+    \end{enumerate}
     \change[Murat \c{C}{\i}nar]{If we define a dimensionless time}{Dimensionless time is defined as,}
-    
+
     \begin{equation}
         {{t}_{D}}=\frac{{{k}_{i}}t}{{{\left( \phi {{c}_{t}}\mu  \right)}_{i}}r_{w}^{2}}
         \label{Dimensionless_time}
-    \end{equation}        
+    \end{equation}
     where subscript "$i$" refers to initial conditions, i.e.,
     \begin{equation*}
         k_{i} = k(p_{i})\,\,\,;\,\,\ \mu_{i}=\mu(p_{i})\,\,\,etc.
-    \end{equation*}     
-    
+    \end{equation*}
+
     here $p_{i}$ is the initial reservoir pressure (at some datum) and we assume $p_{i}$ is independent of $r$, then
-    
+
     \begin{equation}
         \frac{\partial m}{\partial t}=\frac{\partial m}{\partial {{t}_{D}}}\frac{\partial {{t}_{D}}}{\partial t}=\frac{\partial m}{\partial {{t}_{D}}}\left( \frac{{{k}_{i}}}{{{\left( \phi {{c}_{t}}\mu  \right)}_{i}}r_{w}^{2}} \right)
         \label{Dimensionless_radial_1}
-    \end{equation}     
-    
+    \end{equation}
+
     Using Eq. \ref{Dimensionless_radial_1} in Eq. \ref{Radial_flow_Pseudo_pressure}, and simplifying gives,\Trcknote[Murat \c{C}{\i}nar]{Typo corrected in the following equation}
-    
+
     \begin{equation}
         r_{w}^{2}\left[ \frac{1}{r}\frac{\partial }{\partial r}\left( r\frac{\partial m\left( p \right)}{\partial r} \right) \right]=\left( \frac{\phi {{c}_{t}}\mu }{k} \right)\left[ \frac{{{k}_{i}}}{{{\left( \phi {{c}_{t}}\mu  \right)}_{i}}} \right]\frac{\partial m}{\partial {{t}_{D}}}
         \label{Dimensionless_radial_2}
-    \end{equation}      
-    
+    \end{equation}
+
     \change[Murat \c{C}{\i}nar]{If we}{Now} define,
-    \begin{equation}    
+    \begin{equation}
         {{r}_{D}}=\frac{r}{{{r}_{w}}}
         \label{Dimensionless_lenght}
-    \end{equation}    
-    
+    \end{equation}
+
     and \add[Murat \c{C}{\i}nar]{dimensionless diffusivity,}
-    
+
     \begin{equation}
         {{\eta }_{D}}=\frac{{k}/{\left( \phi {{c}_{t}}\mu  \right)}\;}{{{{k}_{i}}}/{{{\left( \phi {{c}_{t}}\mu  \right)}_{i}}}\;}
         \label{Dimensionless_diffusivity}
-    \end{equation}        
-    
+    \end{equation}
+
     then\remove[Murat \c{C}{\i}nar]{we can write} Eq. \ref{Dimensionless_radial_2} \change[Murat \c{C}{\i}nar]{as}{becomes}
-    
+
     \begin{equation}
         \frac{1}{{{r}_{D}}}\frac{\partial }{\partial {{r}_{D}}}\left( {{r}_{D}}\frac{\partial m\left( p \right)}{\partial {{r}_{D}}} \right)=\frac{1}{{{\eta }_{D}}}\frac{\partial m\left( p \right)}{\partial {{t}_{D}}}
         \label{Dimensionless_radial_3}
-    \end{equation}       
-    
+    \end{equation}
+
     If $\frac{1}{{{\eta }_{D}}}=0$, then Eq. \ref{Dimensionless_radial_3} is a linear p.d.e. .
-    
-    \subsubsection{Slightly compressible fluid of constant compressibility}    
-    
-    If we assume production at a specified rate q; 
+
+    \subsubsection{Slightly compressible fluid of constant compressibility}
+
+    \change[Murat \c{C}{\i}nar]{If we assume}{Consider} production at a specified rate q; i.e.,
     \begin{figure}
         \begin{center}
         \includegraphics[scale=1]{Production_Full.pdf}
         \label{Production_Full}
-        \caption{Production from a vertical full penetrating well.}
+        \caption{Production from a vertical full penetrating well. Volumetric flux, q, into the wellbore (flow out of the reservoir the boundary represented by wellbore).}
         \end{center}
-    \end{figure}    
+    \end{figure}
+
+    Flow rate out = $qB=\int\limits_{S}{\mathbf{v}\,\mathbf{n}\,dS}$ and $\mathbf{n}$ is the unit outward normal to $S$ and is equal to
+
+    \begin{equation*}
+        \begin{split}
+        & \mathbf{n}=-{{i}_{r}}+0{{i}_{\theta }}+0{{i}_{z}}=\left( 1,0,0 \right) \\
+        & \mathbf{v}=\left( {{v}_{r}}+{{v}_{\theta }}+{{v}_{z}} \right) \\
+        \end{split}
+    \end{equation*}
+
+    \begin{equation*}
+        \begin{split}
+             qB&=\int\limits_{S}{-{{\left. {{v}_{r}} \right|}_{r={{r}_{w}}}}}dS\quad ;\quad ds={{r}_{w}}d\theta dz \\
+             qB&=\int_{0}^{2\pi }{\int_{0}^{h}{{{\left( -{{v}_{r}} \right)}_{{{r}_{w}}}}{{r}_{w}}}}d\theta dz \\
+             q&={{\int_{0}^{2\pi }{\int_{0}^{h}{\frac{k}{\mu B}\left( r\frac{\partial p}{\partial r} \right)}}}_{r={{r}_{w}}}}d\theta dz \\
+             q&=2\pi {{\int_{0}^{h}{\left( r\frac{\partial m}{\partial r} \right)}}_{{{r}_{w}}}}dz \\
+        \end{split}
+    \end{equation*}
+
+    \change[Murat \c{C}{\i}nar]{If}{Now} we assume \add[Murat \c{C}{\i}nar]{that} variation of $r\frac{\partial m\left( p \right)}{\partial r}$ in z-direction is insignificant or
+    \begin{equation*}
+    {{\int\limits_{0}^{h}{\left( r\frac{\partial m\left( p \right)}{\partial r} \right)}}_{{{r}_{w}}}}dz={{\left( r\frac{\partial m\left( p \right)}{\partial r} \right)}_{{{r}_{w}},\widehat{z}}}h
+    \end{equation*}
+    where $\widehat{z}$ is a mean value between $0\leq \widehat{z} \leq h$. Then the boundary condition is
+
+
+    \begin{equation}
+        q=2\pi h{{\left( r\frac{\partial m\left( p \right)}{\partial r} \right)}_{{{r}_{w}}}}
+        \label{Well_boundary}
+    \end{equation}
+
+    \change[Murat \c{C}{\i}nar]{If we define}{Define,}
+    \begin{equation}
+        \begin{split}
+         {{m}_{D}}&=\frac{2\pi h\left[ m\left( {{p}_{i}} \right)-m\left( p \right) \right]}{q} \\
+        & =\frac{h}{q}\left[ m\left( {{p}_{i}} \right)-m\left( p \right) \right] \\
+        & =\frac{h}{q}\int\limits_{p}^{{{p}_{i}}}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}dp} \\
+        \end{split}
+        \label{mD_definition}
+    \end{equation}
+
+    Then \change[Murat \c{C}{\i}nar]{one}{we} can show that Eqs. \ref{Dimensionless_radial_3} and \ref{Well_boundary}\change[Murat \c{C}{\i}nar]{, respectively, can be}{ is} written as
+    \begin{equation}
+            \frac{1}{{{r}_{D}}}\frac{\partial }{\partial {{r}_{D}}}\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)=\frac{1}{{{\eta }_{D}}}\frac{\partial {{m}_{D}}}{\partial {{t}_{D}}}
+        \label{Dimensionless_radial_4}
+    \end{equation}
+    \begin{equation}
+            {{\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)}_{{{r}_{D}}=1}}=-1
+        \label{Well_boundary_2}
+    \end{equation}
+    Note that $r_{D}=1$ corresponds to $r=r_{w}$.
+    Initial condition, $p=p_{i}$ at values of $r$ at $\widehat{z}$.
+    $m_{D}=0$ at $t_{D}=0$ then,
+    \begin{equation}
+        {{\left. p\left( r,t \right) \right|}_{t=0}}={{p}_{i}}
+        \label{initial_condition}
+    \end{equation}
+
+    \change[Murat \c{C}{\i}nar]{Since we consider an infinite reservoir, then}{Infinite acting reservoir is considered implying,}
+    \begin{equation*}
+        \underset{r\to \omega }{\mathop{\lim }}\,p\left( r,t \right)={{p}_{i}}
+    \end{equation*}
+
+    which corresponds to
+    \begin{equation}
+        \underset{{{r}_{D}}\to \infty }{\mathop{\lim }}\,{{m}_{D}}\left( {{r}_{D}},{{t}_{D}} \right)=0
+        \label{initial_condition_md}
+    \end{equation}
+
+    In summary, \change[Murat \c{C}{\i}nar]{we have the following IBVP,}{the following initial boundary value problem (IBVP) is achieved with the appropriate boundary conditions.}
+    \begin{equation}
+        \frac{1}{{{r}_{D}}}\frac{\partial }{\partial {{r}_{D}}}\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)=\frac{1}{{{\eta }_{D}}}\frac{\partial {{m}_{D}}}{\partial {{t}_{D}}}
+        \label{Dimensionless_radial_md_Sum}
+    \end{equation}
+
+    \begin{equation}
+        {{\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)}_{{{r}_{D}}=1}}=-1
+        \label{Boundary_1_sum}
+    \end{equation}
+
+    \begin{equation}
+        \underset{{{r}_{D}}\to \infty }{\mathop{\lim }}\,{{m}_{D}}\left( {{r}_{D}},{{t}_{D}} \right)=0
+        \label{Boundary_2_sum}
+    \end{equation}
+
+    \begin{equation}
+        {{m}_{D}}\left( {{r}_{D}},{{t}_{D}}=0 \right)=0
+        \label{Initial_con_sum}
+    \end{equation}
+
+    Eqs. \ref{Dimensionless_radial_md_Sum}-\ref{Initial_con_sum} lead to give a complete mathematical description of \change[Murat \c{C}{\i}nar]{our}{the} physical problem. Because of ${{\eta }_{D}}$ term, it is a non-linear IBVP. It can also be solved analytically (see Kale and Mattar\cite{Kale_1980_1} or Peres et.al.\cite{Peres_1990_1})
+
+    \change[Murat \c{C}{\i}nar]{Let's now, for}{For} simplicity, assume that variations in $k$, $\phi$, $c_{t}$, and $B$ are small ("negligible") for the pressure change considered. \change[Murat \c{C}{\i}nar]{wit this assumption}{Then,}
+     \begin{equation}
+        {{\eta }_{D}}=\frac{\left( {k}/{\phi {{c}_{t}}\mu }\; \right)}{{{\left( {k}/{\phi {{c}_{t}}\mu }\; \right)}_{{{p}_{i}}}}}\approx 1
+        \label{assumption}
+    \end{equation}
+
+    and
+
+    \begin{equation}
+        {{\eta }_{D}}=\frac{\left( {k}/{\phi {{c}_{t}}\mu }\; \right)}{{{\left( {k}/{\phi {{c}_{t}}\mu }\; \right)}_{{{p}_{i}}}}}\approx 1
+        \label{assumption}
+    \end{equation}
+
+    \begin{equation}
+        m\left( {{p}_{i}} \right)-m\left( p \right)=\int_{p}^{{{p}_{i}}}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}dp\approx \frac{{{k}_{i}}}{{{\mu }_{i}}{{B}_{i}}}}\left( {{p}_{i}}-p \right)
+        \label{assumption_2}
+    \end{equation}
+
+    and then it follows from Eq. \ref{mD_definition} that
+
+    \begin{equation}
+        {{m}_{D}}=\frac{{{k}_{i}}h\left( {{p}_{i}}-p \right)}{q{{B}_{i}}{{\mu }_{i}}}={{p}_{D}}=\frac{kh\left( {{p}_{i}}-p \right)}{qB\mu }
+        \label{mD_to_pD}
+    \end{equation}
+
+    \change[Murat \c{C}{\i}nar]{which is the normal}{that is the} definition of dimensionless pressure $p_{D}$ in well testing.
+    Considering $\frac{1}{{{\eta }_{D}}}\approx 1$ in Eq. \ref{Dimensionless_radial_md_Sum}, we have
+
+    \begin{equation}
+        \frac{1}{{{r}_{D}}}\frac{\partial }{\partial {{r}_{D}}}\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)=\frac{\partial {{m}_{D}}}{\partial {{t}_{D}}}
+        \label{Dimensionless_radial_md_Sum_lin}
+    \end{equation}
+
+    \begin{equation}
+        {{\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)}_{{{r}_{D}}=1}}=-1
+        \label{Boundary_1_sum_lin}
+    \end{equation}
+
+    \begin{equation}
+        \underset{{{r}_{D}}\to \infty }{\mathop{\lim }}\,{{m}_{D}}\left( {{r}_{D}},{{t}_{D}} \right)=0
+        \label{Boundary_2_sum_lin}
+    \end{equation}
+
+    \begin{equation}
+        {{m}_{D}}\left( {{r}_{D}},{{t}_{D}}=0 \right)=0
+        \label{Initial_con_sum_lin}
+    \end{equation}
+
+    Note that Eq. \ref{Dimensionless_radial_md_Sum_lin} is a linear p.d.e. . We seek a solution to the IBVP given by Eqs. \ref{Dimensionless_radial_md_Sum_lin} - \ref{Initial_con_sum_lin}. To find a solution we assume that
+    \begin{equation*}
+    {{m}_{D}}={{m}_{D}}\left( {{\varepsilon }_{D}} \right)
+    \end{equation*}
+    where
+    \begin{equation*}
+    {{\varepsilon }_{D}}=\frac{r_{D}^{2}}{4{{t}_{D}}}={{\varepsilon }_{D}}\left( {{r}_{D}},{{t}_{D}} \right)
+    \end{equation*}
+
+    \change[Murat \c{C}{\i}nar]{and can be}{is} called dimensionless Boltzman transform. To use the Boltzman transform, there must be no characteristic length in the system (such as $r_{D}=1$, $r_{w}$). Since the inner boundary condition, Eq. \ref{Boundary_1_sum_lin}, is for a finite wellbore problem, it involves a characteristic length. Thus, to be able to use Boltzman transform, \remove[Murat \c{C}{\i}nar]{we replace} Eq. \ref{Boundary_1_sum_lin} \remove[Murat \c{C}{\i}nar]{is replaced} with one that does not involve characteristic length, \change[Murat \c{C}{\i}nar]{which}{that} is "line source well" inner boundary condition.
+
+    \begin{equation}
+        \underset{{{r}_{D}}\to 0}{\mathop{\lim }}\,\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)=-1
+        \label{Line_source_boundary}
+    \end{equation}
+
+    Under the preceding assumptions,\remove[Murat \c{C}{\i}nar]{our} approximate problem becomes: Find $m_{D}=m_{D}({\varepsilon }_{D})$ such that $m_{D}$ satisfies
+
+    \begin{equation}
+        \frac{1}{{{r}_{D}}}\frac{\partial }{\partial {{r}_{D}}}\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)=\frac{\partial {{m}_{D}}}{\partial {{t}_{D}}}
+        \label{Line_Source}
+    \end{equation}
+
+    \begin{equation}
+        \underset{{{r}_{D}}\to 0}{\mathop{\lim }}\,\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)=-1
+        \label{Boundary_Line_Source1}
+    \end{equation}
+
+    \begin{equation}
+        \underset{{{r}_{D}}\to \infty }{\mathop{\lim }}\,{{m}_{D}}\left( {{r}_{D}},{{t}_{D}} \right)=0
+        \label{Boundary_Line_Source2}
+    \end{equation}
+
+    \begin{equation}
+        {{m}_{D}}\left( {{r}_{D}},{{t}_{D}}=0 \right)=0
+        \label{Initial_Line_Source}
+    \end{equation}
+
+    where,
+
+    \begin{equation}
+        {{m}_{D}}=\frac{h\int_{p}^{{{p}_{i}}}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}dp}}{q}
+        \label{mD_Line_Source}
+    \end{equation}
+
+    Use of Boltzman transformation, ${{\varepsilon }_{D}}=\frac{r_{D}^{2}}{4{{t}_{D}}}$, \change[Murat \c{C}{\i}nar]{will change our}{changes the} p.d.e. to second order ordinary differential equation o.d.e., further \change[Murat \c{C}{\i}nar]{it will collapse our}{collapses} three auxiliary conditions into two conditions,
+
+    \begin{equation}
+        \frac{\partial {{m}_{D}}}{\partial {{r}_{D}}}=\frac{\partial {{m}_{D}}}{\partial {{\varepsilon }_{D}}}\frac{\partial {{\varepsilon }_{D}}}{\partial {{r}_{D}}}=\frac{\partial {{m}_{D}}}{\partial {{\varepsilon }_{D}}}\frac{2{{r}_{D}}}{4{{t}_{D}}}
+        \label{mD_Boltzman_rD1}
+    \end{equation}
+
+    \change[Murat \c{C}{\i}nar]{or}{and}
+
+    \begin{equation}
+        {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}}=2\left( \frac{r_{D}^{2}}{4{{t}_{D}}} \right)\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}=2{{\varepsilon }_{D}}\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}
+        \label{mD_Boltzman_rD2}
+    \end{equation}
+
+    Using Eq. \ref{mD_Boltzman_rD2} and the chain rule,
+
+        \begin{equation}
+        \begin{split}
+         \frac{1}{{{r}_{D}}}\frac{\partial }{\partial {{r}_{D}}}\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)=&\frac{1}{{{r}_{D}}}\frac{d}{d{{\varepsilon }_{D}}}\left( 2{{\varepsilon }_{D}}\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}} \right)\frac{d{{\varepsilon }_{D}}}{d{{r}_{D}}} \\
+        & =\frac{1}{{{t}_{D}}}\frac{d}{d{{\varepsilon }_{D}}}\left( 2{{\varepsilon }_{D}}\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}} \right) \\
+        \end{split}
+        \label{mD_Boltzman_rD3}
+    \end{equation}
+
+    Similarly,
+    \begin{equation}
+        \frac{\partial {{m}_{D}}}{\partial {{t}_{D}}}=\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}\frac{\partial {{\varepsilon }_{D}}}{\partial {{t}_{D}}}=\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}\left( -\frac{r_{D}^{2}}{4t_{D}^{2}} \right)=-\frac{1}{{{t}_{D}}}{{\varepsilon }_{D}}\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}
+        \label{mD_Boltzman_rD4}
+    \end{equation}
+
+    Using Eqs. \label{mD_Boltzman_rD3} and \label{mD_Boltzman_rD4} in Eq. \ref{Line_Source} gives,
+    \begin{equation}
+    {{\varepsilon }_{D}}\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}+\frac{d}{d{{\varepsilon }_{D}}}\left( {{\varepsilon }_{D}}\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}} \right)=0
+        \label{mD_Boltzman_Final}
+    \end{equation}
+
+    Using Eq. \ref{mD_Boltzman_rD2} \remove[Murat \c{C}{\i}nar]{we can write} the inner boundary condition (see Eq. \ref{Boundary_Line_Source1}) \add[Murat \c{C}{\i}nar]{is written} as
+
+    \begin{equation}
+        \underset{{{\varepsilon }_{D}}\to 0}{\mathop{\lim }}\,2{{\varepsilon }_{D}}\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}=-1
+        \label{line_source_Boltzman_BC}
+    \end{equation}
+
+
+    Initial condition (I.C.) Eq. \ref{Initial_Line_Source},
+
+    \begin{equation*}
+        {{t}_{D}}\to 0\quad {{\varepsilon }_{D}}\to \infty \quad \Rightarrow \quad \underset{{{\varepsilon }_{D}}\to \infty }{\mathop{\lim }}\,{{m}_{D}}\left( {{\varepsilon }_{D}} \right)=0
+    \end{equation*}
+
+    Outer boundary condition (O.B.C.) Eq. \ref{Boundary_Line_Source2},
+    \begin{equation*}
+        {{r}_{D}}\to \infty \quad {{\varepsilon }_{D}}\to \infty \quad \Rightarrow \quad \underset{{{\varepsilon }_{D}}\to \infty }{\mathop{\lim }}\,{{m}_{D}}\left( {{\varepsilon }_{D}} \right)=0
+    \end{equation*}
+
+    Thus both I.C. and O.B.C. \change[Murat \c{C}{\i}nar]{can be}{is} represented by,
+
+    \begin{equation}
+        \underset{{{\varepsilon }_{D}}\to \infty }{\mathop{\lim }}\,{{m}_{D}}\left( {{\varepsilon }_{D}} \right)=0
+        \label{line_source_Boltzman_BC2}
+    \end{equation}
+
+    We need to solve boundary value problem (B.V.P.) given by Eqs. \ref{mD_Boltzman_Final} - \ref{line_source_Boltzman_BC2}. Let,
+
+    \begin{equation}
+        {{w}_{D}}=\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}
+        \label{wD}
+    \end{equation}
+
+    Substituting Eq. \ref{wD} into Eq. \ref{mD_Boltzman_Final} gives,
+
+    \begin{equation*}
+        \frac{d}{d{{\varepsilon }_{D}}}\left( {{\varepsilon }_{D}}{{w}_{D}} \right)+{{\varepsilon }_{D}}{{w}_{D}}=0
+    \end{equation*}
+
+    \begin{equation*}
+        {{\varepsilon }_{D}}\frac{d{{w}_{D}}}{d{{\varepsilon }_{D}}}+{{w}_{D}}+{{\varepsilon }_{D}}{{w}_{D}}=0
+    \end{equation*}
+
+    \begin{equation}
+        {{\varepsilon }_{D}}\frac{d{{w}_{D}}}{d{{\varepsilon }_{D}}}+\left( 1+{{\varepsilon }_{D}} \right){{w}_{D}}=0
+        \label{Sol_wD}
+    \end{equation}
+
+    Eq. \ref{Sol_wD} is separable ordinary differential equation, thus separating variables, \remove[Murat \c{C}{\i}nar]{we have}
+
+    \begin{equation}
+        \frac{d{{w}_{D}}}{{{w}_{D}}}=-\frac{1+{{\varepsilon }_{D}}}{{{\varepsilon }_{D}}}
+        \label{Sol_wD_1}
+    \end{equation}
+
+    Interpreting both sides \add[Murat \c{C}{\i}nar]{yields},
+
+    \begin{equation*}
+    \ln {{w}_{D}}=-{{\varepsilon }_{D}}-\ln {{\varepsilon }_{D}}+{{c}_{1}}\quad ;\quad {{c}_{1}}\text{ is an integrating constant}
+    \end{equation*}
+
+    or
+
+    \begin{equation*}
+    \begin{split}
+      \ln {{w}_{D}}&=-{{\varepsilon }_{D}}-\ln {{\varepsilon }_{D}}+{{c}_{1}}\quad ;\quad {{c}_{1}}\text{ is an integrating constant} \\
+     {{w}_{D}}&=\exp \left[ -{{\varepsilon }_{D}}-\ln {{\varepsilon }_{D}}+{{c}_{1}} \right] \\
+    & ={{e}^{{{c}_{1}}}}\frac{1}{{{\varepsilon }_{D}}}{{e}^{-{{\varepsilon }_{D}}}}=\frac{c}{{{\varepsilon }_{D}}}{{e}^{-{{\varepsilon }_{D}}}}\quad ;\quad c={{e}^{{{c}_{1}}}} \\
+    \end{split}
+    \end{equation*}
+
+    At this point, we have
+
+    \begin{equation*}
+        {{w}_{D}}=\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}=\frac{c}{{{\varepsilon }_{D}}}\exp \left[ -{{\varepsilon }_{D}} \right]
+    \end{equation*}
+
+    thus
+
+    \begin{equation}
+        2{{\varepsilon }_{D}}\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}=2c\exp \left[ -{{\varepsilon }_{D}} \right]
+        \label{Sol_wD_2}
+    \end{equation}
+
+    It follows from Eq. \ref{line_source_Boltzman_BC} and \ref{Sol_wD_2} that
+
+    \begin{equation}
+        c=-1/2
+        \label{Sol_wD_3}
+    \end{equation}
+
+    Thus Eq. \ref{Sol_wD_2} becomes
+
+    \begin{equation}
+        \frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}=-\frac{1}{2{{\varepsilon }_{D}}}\exp \left[ -{{\varepsilon }_{D}} \right]
+        \label{Sol_wD_4}
+    \end{equation}
+
+    Integrating Eq. \ref{Sol_wD_4} from ${\varepsilon }_{D}$ to $\infty$ gives,
+
+    \begin{equation*}
+       \int_{{{\varepsilon }_{D}}}^{\infty }{\frac{d{{m}_{D}}}{d{{\varepsilon }_{D}}}}\,d{{\varepsilon }_{D}}=-\frac{1}{2}\int_{{{t}_{D}}}^{\infty }{\frac{\exp \left[ -u \right]}{u}}\,du
+    \end{equation*}
+
+    in limit
+
+    \begin{equation}
+        \underset{{{\varepsilon }_{D}}\to \infty }{\mathop{\lim }}\,{{m}_{D}}\left( {{\varepsilon }_{D}} \right)-{{m}_{D}}\left( {{\varepsilon }_{D}} \right)=-\frac{1}{2}\int_{{{t}_{D}}}^{\infty }{\frac{\exp \left[ -u \right]}{u}}\,du
+        \label{Sol_wD_5}
+    \end{equation}
+
+    It follows from Eq. \ref{line_source_Boltzman_BC2} and \ref{Sol_wD_5} that
+
+    \begin{equation}
+       {{  m }_{D}}\left( {{\varepsilon }_{D}} \right)=\frac{1}{2}\int_{\frac{t_{D}^{2}}{4{{t}_{D}}}}^{\infty }{\frac{{{\operatorname{e}}^{-u}}}{u}}\,du
+        \label{Theis_Solution}
+    \end{equation}
+
+    which is known as the Theis solution \cite{Theis_1935_1}. Eq. \ref{Theis_Solution} is also referred to as the line source or the exponential integral or $E_{i}$ solution.
+
+    \change[Murat \c{C}{\i}nar]{In the literature, we use the definition given by,}{Exponential integral is defined by}
+
+    \begin{equation*}
+        -{{E}_{i}}\left[ -x \right]=\int_{x}^{\infty }{\frac{{{\operatorname{e}}^{-u}}}{u}}\,du\quad ;\quad {{E}_{i}}\text{ function}
+    \end{equation*}
+
+    Exponential integral function is also referred to as $E_[1](x)$,
+
+    \begin{equation}
+        -{{E}_{i}}\left[ -x \right]={{E}_{1}}\left( x \right)
+        \label{Ei_E1}
+    \end{equation}
+
+    with this notation \remove[Murat \c{C}{\i}nar]{we can write} Eq. \ref{Theis_Solution} \change[Murat \c{C}{\i}nar]{as}{becomes}
+
+    \begin{equation}
+        {{ m }_{D}}\left( {{\varepsilon }_{D}} \right)=-{{E}_{i}}\left[ -\frac{r_{D}^{2}}{4{{t}_{D}}} \right]
+        \label{Theis_Solution_Ei}
+    \end{equation}
+
+    The series expansion of $E_{i}$ function \cite{Abramowitz_1965_1}
+
+    \begin{equation}
+        {{E}_{i}}\left[ -x \right]=\widetilde{\gamma }+\ln x+\sum\limits_{n=1}^{\infty }{\frac{{{x}^{n}}}{nn!}}
+        \label{Ei_expansion}
+    \end{equation}
+
+    \change[Murat \c{C}{\i}nar]{If we let}{Let} $x\rightarrow0$ in Eq. \ref{Theis_Solution_Ei}, then we obtain
+
+    \begin{equation}
+        \underset{x\to 0}{\mathop{\lim }}\,{{E}_{i}}\left[ -x \right]=\widetilde{\gamma }+\ln x
+        \label{Ei_approx}
+    \end{equation}
+
+    where $\widetilde{\gamma }$ is \remove[Murat \c{C}{\i}nar]{referred to as} Euler's constant and defined by,
+
+    \begin{equation}
+        \widetilde{\gamma }=\underset{n\to \infty }{\mathop{\lim \left\{ \sum\limits_{k=1}^{n}{\frac{1}{k}-\ln \left( n \right)} \right\}}}\,=0.5772156649...
+        \label{Eulers_constant}
+    \end{equation}
+
+    If we consider that $\frac{r_{D}^{2}}{4{{t}_{D}}}$ is sufficiently small so that \remove[Murat \c{C}{\i}nar]{we can approximate} ${{E}_{i}}\left[ -\frac{r_{D}^{2}}{4{{t}_{D}}} \right]$ \add[Murat \c{C}{\i}nar]{is approximated} by\remove[Murat \c{C}{\i}nar]{the right hand side of} Eq. \ref{Ei_approx}. Then, Eq. \ref{Theis_Solution_Ei} \change[Murat \c{C}{\i}nar]{can be}{is} approximated as
+
+    \begin{equation}
+        {{ m }_{D}}\left( {{\varepsilon }_{D}} \right)=-\frac{1}{2}\left[ \ln \left( \frac{r_{D}^{2}}{4{{t}_{D}}} \right)+\widetilde{\gamma } \right]
+        \label{Semilog_Approx1}
+    \end{equation}
+
+    or
+
+    \begin{equation}
+        {{ m }_{D}}\left( {{\varepsilon }_{D}} \right)=\frac{1}{2}\ln \left( \frac{4{{t}_{D}}}{r_{D}^{2}{{e}^{\widetilde{\gamma }}}} \right)
+        \label{Semilog_Approx2}
+    \end{equation}
+
+    which is referred to as the semilog approximation to Eq. \ref{Theis_Solution_Ei}.
+
+    Although \remove[Murat \c{C}{\i}nar]{we derived}Eq. \ref{Semilog_Approx2} \add[Murat \c{C}{\i}nar]{is derived} as a limiting form of Eq. \ref{Theis_Solution_Ei} as $\frac{r_{D}^{2}}{4{{t}_{D}}}\to 0$, Eq. \ref{Theis_Solution_Ei} \change[Murat \c{C}{\i}nar]{can also be}{is} well approximated by Eq. \ref{Semilog_Approx2} if
+
+    \begin{equation*}
+        \frac{r_{D}^{2}}{4{{t}_{D}}}\le \frac{1}{100}
+    \end{equation*}
+
+    which is equivalent to;
+
+    \begin{equation}
+        \frac{{{t}_{D}}}{r_{D}^{2}}\ge 25
+        \label{Semilog_Approx2}
+    \end{equation}
+
     
+    \begin{figure}
+        \begin{center}
+        \includegraphics[scale=1]{Exponential_Integral_approximation.pdf}
+        \label{Exponential_Integral_approximation}
+        \caption{Comparison of exponential integral with logarithmic approximation given by Eq. \ref{Ei_approx}.}
+        \end{center}
+    \end{figure}
+
+
+
+
+
+
+
     %\nomenclature[1]{$R$}{Ideal gas constant {$(8.314 J/gmol \cdot K)$}}%
     %\nomenclature{${\alpha }$}{Reaction order}%
     %\printnomenclature
 
     \bibliographystyle{plain}
     \bibliography{References}
-
 %
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.25)  26 JAN 2012 00:47
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.25)  27 JAN 2012 00:25
 entering extended mode
 **C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/PET504E_Lectu
 re_Notes.tex
@@ -356,6 +356,15 @@ LaTeX Warning: Label `Radial_Flow' multiply defined.
 
 
 LaTeX Warning: Label `assumption' multiply defined.
+
+
+LaTeX Warning: Label `mD_Boltzman_rD3' multiply defined.
+
+
+LaTeX Warning: Label `mD_Boltzman_rD4' multiply defined.
+
+
+LaTeX Warning: Label `Semilog_Approx2' multiply defined.
 
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -942,8 +951,119 @@ LaTeX Warning: Marginpar on page 23 moved.
 
 Package color Info: Redefining color UserColor on input line 899.
 [23]
+Package color Info: Redefining color UserColor on input line 931.
+Package color Info: Redefining color UserColor on input line 931.
+Package color Info: Redefining color UserColor on input line 931.
+Package color Info: Redefining color UserColor on input line 931.
+
+
+LaTeX Warning: Marginpar on page 24 moved.
+
+
+LaTeX Warning: Marginpar on page 24 moved.
+
+Package color Info: Redefining color UserColor on input line 938.
+
+Overfull \hbox (6.96342pt too wide) in paragraph at lines 938--939
+[]\OT1/cmr/m/n/12 Under the pre-ced-ing assumptions,$[]$ ap-prox-i-mate prob-le
+m be-comes:
+ []
+
+Package color Info: Redefining color UserColor on input line 967.
+Package color Info: Redefining color UserColor on input line 967.
+
+LaTeX Warning: Marginpar on page 24 moved.
+
+Package color Info: Redefining color UserColor on input line 974.
+[24]
+Package color Info: Redefining color UserColor on input line 1003.
+Package color Info: Redefining color UserColor on input line 1003.
+
+
+LaTeX Warning: Marginpar on page 25 moved.
+
+Package color Info: Redefining color UserColor on input line 1022.
+[25]
+Package color Info: Redefining color UserColor on input line 1051.
+Package color Info: Redefining color UserColor on input line 1058.
+ [26]
+Package color Info: Redefining color UserColor on input line 1123.
+Package color Info: Redefining color UserColor on input line 1136.
+Package color Info: Redefining color UserColor on input line 1136.
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+Package color Info: Redefining color UserColor on input line 1150.
+Package color Info: Redefining color UserColor on input line 1157.
+Package color Info: Redefining color UserColor on input line 1164.
+Package color Info: Redefining color UserColor on input line 1164.
+Package color Info: Redefining color UserColor on input line 1164.
+Package color Info: Redefining color UserColor on input line 1164.
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+[27]
+Package color Info: Redefining color UserColor on input line 1180.
+Package color Info: Redefining color UserColor on input line 1180.
+Package color Info: Redefining color UserColor on input line 1180.
+
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+<Exponential_Integral_approximation.pdf, id=272, 491.29146pt x 334.61009pt>
+File: Exponential_Integral_approximation.pdf Graphic file (type pdf)
+
+<use Exponential_Integral_approximation.pdf> [28 <C:/Users/Cinar/Documents/mura
+t_cinar/ITU/Lectures/PET504E/Notes/Exponential_Integral_approximation.pdf>]
+Package color Info: Redefining color UserColor on input line 1209.
+Package color Info: Redefining color UserColor on input line 1223.
+Package color Info: Redefining color UserColor on input line 1223.
+Package color Info: Redefining color UserColor on input line 1223.
+Package color Info: Redefining color UserColor on input line 1223.
+Package color Info: Redefining color UserColor on input line 1223.
+Package color Info: Redefining color UserColor on input line 1223.
+Package color Info: Redefining color UserColor on input line 1223.
+Package color Info: Redefining color UserColor on input line 1223.
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+Package color Info: Redefining color UserColor on input line 1229.
+Package color Info: Redefining color UserColor on input line 1229.
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+
 (C:\Users\Cinar\Documents\murat_cinar\ITU\Lectures\PET504E\Notes\PET504E_Lectur
-e_Notes.bbl) [24]
+e_Notes.bbl) [29]
 (C:\Users\Cinar\Documents\murat_cinar\ITU\Lectures\PET504E\Notes\PET504E_Lectur
 e_Notes.aux)
 
@@ -951,10 +1071,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2937 strings out of 494019
- 39760 string characters out of 3143882
- 184331 words of memory out of 3000000
- 6164 multiletter control sequences out of 15000+200000
+ 2973 strings out of 494019
+ 40474 string characters out of 3143882
+ 184669 words of memory out of 3000000
+ 6199 multiletter control sequences out of 15000+200000
  15481 words of font info for 55 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  42i,21n,21p,1321b,753s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -985,9 +1105,9 @@ ts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/lat
 xfont/line10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb>
-Output written on PET504E_Lecture_Notes.pdf (24 pages, 3217167 bytes).
+Output written on PET504E_Lecture_Notes.pdf (29 pages, 4236524 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
+ 367 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

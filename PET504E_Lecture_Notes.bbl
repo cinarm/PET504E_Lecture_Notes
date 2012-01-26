@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{Abramowitz_1965_1}
+M.~Abramowitz and IA. Stegun.
+\newblock {\em Handbook of Mathematical Functions with Formulas}.
+\newblock US Government printing office, 1972.
+
 \bibitem{Al-Hussainy_1966_1}
 R.~Al-Hussainy, H.J. Ramey~Jr., and P.B. Crawford.
 \newblock The flow of real gases through porous media.
@@ -21,5 +26,11 @@ Alvaro~M.M. Peres, Kelson~V. Serra, and Albert~C. Reynolds.
 \newblock Toward a unified theory of well testing for nonlinear-radial-flow
   problems with application to interference tests.
 \newblock {\em SPE Formation Evaluation}, 5(2):151--160, 1990.
+
+\bibitem{Theis_1935_1}
+C.~Theis.
+\newblock The relation between the lowering of the piezometric surface and the
+  rate and duration of discharge of a well using ground water storage.
+\newblock {\em Trans AGU}, pages 519--524, 1935.
 
 \end{thebibliography}
