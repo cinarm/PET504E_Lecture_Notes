@@ -1736,3 +1736,40 @@ pages = {519-524},
 keywords = {},
 year = {1935},
 }
+
+@book{Abramowitz_1965_1,
+title={Handbook of Mathematical Functions with Formulas},
+author={Abramowitz, M. and Stegun, IA.},
+year={1972},
+publisher={US Government printing office}
+}
+
+@article {Mueller_1965_1,
+author = {Mueller, Thomas D. and Witherspoon, Paul A.},
+title = {Pressure Interference Effects Within Reservoirs and Aquifers},
+journal = {Journal of Petroleum Technology},
+volume = {4},
+number = {4},
+publisher = {Society of Petroleum Engineers},
+issn = {},
+url = {},
+doi = {10.2118/1020-PA},
+pages = {471-474},
+keywords = {},
+year = {1965},
+}
+
+@article {Mueller_1965_1,
+author = {B{\o}e, A., and Skjaeveland, Svein M., and Whitson, Curtis H.},
+title = {Two-Phase Pressure Test Analysis},
+journal = {SPE Formation Evaluation},
+volume = {17},
+number = {4},
+publisher = {Society of Petroleum Engineers},
+issn = {},
+url = {},
+doi = {10.2118/10224-PA},
+pages = {604-610},
+keywords = {},
+year = {1989},
+}

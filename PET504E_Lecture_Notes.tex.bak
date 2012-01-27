@@ -23,6 +23,7 @@
 %\usepackage[margins, adjustmargins]{trackchanges}
 %
 \addeditor{Murat \c{C}{\i}nar}
+\addeditor{Mustafa Onur}
 \restoresymbol{Trck}{note}
  \numberwithin{equation}{section}
  \numberwithin{figure}{section}
@@ -102,8 +103,8 @@
         \begin{center}
         \includegraphics[scale=0.75]{Transient_phenomena.pdf}
         \caption{Typical input and output signals - Transient phenomena.}
-        \label{Transient_phenomena}
         \end{center}
+        \label{Transient_phenomena}
     \end{figure}
 
 
@@ -145,8 +146,8 @@
         \begin{center}
         \includegraphics[scale=1]{Build_up.pdf}
         \caption{Parameters estimated based on the analysis of buildup data.}
-        \label{Build_up}
         \end{center}
+        \label{Build_up}
     \end{figure}
 
     \change[Murat \c{C}{\i}nar]{To illustrate an example of direct and inverse problems, let's consider single phase flow in a closed cylindrical reservoir produced by a single well at the center.}{Now we consider single phase flow in a cylindrical reservoir produced by a well at the center.} The\change[Murat \c{C}{\i}nar]{pd.E}{partial differential equation (p.d.e.)} describing the flow is given by,
@@ -180,24 +181,24 @@
         \begin{center}
         \includegraphics[scale=0.6]{Homogenous_vs_Heterogenous_dp.pdf}
         \caption{Homogeneous vs heterogeneous reservoir, pressure difference .}
-        \label{Homogenous_vs_Heterogenous_dp}
         \end{center}
+        \label{Homogenous_vs_Heterogenous_dp}
     \end{figure}
 
     \begin{figure}
         \begin{center}
         \includegraphics[scale=0.6]{Homogenous_vs_Heterogenous_dpder.pdf}
         \caption{Homogeneous vs heterogeneous reservoir - logarithmic derivative.}
-        \label{Homogenous_vs_Heterogenous_dpder}
         \end{center}
+        \label{Homogenous_vs_Heterogenous_dpder}
     \end{figure}
 
     \begin{figure}
         \begin{center}
         \includegraphics[scale=0.3]{Flow_Chart1.pdf}
         \caption{Flow diagram of computer aided parameter estimation.}
-        \label{Flow_Chart1}
         \end{center}
+        \label{Flow_Chart1}
     \end{figure}
 
     \section{Flow Equations}
@@ -291,8 +292,8 @@
     \begin{figure}
         \begin{center}
             \includegraphics[scale=1]{Z_Aside.pdf}
-        \label{Z_Aside}
         \end{center}
+        \label{Z_Aside}
     \end{figure}
     In \change[Murat \c{C}{\i}nar]{r-$\theta$-z}{Cylindrical} coordinates,\change[Murat \c{C}{\i}nar]{if reservoir is horizontal; i.e. $\theta'=0$}{assume $z$ and $z'$ are in the same direction then,}
     \begin{equation*}
@@ -310,8 +311,8 @@
         \begin{center}
         \includegraphics[scale=0.6]{PartialvsFullPenet.pdf}
         \caption{(a) Fully penetrated vertical well. (b) Partially penetrated vertical well.}
-        \label{PartialvsFullPenet}
         \end{center}
+        \label{PartialvsFullPenet}
     \end{figure}
     \remove[Murat \c{C}{\i}nar]{Recalling our general continuity equation for the single phase flow gives,}
     \add[Murat \c{C}{\i}nar]{Now define formation volume factor $B$ as,}
@@ -367,7 +368,9 @@
         \nabla \cdot \left( \frac{\mathbf{k}}{\mu B}\left( \nabla p-\gamma\nabla z' \right) \right)=\frac{\phi {{c}_{t}}}{B}\frac{\partial p}{\partial t}
     \label{Continuity_B_ct_Darcy}
     \end{equation}
-
+    
+    \subsubsection{Slightly compressible fluid of constant compressibility}
+    
     Now assuming negligible gravity effects and $k/\mu$ is constant then,
 
     \begin{equation}
@@ -408,8 +411,8 @@
         \begin{center}
             \includegraphics[scale=0.65]{Coordinates.pdf}
         \caption{(a) Cartesian coordinates. (b) Cylindrical coordinates. (c) Spherical coordinates.}
-        \label{Coordinates}
         \end{center}
+        \label{Coordinates}
     \end{figure}
     \rule{\textwidth}{1pt}
     \vspace{15pt}
@@ -449,6 +452,7 @@
         \frac{k}{\mu }{{\nabla }^{2}}p = \phi {{c}_{t}}\frac{\partial p}{\partial t}
     \label{Continuity_B_ct_Darcy_No_Gravity1_approx_rho}
     \end{equation}
+    
     \subsection{Multiphase flow}
     Three distinct phases, gas, oil, and water occur i a petroleum reservoir. Varying pressure conditions (isothermal system assumed) cause a mass exchange between \remove[Murat \c{C}{\i}nar]{the}two hydrocarbon phases \add[Murat \c{C}{\i}nar]{- oil-gas} (water-oil and gas-water systems \change[Murat \c{C}{\i}nar]{can be}{is} assumed immiscible). The \change[Murat \c{C}{\i}nar]{material}{mass} transfer between oil and gas is described by solution gas-oil ration, $R_{s}$, which gives the amount of gas dissolved in oil as a function of pressure, i.e. $[V_{dissolved \, gas}/V_{o}]_{STC}$.\\
 
@@ -502,8 +506,8 @@
         \begin{center}
         \includegraphics[scale=1]{Rs_Bo_Bg.pdf}
         \caption{$R_{s}$, $B_{o}$, $B_{g}$ behavior.}
-        \label{Rs_Bo_Bg}
         \end{center}
+        \label{Rs_Bo_Bg}
     \end{figure}
 
     It is important to note that $B$ defined by Eq. \ref{Formation_Volume_Factor}\add[Murat \c{C}{\i}nar]{,} considering oil, \remove[Murat \c{C}{\i}nar]{this} is \change[Murat \c{C}{\i}nar]{correct}{valid} if \change[Murat \c{C}{\i}nar]{we have a}{oil is} single component or \remove[Murat \c{C}{\i}nar]{if we are talking about} "black-oil" with no dissolved gas ($R_{s}=0$). \change[Murat \c{C}{\i}nar]{However}{On the other hand}, Eq. \ref{Continuity_B_ct_Darcy} is \change[Murat \c{C}{\i}nar]{correct}{valid} for black-oil problems with $R_{s}\neq0$ provided that \change[Murat \c{C}{\i}nar]{we are}{the pressure is} above bubble-point. \remove[Murat \c{C}{\i}nar]{If we are above bubble-point,}Eq. \ref{Continuity_oil_Darcy} and Eq. \ref{Continuity_gas_Darcy} \change[Murat \c{C}{\i}nar]{will be}{becomes} identical\add[Murat \c{C}{\i}nar]{ if the pressure is above bubble point}.
@@ -662,9 +666,9 @@
     \begin{figure}
         \begin{center}
         \includegraphics[scale=1]{Radial_Flow.pdf}
-        \label{Radial_Flow}
         \caption{Radial flow geometry.}
         \end{center}
+        \label{Radial_Flow}
     \end{figure}
 
     If reservoir is not horizontal, \remove[Murat \c{C}{\i}nar]{our general equation;} Eq. \ref{Continuity_B_ct_Darcy}, applies with $v_{\theta}=0$ and so Eq. \ref{Continuity_B_ct_Darcy} becomes in $r-z$ coordinates.
@@ -682,8 +686,8 @@
         \begin{center}
         \includegraphics[scale=1]{r_z.pdf}
         \end{center}
-        \label{r_z}
         \caption{r-z coordinates.}
+        \label{r_z}
     \end{figure}
 
     For a completely penetrating well, it is physically reasonable to assume $v_{z}\approx0$ ($k_{z}\ll k_{r}$), i.e.,
@@ -769,15 +773,13 @@
 
     If $\frac{1}{{{\eta }_{D}}}=0$, then Eq. \ref{Dimensionless_radial_3} is a linear p.d.e. .
 
-    \subsubsection{Slightly compressible fluid of constant compressibility}
-
     \change[Murat \c{C}{\i}nar]{If we assume}{Consider} production at a specified rate q; i.e.,
     \begin{figure}
         \begin{center}
         \includegraphics[scale=1]{Production_Full.pdf}
-        \label{Production_Full}
         \caption{Production from a vertical full penetrating well. Volumetric flux, q, into the wellbore (flow out of the reservoir the boundary represented by wellbore).}
         \end{center}
+        \label{Production_Full}
     \end{figure}
 
     Flow rate out = $qB=\int\limits_{S}{\mathbf{v}\,\mathbf{n}\,dS}$ and $\mathbf{n}$ is the unit outward normal to $S$ and is equal to
@@ -814,8 +816,8 @@
     \begin{equation}
         \begin{split}
          {{m}_{D}}&=\frac{2\pi h\left[ m\left( {{p}_{i}} \right)-m\left( p \right) \right]}{q} \\
-        & =\frac{h}{q}\left[ m\left( {{p}_{i}} \right)-m\left( p \right) \right] \\
-        & =\frac{h}{q}\int\limits_{p}^{{{p}_{i}}}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}dp} \\
+        & =\frac{2\pi h}{q}\left[ m\left( {{p}_{i}} \right)-m\left( p \right) \right] \\
+        & =\frac{2\pi h}{q}\int\limits_{p}^{{{p}_{i}}}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}dp} \\
         \end{split}
         \label{mD_definition}
     \end{equation}
@@ -892,7 +894,7 @@
     and then it follows from Eq. \ref{mD_definition} that
 
     \begin{equation}
-        {{m}_{D}}=\frac{{{k}_{i}}h\left( {{p}_{i}}-p \right)}{q{{B}_{i}}{{\mu }_{i}}}={{p}_{D}}=\frac{kh\left( {{p}_{i}}-p \right)}{qB\mu }
+        {{m}_{D}}=\frac{{{k}_{i}}2\pi h\left( {{p}_{i}}-p \right)}{q{{B}_{i}}{{\mu }_{i}}}={{p}_{D}}=\frac{k 2\pi h\left( {{p}_{i}}-p \right)}{qB\mu }
         \label{mD_to_pD}
     \end{equation}
 
@@ -960,7 +962,7 @@
     where,
 
     \begin{equation}
-        {{m}_{D}}=\frac{h\int_{p}^{{{p}_{i}}}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}dp}}{q}
+        {{m}_{D}}=\frac{2\pi h\int_{p}^{{{p}_{i}}}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}dp}}{q}
         \label{mD_Line_Source}
     \end{equation}
 
@@ -1171,7 +1173,7 @@
     or
 
     \begin{equation}
-        {{ m }_{D}}\left( {{\varepsilon }_{D}} \right)=\frac{1}{2}\ln \left( \frac{4{{t}_{D}}}{r_{D}^{2}{{e}^{\widetilde{\gamma }}}} \right)
+        {{ m }_{D}}=\frac{1}{2}\ln \left( \frac{4{{t}_{D}}}{r_{D}^{2}{{e}^{\widetilde{\gamma }}}} \right)
         \label{Semilog_Approx2}
     \end{equation}
 
@@ -1190,21 +1192,282 @@
         \label{Semilog_Approx2}
     \end{equation}
 
-    
     \begin{figure}
         \begin{center}
-        \includegraphics[scale=1]{Exponential_Integral_approximation.pdf}
-        \label{Exponential_Integral_approximation}
+        \includegraphics[scale=0.7]{Exponential_Integral_approximation.pdf}
         \caption{Comparison of exponential integral with logarithmic approximation given by Eq. \ref{Ei_approx}.}
         \end{center}
+        \label{Exponential_Integral_approximation}
     \end{figure}
 
+    \vspace{15pt}
+    \large{\textbf{Remark on exponential integral approximation:}}\\
+    \rule{\textwidth}{1pt}
+     At $r=r_{w}$, $r_{D}=r/r_{w}=1$ and Eq. \ref{Semilog_Approx2} becomes,
+    \begin{equation*}
+        \frac{2.637\times {{10}^{-3}}{{k}_{i}}t}{{{\left( \phi \mu {{c}_{t}} \right)}_{i}}r_{w}^{2}}\ge 25
+    \end{equation*}
 
+    where $t$ is in hrs. \change[Murat \c{C}{\i}nar]{Let's}{Now} suppose,
+    $r_{w}=0.35$ ft, $\mu_{i}=0.8$ cp, $\phi_{i}=0.1$, $k_{i}=10$ md, and $c_{t}=1.1\times10^{5}$.
+    then it follows that
 
+    \begin{equation*}
+        t_{D}\approx2.5\times10^{5}t
+    \end{equation*}
 
+    In order for Eq. \ref{Ei_approx} to hold, we need
 
+    \begin{equation*}
+        2.5\times10^{5}t\geq25\quad\Rightarrow\quad t\geq1.0\times10^{-4}hrs(=0.36seconds)
+    \end{equation*}
 
+    This \add[Murat \c{C}{\i}nar]{example} illustrates that at the wellbore $(r_{D}=1)$, the semilog approximation of the line source solution becomes valid within several seconds to a very few minutes for reasonable values of\remove[Murat \c{C}{\i}nar]{the} physical parameters; (e.g. $k_{i}$, $c_{t}$...). If \remove[Murat \c{C}{\i}nar]{we are using} the semilog approximation of the line source \add[Murat \c{C}{\i}nar]{solution is used} to analyze \remove[Murat \c{C}{\i}nar]{the} interference data with \change[Murat \c{C}{\i}nar]{the}{an} observation well say at $r=1000r_{w}$, ($r_{D}=1000$) \add[Murat \c{C}{\i}nar]{away} from \change[Murat \c{C}{\i}nar]{the}{a} flowing well, then for the values of physical parameters considered, Eq. \ref{Semilog_Approx2} requires,
 
+    \begin{equation*}
+        t\geq10^{-4}{r_{D}^{2}}=100 hrs
+    \end{equation*}
+
+    In short, \remove[Murat \c{C}{\i}nar]{we can use }the semilog approximation of the line source solution \add[Murat \c{C}{\i}nar]{is used}, i.e., Eq. \ref{Ei_approx} to analyze well test pressure data measured either at the active (producing) well or at the observation (shut-in) well provided that test time satisfies Eq. \ref{Semilog_Approx2}.\\
+    \rule{\textwidth}{1pt}\\
+    \vspace{15pt}
+
+    \change[Murat \c{C}{\i}nar]{To obtain the line source solution which is given by}{Line source solution given by} Eq. \ref{Line_Source} \change[Murat \c{C}{\i}nar]{is obtained by using the line source boundary condition}{we used the line source well boundary condition} Eq. \ref{Line_source_boundary} that is
+    \begin{equation*}    
+    \underset{{{r}_{D}}\to 0}{\mathop{\lim }}\,\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)=-1
+    \end{equation*}
+    
+    Differentiating Eq. \ref{Line_Source} with respect to $r_{D}$ gives,
+    \begin{equation}       
+    \frac{\partial {{ m }_{D}}}{\partial {{r}_{D}}}=\frac{1}{2}\frac{\partial }{\partial {{r}_{D}}}\left[ \int_{\frac{t_{D}^{2}}{4{{t}_{D}}}}^{\infty }{\frac{{{\operatorname{e}}^{-u}}}{u}}\,du \right]=-\frac{1}{2}\frac{\partial }{\partial {{r}_{D}}}\left[ \int_{\infty }^{\frac{t_{D}^{2}}{4{{t}_{D}}}}{\frac{{{\operatorname{e}}^{-u}}}{u}}\,du \right]
+        \label{Line_Solution_dif_rD}
+    \end{equation}    
+    
+    \change[Murat \c{C}{\i}nar]{From calculus we know that}{Recall,} 
+    
+    \begin{equation}     
+    \frac{d}{dx}\left[ \int_{a}^{b\left( x \right)}{f\left( z \right)dz} \right]=f\left[ b\left( x \right) \right]\frac{db\left( x \right)}{dx}
+        \label{Calculus_1}
+    \end{equation}     
+    
+    where $a$ is \add[Murat \c{C}{\i}nar]{a}constant. Using the formula given by Eq. \ref{Calculus_1} in Eq. \ref{Line_Solution_dif_rD} and simplifying the resulting equation; \remove[Murat \c{C}{\i}nar]{we obtain}
+    
+    \begin{equation}     
+    \frac{\partial {{ m }_{D}}}{\partial {{r}_{D}}}=-\frac{1}{{{r}_{D}}}\exp \left[ -\frac{r_{D}^{2}}{4{{t}_{D}}} \right]
+        \label{Boundary_der1}
+    \end{equation}    
+    
+    Multiplying Eq. \ref{Boundary_der1} by $r_{D}$
+    
+    \begin{equation}      
+    {{r}_{D}}\frac{\partial {{ m }_{D}}}{\partial {{r}_{D}}}=-\exp \left[ -\frac{r_{D}^{2}}{4{{t}_{D}}} \right]
+        \label{Boundary_der2}
+    \end{equation}     
+    
+    \change[Murat \c{C}{\i}nar]{so as expected our}{Thus the} line source solution satisfies \remove[Murat \c{C}{\i}nar]{our} line source wellbore B.C., i.e.,
+    
+    \begin{equation*}
+        \underset{{{r}_{D}}\to 0}{\mathop{\lim }}\,\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)=-1
+    \end{equation*}       
+    
+    It is important to note that Eq. \ref{Line_Source} assumes \remove[Murat \c{C}{\i}nar]{that we have} a well with vanishingly small radius\change[Murat \c{C}{\i}nar]{. However the more}{,however, the more} rigorous solution \change[Murat \c{C}{\i}nar]{will be}{is} the one considering \change[Murat \c{C}{\i}nar]{the}{a} well with finite wellbore. To obtain a solution for a well with finite wellbore producing at a constant rate,\remove[Murat \c{C}{\i}nar]{we need to use} an inner boundary condition \remove[Murat \c{C}{\i}nar]{is used} such that
+       
+    \begin{equation}
+        \underset{{{r}_{D}}\to 0}{\mathop{\lim }}\,\left( {{r}_{D}}\frac{\partial {{m}_{D}}}{\partial {{r}_{D}}} \right)=-1
+        \label{Inner_Boundary1}        
+    \end{equation}      
+    
+    Therefore, the finite wellbore radius I.B.V.P. differs from the line source I.B.V.P. in \change[Murat \c{C}{\i}nar]{that our}{the} boundary condition \remove[Murat \c{C}{\i}nar]{is} given by Eq. \ref{Inner_Boundary1}\change[Murat \c{C}{\i}nar]{ instead of}{Line source solution is closed with} Eq. \ref{Line_source_boundary}.
+    
+    Note that $r_{D}=1$ (see Eq. \ref{Line_Solution_dif_rD}), the line source solution satisfies
+
+    \begin{equation}
+        {{\left( {{r}_{D}}\frac{\partial {{ m }_{D}}}{\partial {{r}_{D}}} \right)}_{{{r}_{D}}=1}}=-\exp \left[ -\frac{1}{4{{t}_{D}}} \right]
+        \label{Boundary_der3}
+    \end{equation}      
+    
+    As $t_{D}\rightarrow\infty$, the RHS of Eq. \ref{Boundary_der3} approaches $-1$, i.e.,
+    
+    \begin{equation}    
+    \underset{{{t}_{D}}\to \infty }{\mathop{\lim }}\,{{\left( {{r}_{D}}\frac{\partial {{ m }_{D}}}{\partial {{r}_{D}}} \right)}_{{{r}_{D}}=1}}=-1
+        \label{Boundary_der4}
+    \end{equation}
+        
+    from which intuitively we expect that at sufficiently large\remove[Murat \c{C}{\i}nar]{ values of} times, the line source solution \change[Murat \c{C}{\i}nar]{(for $r_{D}\geq1$)}{for $r_{D}=1$} will be very close to the finite wellbore radius solution. In fact for $t_{D}>25$, the RHS of Eq. \ref{Boundary_der3} is within $1\%$ of $-1$.
+    
+    Mueller and Witherspoon \cite{Mueller_1965_1} were the ones first to investigate the validity of line source solution. They compared the finite wellbore radius solution and the line source solution. Such comparison is shown in Fig. \ref{Line_Finite_Comp} \change[Murat \c{C}{\i}nar]{which is taken from Earlougher's manograph, SPE Monograph 5. It is a}{- log-log plot of $p_{D} (=m_{D})$ versus $t_{D}/r_{D}^{2}$}.
+        
+    \begin{figure}
+        \begin{center}
+        \includegraphics[scale=1]{Line_Finite_Comp.pdf}
+        \caption{Comparison of line source solution to finite radius wellbore solution\cite{Mueller_1965_1}.}
+        \end{center}
+        \label{Line_Finite_Comp}
+    \end{figure}    
+    
+    The dashed curve in the figure represents the exponential integral solution(or the line source solution) given by Eq. \ref{Line_Source}. The top solid curve corresponds to the finite wellbore radius solution evaluated at the wellbore (i.e. $r_D=1$). All other solid curves represent finite wellbore radius solution at various locations (different $r_{D}$ values) in the reservoir.
+    
+    \change[Murat \c{C}{\i}nar]{From the figure we see that if}{Figure indicates that when} $t_{D}/r_{D}^{2}\geq25$, the difference between the finite wellbore radius solution and the line source solution is negligible. \change[Murat \c{C}{\i}nar]{This means that}{Thus} at $r_{D}=1$ (at the wellbore) \remove[Murat \c{C}{\i}nar]{we need} $t_{D}\geq25$ \add[Murat \c{C}{\i}nar]{is required} for \remove[Murat \c{C}{\i}nar]{the} two solutions to be essentially the same. Also note that if $r_{D}\geq20$, then the two solutions are essentially equal for all values of the dimensionless time $t_{D}$ of practical interest.\\
+    
+    For the interference testing purposes, the difference between the line source solution and the finite wellbore radius solution is negligible.
+    To use Eq. \ref{Line_Source} for the analysis of pressure data measured at a flowing well, we evaluate Eq. \ref{Line_Source} at $r_{D}=1$ and use the notation
+     
+    \begin{equation}
+           p\left( {{r}_{D}}=1,{{t}_{D}} \right)=p\left( r={{r}_{w}},t \right)={{p}_{wf}}={{p}_{wf}}\left( t \right)
+        \label{Pwf}
+    \end{equation}    
+    
+    \subsection{Semilog analysis}
+   
+    \change[Murat \c{C}{\i}nar]{From our previous derivations}{In the previous section,} we showed that if $t_{D}/r_{D}^{2}\geq25$, the semilog approximation of the line source solution is given by Eq. \ref{Semilog_Approx2} i.e.;
+    
+    \begin{equation*}
+        {{ m }_{D}}=\frac{1}{2}\ln \left( \frac{4{{t}_{D}}}{r_{D}^{2}{{e}^{\widetilde{\gamma }}}} \right)
+    \end{equation*}
+    
+    At $r_{D}=1$, \remove[Murat \c{C}{\i}nar]{that gives,}
+   
+    \begin{equation}
+        \begin{split}
+     {{m}_{D}}\left( {{r}_{D}}=1 \right)&=\frac{2\pi h}{q}\int_{{{p}_{wf}}}^{{{p}_{i}}}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}}\,dp \\
+    & =\frac{1}{2}\left[ \frac{4{{t}_{D}}}{{{e}^{\widetilde{\gamma }}}} \right] \\
+    & =\frac{1}{2}\left( \ln {{t}_{D}}+0.80907 \right) \\
+    \end{split}
+        \label{mpwf_1}
+    \end{equation}    
+   
+    or
+    
+    \begin{equation}
+       \begin{split}
+        & {{m}_{D}}\left( {{r}_{D}}=1 \right)=\underbrace{\frac{1}{2\log \left( e \right)}}_{\text{1}\text{.15129}} \\
+    & \left\{ \log \left( t \right)+\log \left[ \frac{{{k}_{i}}}{{{\left( \phi {{c}_{t}}\mu  \right)}_{i}}r_{w}^{2}} \right]+\underbrace{\log \left( e \right)\ln \left( \frac{4}{{{e}^{\widetilde{\gamma }}}} \right)}_{\text{0}\text{.351378}} \right\} \\
+    \end{split}
+        \label{mpwf_2}
+    \end{equation}    
+    
+    Note that
+    
+    \begin{equation}
+     \begin{split}
+     {{m}_{D}}\left( {{r}_{D}}=1 \right)&=\frac{2\pi h}{q}\int_{{{p}_{wf}}}^{{{p}_{i}}}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}}dp \\
+     & =\frac{2\pi h}{q}\left[ m\left( {{p}_{i}} \right)-m\left( {{p}_{wf}} \right) \right] \\
+    \end{split}
+        \label{mpwf_3}
+    \end{equation}      
+    
+    Then it follows from Eq. \ref{mpwf_2} and \ref{mpwf_3} that
+    
+    \begin{equation}
+    \begin{split}
+    & m\left( {{p}_{wf}} \right)=m\left( {{p}_{i}} \right)-\text{1}\text{.15129}\frac{q}{2\pi h} \\
+    & \left\{ \log \left( t \right)+\log \left[ \frac{{{k}_{i}}}{{{\left( \phi {{c}_{t}}\mu  \right)}_{i}}r_{w}^{2}} \right]+\text{0}\text{.351378} \right\} \\
+    \end{split}
+        \label{mpwf_4}
+    \end{equation}
+        
+    which indicates that a semilog plot of $m(p_{wf})$ versus $t$ \change[Murat \c{C}{\i}nar]{which}{that} yields a straight line \change[Murat \c{C}{\i}nar]{of}{with a} slope
+    
+    \begin{equation}
+        \text{slope}=\widetilde{m}=-\text{1}\text{.15129}\frac{q}{2\pi h}
+        \label{semilog_slope}
+    \end{equation}    
+    
+    \change[Murat \c{C}{\i}nar]{from which we can compute $h$}{$h$ is computed from the slope of semilog straight line.}
+    \change[Murat \c{C}{\i}nar]{Suppose we}{Now} differentiate Eq. \ref{mpwf_2} w.r.t. $logt$.
+    
+    \begin{equation}    
+    \frac{2\pi h}{q}\frac{d}{d\log }\int_{{{p}_{wf}}}^{{{p}_{i}}}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}}dp=1.15129
+        \label{semilog_slope}
+    \end{equation}    
+      
+    or
+    
+    \begin{equation*}
+        \frac{2\pi h}{q}\frac{d}{d{{p}_{wf}}}\left\{ \int_{{{p}_{wf}}}^{{{p}_{i}}}{\frac{k\left( p \right)}{\mu \left( p \right)B\left( p \right)}}dp \right\}\frac{d{{p}_{wf}}}{d\log t}=1.15129
+    \end{equation*}  
+     
+    or
+    
+    \begin{equation*}
+        \frac{2\pi h}{q}\left[ -\frac{k\left( {{p}_{wf}} \right)}{\mu \left( {{p}_{wf}} \right)B\left( {{p}_{wf}} \right)} \right]\frac{d{{p}_{wf}}}{d\log t}=1.15129
+    \end{equation*}      
+    
+    or
+    
+    \begin{equation}
+        \frac{k\left( {{p}_{wf}} \right)}{\mu \left( {{p}_{wf}} \right)B\left( {{p}_{wf}} \right)}=-\text{1}\text{.15129}\frac{q}{2\pi h\left( d{{p}_{wf}}/d\log t \right)}
+        \label{semilog_slope2}
+    \end{equation}    
+    
+    \vspace{15pt}
+    \large{\textbf{Aside:}}\\
+    \rule{\textwidth}{1pt}
+    For solution gas drive reservoirs, B${\o}$e et.al.\cite{Boe_1989_1}  showed that pressure and oil saturation, $S_{o}$ are unique function of the Boltzman variable $r_{D}^{2}/4t_{D}$, or $r^{2}/t$ provided that $t_{D}/r_{D}^{2}\geq25$.
+    
+    Serra et. al. \cite{Serra_1990_1} used this observation to show how to compute effective permeability from wellbore B.C. for constant oil rate.
+    
+    \begin{equation}
+        {{q}_{o}}=2\pi {{\left( \frac{k{{k}_{ro}}}{{{\mu }_{o}}}rh\frac{\partial p}{\partial r} \right)}_{r={{r}_{w}}}}
+        \label{q_rw}
+    \end{equation}     
+    
+    Suppose $p$ is a function of the Boltzman variable $z=r^{2}/t$ then,
+    
+    \begin{equation}
+        \frac{\partial p}{\partial r}=\frac{dp}{dz}\frac{dz}{dr}=\frac{dp}{dz}\frac{2r}{t}
+        \label{chain_dpdr_z}
+    \end{equation} 
+    
+    and
+    \begin{equation}
+        \frac{\partial p}{\partial t}=\frac{dp}{dz}\frac{dz}{dt}=\frac{dp}{dz}\left( -\frac{{{r}^{2}}}{{{t}^{2}}} \right)
+        \label{chain_dpdt_z}
+    \end{equation}
+    
+    It follows that
+    
+    \begin{equation*}    
+    r\frac{\partial p}{\partial r}=2\frac{{{r}^{2}}}{t}\frac{dp}{dz}=\left( -2t \right)\frac{-{{r}^{2}}}{{{t}^{2}}}=-2t\frac{dp}{dt}=-2\frac{dp}{d\ln t}
+    \end{equation*}    
+    
+    or at $r=r_{w}$
+    
+    \begin{equation}    
+    {{\left( r\frac{\partial p}{\partial r} \right)}_{{{r}_{w}}}}=-2t\frac{d{{p}_{wf}}}{dt}=-2\frac{d{{p}_{wf}}}{d\ln t}
+        \label{dpwf_dlnt}      
+    \end{equation}    
+    
+    Using Eq. \ref{q_rw} in Eq. \ref{dpwf_dlnt} gives,
+    
+    \begin{equation}      
+    {{q}_{o}}=2\pi h{{\left( \frac{k{{k}_{ro}}}{{{\mu }_{o}}{{B}_{o}}} \right)}_{{{r}_{w}}}}\left( -2\frac{d{{p}_{wf}}}{d\ln t} \right)
+        \label{q_rw_2}
+    \end{equation}    
+    
+    Rearranging Eq. \ref{q_rw_2}, we obtain,
+    
+    \begin{equation}
+    {{\left( \frac{k{{k}_{ro}}}{{{\mu }_{o}}{{B}_{o}}} \right)}_{{{r}_{w}}}}=-\frac{{{q}_{o}}}{4\pi h\left( \frac{d{{p}_{wf}}}{d\ln t} \right)}
+        \label{q_rw_3}
+    \end{equation}      
+    
+   \change[Murat \c{C}{\i}nar]{which gives us a way for}{that provides a way of} computing ${{\left( k{{k}_{ro}} \right)}_{{{p}_{wf}}}}$ as a function of $p_{wf}$ from
+    
+    \begin{equation}
+        \begin{split}
+     {{\left( k{{k}_{ro}} \right)}_{{{p}_{wf}}}}&=-\frac{{{q}_{o}}{{\left( {{\mu }_{o}}{{B}_{o}} \right)}_{{{p}_{wf}}}}}{4\pi h\left( \frac{d{{p}_{wf}}}{d\ln t} \right)} \\
+    & =-\frac{2.303{{q}_{o}}{{\left( {{\mu }_{o}}{{B}_{o}} \right)}_{{{p}_{wf}}}}}{4\pi h\left( \frac{d{{p}_{wf}}}{d\log t} \right)}\quad ;\quad \ln t=2.303\log t \\
+    \end{split}
+        \label{kkro_compute}
+    \end{equation}     
+    
+    
+    \rule{\textwidth}{1pt}\\
+    \vspace{15pt}
+    
+    
+      
     %\nomenclature[1]{$R$}{Ideal gas constant {$(8.314 J/gmol \cdot K)$}}%
     %\nomenclature{${\alpha }$}{Reaction order}%
     %\printnomenclature

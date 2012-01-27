@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.25)  27 JAN 2012 00:25
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.25)  28 JAN 2012 01:35
 entering extended mode
 **C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/PET504E_Lectu
 re_Notes.tex
@@ -349,6 +349,8 @@ Package maxfloats Warning: Maximum number of possible floats asked for: 36.
 \c@numeditors=\count136
 \c@maxeditors=\count137
 )
+Package color Info: Redefining color UserColor on input line 26.
+
 (C:\Users\Cinar\Documents\murat_cinar\ITU\Lectures\PET504E\Notes\PET504E_Lectur
 e_Notes.aux
 
@@ -366,19 +368,22 @@ LaTeX Warning: Label `mD_Boltzman_rD4' multiply defined.
 
 LaTeX Warning: Label `Semilog_Approx2' multiply defined.
 
+
+LaTeX Warning: Label `semilog_slope' multiply defined.
+
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count138
@@ -392,17 +397,17 @@ LaTeX Font Info:    ... okay on input line 34.
 \MPnumerator=\count142
 \everyMPtoPDFconversion=\toks33
 )
-Package color Info: Redefining color UserColor on input line 62.
+Package color Info: Redefining color UserColor on input line 63.
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--68
+Underfull \hbox (badness 10000) in paragraph at lines 63--69
 
  []
 
-Package color Info: Redefining color UserColor on input line 72.
-Package color Info: Redefining color UserColor on input line 74.
+Package color Info: Redefining color UserColor on input line 73.
 Package color Info: Redefining color UserColor on input line 75.
 Package color Info: Redefining color UserColor on input line 76.
 Package color Info: Redefining color UserColor on input line 77.
+Package color Info: Redefining color UserColor on input line 78.
 
 LaTeX Warning: Marginpar on page 1 moved.
 
@@ -421,31 +426,28 @@ PET504E/Notes/Transient_phenomena.pdf): PDF inclusion: found PDF version <1.6>,
 File: Transient_phenomena.pdf Graphic file (type pdf)
 
 <use Transient_phenomena.pdf>
-Overfull \hbox (113.59657pt too wide) in paragraph at lines 103--104
+Overfull \hbox (113.59657pt too wide) in paragraph at lines 104--105
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 78.6378pt on input line 107.
+LaTeX Warning: Float too large for page by 78.6378pt on input line 108.
 
 [2] [3 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/Transie
 nt_phenomena.pdf>]
-Package color Info: Redefining color UserColor on input line 114.
-Package color Info: Redefining color UserColor on input line 114.
+Package color Info: Redefining color UserColor on input line 115.
+Package color Info: Redefining color UserColor on input line 115.
 
 
 LaTeX Warning: Marginpar on page 4 moved.
 
-Package color Info: Redefining color UserColor on input line 119.
-Package color Info: Redefining color UserColor on input line 124.
-Package color Info: Redefining color UserColor on input line 124.
-Package color Info: Redefining color UserColor on input line 124.
-Package color Info: Redefining color UserColor on input line 124.
-Package color Info: Redefining color UserColor on input line 124.
-Package color Info: Redefining color UserColor on input line 124.
-
-LaTeX Warning: Marginpar on page 4 moved.
-
+Package color Info: Redefining color UserColor on input line 120.
+Package color Info: Redefining color UserColor on input line 125.
+Package color Info: Redefining color UserColor on input line 125.
+Package color Info: Redefining color UserColor on input line 125.
+Package color Info: Redefining color UserColor on input line 125.
+Package color Info: Redefining color UserColor on input line 125.
+Package color Info: Redefining color UserColor on input line 125.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
@@ -458,20 +460,23 @@ LaTeX Warning: Marginpar on page 4 moved.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
-Package color Info: Redefining color UserColor on input line 131.
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+LaTeX Warning: Marginpar on page 4 moved.
+
+Package color Info: Redefining color UserColor on input line 132.
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-Package color Info: Redefining color UserColor on input line 133.
-Package color Info: Redefining color UserColor on input line 133.
-Package color Info: Redefining color UserColor on input line 133.
-Package color Info: Redefining color UserColor on input line 133.
-Package color Info: Redefining color UserColor on input line 133.
-Package color Info: Redefining color UserColor on input line 133.
 Package color Info: Redefining color UserColor on input line 134.
 Package color Info: Redefining color UserColor on input line 134.
+Package color Info: Redefining color UserColor on input line 134.
+Package color Info: Redefining color UserColor on input line 134.
+Package color Info: Redefining color UserColor on input line 134.
+Package color Info: Redefining color UserColor on input line 134.
+Package color Info: Redefining color UserColor on input line 135.
+Package color Info: Redefining color UserColor on input line 135.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
@@ -493,12 +498,12 @@ LaTeX Warning: Marginpar on page 4 moved.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
-Package color Info: Redefining color UserColor on input line 139.
+Package color Info: Redefining color UserColor on input line 140.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
-Package color Info: Redefining color UserColor on input line 141.
-Package color Info: Redefining color UserColor on input line 141.
+Package color Info: Redefining color UserColor on input line 142.
+Package color Info: Redefining color UserColor on input line 142.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
@@ -508,19 +513,19 @@ LaTeX Warning: Marginpar on page 4 moved.
 <Build_up.pdf, id=37, 252.42505pt x 83.31929pt>
 File: Build_up.pdf Graphic file (type pdf)
  <use Build_up.pdf> [4]
-Package color Info: Redefining color UserColor on input line 152.
-Package color Info: Redefining color UserColor on input line 152.
+Package color Info: Redefining color UserColor on input line 153.
+Package color Info: Redefining color UserColor on input line 153.
 
 
 LaTeX Warning: Marginpar on page 5 moved.
 
-Package color Info: Redefining color UserColor on input line 163.
-Package color Info: Redefining color UserColor on input line 163.
-Package color Info: Redefining color UserColor on input line 163.
-Package color Info: Redefining color UserColor on input line 163.
 Package color Info: Redefining color UserColor on input line 164.
+Package color Info: Redefining color UserColor on input line 164.
+Package color Info: Redefining color UserColor on input line 164.
+Package color Info: Redefining color UserColor on input line 164.
+Package color Info: Redefining color UserColor on input line 165.
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
@@ -536,12 +541,12 @@ LaTeX Warning: Marginpar on page 5 moved.
 
 LaTeX Warning: Marginpar on page 5 moved.
 
-Package color Info: Redefining color UserColor on input line 166.
+Package color Info: Redefining color UserColor on input line 167.
 
 LaTeX Warning: Marginpar on page 5 moved.
 
-Package color Info: Redefining color UserColor on input line 175.
-Package color Info: Redefining color UserColor on input line 177.
+Package color Info: Redefining color UserColor on input line 176.
+Package color Info: Redefining color UserColor on input line 178.
 
 LaTeX Warning: Marginpar on page 5 moved.
 
@@ -560,17 +565,17 @@ most version <1.4> allowed
 <Flow_Chart1.pdf, id=45, 1107.75858pt x 719.50508pt>
 File: Flow_Chart1.pdf Graphic file (type pdf)
  <use Flow_Chart1.pdf>
-Package color Info: Redefining color UserColor on input line 207.
+Package color Info: Redefining color UserColor on input line 208.
 
 [5 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/Build_up.pd
 f>] [6 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/Homogen
 ous_vs_Heterogenous_dp.pdf> <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/
 PET504E/Notes/Homogenous_vs_Heterogenous_dpder.pdf>]
-Package color Info: Redefining color UserColor on input line 212.
 Package color Info: Redefining color UserColor on input line 213.
-Package color Info: Redefining color UserColor on input line 213.
-Package color Info: Redefining color UserColor on input line 213.
-Package color Info: Redefining color UserColor on input line 213.
+Package color Info: Redefining color UserColor on input line 214.
+Package color Info: Redefining color UserColor on input line 214.
+Package color Info: Redefining color UserColor on input line 214.
+Package color Info: Redefining color UserColor on input line 214.
 
 
 LaTeX Warning: Marginpar on page 7 moved.
@@ -584,16 +589,16 @@ LaTeX Warning: Marginpar on page 7 moved.
 
 LaTeX Warning: Marginpar on page 7 moved.
 
-Package color Info: Redefining color UserColor on input line 215.
+Package color Info: Redefining color UserColor on input line 216.
 
 LaTeX Warning: Marginpar on page 7 moved.
 
-Package color Info: Redefining color UserColor on input line 221.
-Package color Info: Redefining color UserColor on input line 226.
-Package color Info: Redefining color UserColor on input line 228.
-Package color Info: Redefining color UserColor on input line 228.
-Package color Info: Redefining color UserColor on input line 228.
-Package color Info: Redefining color UserColor on input line 228.
+Package color Info: Redefining color UserColor on input line 222.
+Package color Info: Redefining color UserColor on input line 227.
+Package color Info: Redefining color UserColor on input line 229.
+Package color Info: Redefining color UserColor on input line 229.
+Package color Info: Redefining color UserColor on input line 229.
+Package color Info: Redefining color UserColor on input line 229.
 [7 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/Flow_Chart1
 .pdf, page is rotated 270 degrees>]
 
@@ -602,13 +607,13 @@ LaTeX Warning: Marginpar on page 8 moved.
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-Package color Info: Redefining color UserColor on input line 233.
 Package color Info: Redefining color UserColor on input line 234.
-Package color Info: Redefining color UserColor on input line 234.
-Package color Info: Redefining color UserColor on input line 234.
-Package color Info: Redefining color UserColor on input line 234.
-Package color Info: Redefining color UserColor on input line 234.
-Package color Info: Redefining color UserColor on input line 234.
+Package color Info: Redefining color UserColor on input line 235.
+Package color Info: Redefining color UserColor on input line 235.
+Package color Info: Redefining color UserColor on input line 235.
+Package color Info: Redefining color UserColor on input line 235.
+Package color Info: Redefining color UserColor on input line 235.
+Package color Info: Redefining color UserColor on input line 235.
 
 LaTeX Warning: Marginpar on page 8 moved.
 
@@ -627,26 +632,26 @@ LaTeX Warning: Marginpar on page 8 moved.
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-Package color Info: Redefining color UserColor on input line 260.
-Package color Info: Redefining color UserColor on input line 260.
+Package color Info: Redefining color UserColor on input line 261.
+Package color Info: Redefining color UserColor on input line 261.
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-Package color Info: Redefining color UserColor on input line 272.
+Package color Info: Redefining color UserColor on input line 273.
 [8]
-Package color Info: Redefining color UserColor on input line 282.
+Package color Info: Redefining color UserColor on input line 283.
  <Z_Aside.pdf, id=133, 247.98749pt x 140.0171pt>
 File: Z_Aside.pdf Graphic file (type pdf)
  <use Z_Aside.pdf>
-Package color Info: Redefining color UserColor on input line 297.
-Package color Info: Redefining color UserColor on input line 297.
+Package color Info: Redefining color UserColor on input line 298.
+Package color Info: Redefining color UserColor on input line 298.
 
 
 LaTeX Warning: Marginpar on page 9 moved.
 
-Package color Info: Redefining color UserColor on input line 301.
-Package color Info: Redefining color UserColor on input line 308.
-Package color Info: Redefining color UserColor on input line 308.
+Package color Info: Redefining color UserColor on input line 302.
+Package color Info: Redefining color UserColor on input line 309.
+Package color Info: Redefining color UserColor on input line 309.
 
 
 pdfTeX warning: (null) (file C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/
@@ -656,8 +661,8 @@ but at most version <1.4> allowed
 File: PartialvsFullPenet.pdf Graphic file (type pdf)
 
 <use PartialvsFullPenet.pdf>
-Package color Info: Redefining color UserColor on input line 316.
 Package color Info: Redefining color UserColor on input line 317.
+Package color Info: Redefining color UserColor on input line 318.
 
 
 LaTeX Warning: Marginpar on page 9 moved.
@@ -667,30 +672,30 @@ LaTeX Warning: Marginpar on page 9 moved.
 
 LaTeX Warning: Marginpar on page 10 moved.
 
-Package color Info: Redefining color UserColor on input line 324.
 Package color Info: Redefining color UserColor on input line 325.
+Package color Info: Redefining color UserColor on input line 326.
 
 LaTeX Warning: Marginpar on page 10 moved.
 
-Package color Info: Redefining color UserColor on input line 333.
-Package color Info: Redefining color UserColor on input line 343.
+Package color Info: Redefining color UserColor on input line 334.
 Package color Info: Redefining color UserColor on input line 344.
+Package color Info: Redefining color UserColor on input line 345.
 
 LaTeX Warning: Marginpar on page 10 moved.
 
 [10 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/PartialvsF
 ullPenet.pdf>]
-Package color Info: Redefining color UserColor on input line 364.
+Package color Info: Redefining color UserColor on input line 365.
 
-Overfull \hbox (27.77847pt too wide) in paragraph at lines 364--365
+Overfull \hbox (27.77847pt too wide) in paragraph at lines 365--366
 []$[]$[][]\OT1/cmr/m/n/12 Note[] [][][]that[] [][][]here[] [][][]the[] [][][]to
 []-[]tal[] [][][]com[]-[]press[]-[]ibil[]-[]ity[] [][][][][] [][][]is[] [][][]d
 e[]-[]fined[] [][][]as[] [][][][].[]
  []
 
-Package color Info: Redefining color UserColor on input line 378.
+Package color Info: Redefining color UserColor on input line 381.
 
-Overfull \hbox (16.97614pt too wide) in alignment at lines 403--405
+Overfull \hbox (16.97614pt too wide) in alignment at lines 406--408
 [] []
  []
 
@@ -698,30 +703,30 @@ Overfull \hbox (16.97614pt too wide) in alignment at lines 403--405
 File: Coordinates.pdf Graphic file (type pdf)
  <use Coordinates.pdf>
 [11]
-Overfull \hbox (15.0pt too wide) in paragraph at lines 414--416
+Overfull \hbox (15.0pt too wide) in paragraph at lines 417--419
 [][]
  []
 
-Package color Info: Redefining color UserColor on input line 417.
-Package color Info: Redefining color UserColor on input line 447.
-Package color Info: Redefining color UserColor on input line 453.
-Package color Info: Redefining color UserColor on input line 453.
-Package color Info: Redefining color UserColor on input line 453.
-Package color Info: Redefining color UserColor on input line 453.
+Package color Info: Redefining color UserColor on input line 420.
+Package color Info: Redefining color UserColor on input line 450.
+Package color Info: Redefining color UserColor on input line 457.
+Package color Info: Redefining color UserColor on input line 457.
+Package color Info: Redefining color UserColor on input line 457.
+Package color Info: Redefining color UserColor on input line 457.
 
-Overfull \hbox (1.8663pt too wide) in paragraph at lines 453--454
+Overfull \hbox (1.8663pt too wide) in paragraph at lines 457--458
 \OT1/cmr/m/n/12 a mass ex-change be-tween $[]$two hy-dro-car-bon phases $[]$[][
 ]-[] [][][]oil[]-[]gas[] (water-
  []
 
 
-Overfull \hbox (1.6052pt too wide) in paragraph at lines 453--454
+Overfull \hbox (1.6052pt too wide) in paragraph at lines 457--458
 \OT1/cmr/m/n/12 oil and gas-water sys-tems $[]$[][]is[] as-sumed im-mis-ci-ble)
 . The $[]$[][]mass[] trans-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
 
  []
 
@@ -736,32 +741,32 @@ LaTeX Warning: Marginpar on page 13 moved.
 
 LaTeX Warning: Marginpar on page 13 moved.
 
-Package color Info: Redefining color UserColor on input line 455.
-Package color Info: Redefining color UserColor on input line 472.
+Package color Info: Redefining color UserColor on input line 459.
+Package color Info: Redefining color UserColor on input line 476.
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
  []
 
-Package color Info: Redefining color UserColor on input line 481.
+Package color Info: Redefining color UserColor on input line 485.
 <Rs_Bo_Bg.pdf, id=188, 375.01405pt x 250.84717pt>
 File: Rs_Bo_Bg.pdf Graphic file (type pdf)
  <use Rs_Bo_Bg.pdf>
-Overfull \hbox (27.88959pt too wide) in paragraph at lines 503--504
+Overfull \hbox (27.88959pt too wide) in paragraph at lines 507--508
  [] 
  []
 
-Package color Info: Redefining color UserColor on input line 509.
-Package color Info: Redefining color UserColor on input line 509.
-Package color Info: Redefining color UserColor on input line 509.
-Package color Info: Redefining color UserColor on input line 509.
-Package color Info: Redefining color UserColor on input line 509.
-Package color Info: Redefining color UserColor on input line 509.
-Package color Info: Redefining color UserColor on input line 509.
-Package color Info: Redefining color UserColor on input line 509.
-Package color Info: Redefining color UserColor on input line 509.
-Package color Info: Redefining color UserColor on input line 509.
-Package color Info: Redefining color UserColor on input line 509.
+Package color Info: Redefining color UserColor on input line 513.
+Package color Info: Redefining color UserColor on input line 513.
+Package color Info: Redefining color UserColor on input line 513.
+Package color Info: Redefining color UserColor on input line 513.
+Package color Info: Redefining color UserColor on input line 513.
+Package color Info: Redefining color UserColor on input line 513.
+Package color Info: Redefining color UserColor on input line 513.
+Package color Info: Redefining color UserColor on input line 513.
+Package color Info: Redefining color UserColor on input line 513.
+Package color Info: Redefining color UserColor on input line 513.
+Package color Info: Redefining color UserColor on input line 513.
 
 LaTeX Warning: Marginpar on page 13 moved.
 
@@ -791,45 +796,45 @@ LaTeX Warning: Marginpar on page 15 moved.
 
 LaTeX Warning: Marginpar on page 15 moved.
 
-Package color Info: Redefining color UserColor on input line 511.
+Package color Info: Redefining color UserColor on input line 515.
 
 LaTeX Warning: Marginpar on page 15 moved.
 
-Package color Info: Redefining color UserColor on input line 518.
-Package color Info: Redefining color UserColor on input line 518.
+Package color Info: Redefining color UserColor on input line 522.
+Package color Info: Redefining color UserColor on input line 522.
 
 LaTeX Warning: Marginpar on page 15 moved.
 
-Package color Info: Redefining color UserColor on input line 553.
-Package color Info: Redefining color UserColor on input line 553.
+Package color Info: Redefining color UserColor on input line 557.
+Package color Info: Redefining color UserColor on input line 557.
 
 LaTeX Warning: Marginpar on page 15 moved.
 
 [15]
-Package color Info: Redefining color UserColor on input line 560.
-Package color Info: Redefining color UserColor on input line 561.
+Package color Info: Redefining color UserColor on input line 564.
+Package color Info: Redefining color UserColor on input line 565.
 
 
 LaTeX Warning: Marginpar on page 16 moved.
 
-Package color Info: Redefining color UserColor on input line 578.
-Package color Info: Redefining color UserColor on input line 592.
-Package color Info: Redefining color UserColor on input line 592.
-Package color Info: Redefining color UserColor on input line 592.
+Package color Info: Redefining color UserColor on input line 582.
+Package color Info: Redefining color UserColor on input line 596.
+Package color Info: Redefining color UserColor on input line 596.
+Package color Info: Redefining color UserColor on input line 596.
 
 LaTeX Warning: Marginpar on page 16 moved.
 
 
 LaTeX Warning: Marginpar on page 16 moved.
 
-Package color Info: Redefining color UserColor on input line 600.
-Package color Info: Redefining color UserColor on input line 600.
-Package color Info: Redefining color UserColor on input line 600.
-Package color Info: Redefining color UserColor on input line 600.
-Package color Info: Redefining color UserColor on input line 600.
-Package color Info: Redefining color UserColor on input line 600.
+Package color Info: Redefining color UserColor on input line 604.
+Package color Info: Redefining color UserColor on input line 604.
+Package color Info: Redefining color UserColor on input line 604.
+Package color Info: Redefining color UserColor on input line 604.
+Package color Info: Redefining color UserColor on input line 604.
+Package color Info: Redefining color UserColor on input line 604.
 
-Underfull \hbox (badness 10000) in paragraph at lines 600--601
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 
  []
 
@@ -845,12 +850,12 @@ LaTeX Warning: Marginpar on page 16 moved.
 
 LaTeX Warning: Marginpar on page 16 moved.
 
-Package color Info: Redefining color UserColor on input line 602.
-Package color Info: Redefining color UserColor on input line 602.
-Package color Info: Redefining color UserColor on input line 602.
-Package color Info: Redefining color UserColor on input line 602.
-Package color Info: Redefining color UserColor on input line 602.
-Package color Info: Redefining color UserColor on input line 602.
+Package color Info: Redefining color UserColor on input line 606.
+Package color Info: Redefining color UserColor on input line 606.
+Package color Info: Redefining color UserColor on input line 606.
+Package color Info: Redefining color UserColor on input line 606.
+Package color Info: Redefining color UserColor on input line 606.
+Package color Info: Redefining color UserColor on input line 606.
 [16]
 
 LaTeX Warning: Marginpar on page 17 moved.
@@ -867,47 +872,47 @@ LaTeX Warning: Marginpar on page 17 moved.
 
 LaTeX Warning: Marginpar on page 17 moved.
 
-Package color Info: Redefining color UserColor on input line 661.
+Package color Info: Redefining color UserColor on input line 665.
 <Radial_Flow.pdf, id=219, 322.51491pt x 245.82841pt>
 File: Radial_Flow.pdf Graphic file (type pdf)
  <use Radial_Flow.pdf>
 [17]
-Package color Info: Redefining color UserColor on input line 670.
-Package color Info: Redefining color UserColor on input line 680.
+Package color Info: Redefining color UserColor on input line 674.
+Package color Info: Redefining color UserColor on input line 684.
  <r_z.pdf, id=223, 318.11848pt x 169.17201pt>
 File: r_z.pdf Graphic file (type pdf)
  <use r_z.pdf> [18 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/N
 otes/Radial_Flow.pdf>]
-Package color Info: Redefining color UserColor on input line 697.
-Package color Info: Redefining color UserColor on input line 697.
+Package color Info: Redefining color UserColor on input line 701.
+Package color Info: Redefining color UserColor on input line 701.
 
 
 LaTeX Warning: Marginpar on page 19 moved.
 
-Package color Info: Redefining color UserColor on input line 703.
-Package color Info: Redefining color UserColor on input line 705.
-Package color Info: Redefining color UserColor on input line 712.
-Package color Info: Redefining color UserColor on input line 712.
+Package color Info: Redefining color UserColor on input line 707.
+Package color Info: Redefining color UserColor on input line 709.
+Package color Info: Redefining color UserColor on input line 716.
+Package color Info: Redefining color UserColor on input line 716.
 
 LaTeX Warning: Marginpar on page 19 moved.
 
-Package color Info: Redefining color UserColor on input line 720.
-Package color Info: Redefining color UserColor on input line 722.
+Package color Info: Redefining color UserColor on input line 724.
+Package color Info: Redefining color UserColor on input line 726.
 
 LaTeX Warning: Marginpar on page 19 moved.
 
 [19 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/r_z.pdf>]
-Package color Info: Redefining color UserColor on input line 725.
-Package color Info: Redefining color UserColor on input line 743.
-Package color Info: Redefining color UserColor on input line 750.
-Package color Info: Redefining color UserColor on input line 756.
-Package color Info: Redefining color UserColor on input line 763.
-Package color Info: Redefining color UserColor on input line 763.
+Package color Info: Redefining color UserColor on input line 729.
+Package color Info: Redefining color UserColor on input line 747.
+Package color Info: Redefining color UserColor on input line 754.
+Package color Info: Redefining color UserColor on input line 760.
+Package color Info: Redefining color UserColor on input line 767.
+Package color Info: Redefining color UserColor on input line 767.
 
 
 LaTeX Warning: Marginpar on page 20 moved.
 
-Package color Info: Redefining color UserColor on input line 774.
+Package color Info: Redefining color UserColor on input line 776.
 
 
 pdfTeX warning: (null) (file C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/
@@ -917,89 +922,87 @@ PET504E/Notes/Production_Full.pdf): PDF inclusion: found PDF version <1.6>, but
 File: Production_Full.pdf Graphic file (type pdf)
 
 <use Production_Full.pdf> [20]
-Package color Info: Redefining color UserColor on input line 801.
-Package color Info: Redefining color UserColor on input line 801.
+Package color Info: Redefining color UserColor on input line 803.
+Package color Info: Redefining color UserColor on input line 803.
 
 
 LaTeX Warning: Marginpar on page 21 moved.
 
+Package color Info: Redefining color UserColor on input line 815.
 [21 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/Production
 _Full.pdf>]
-Package color Info: Redefining color UserColor on input line 813.
-Package color Info: Redefining color UserColor on input line 823.
-Package color Info: Redefining color UserColor on input line 823.
+Package color Info: Redefining color UserColor on input line 825.
+Package color Info: Redefining color UserColor on input line 825.
 
 
 LaTeX Warning: Marginpar on page 22 moved.
 
-Package color Info: Redefining color UserColor on input line 840.
-Package color Info: Redefining color UserColor on input line 851.
+Package color Info: Redefining color UserColor on input line 842.
+Package color Info: Redefining color UserColor on input line 853.
 
-Overfull \hbox (5.44957pt too wide) in paragraph at lines 851--852
+Overfull \hbox (5.44957pt too wide) in paragraph at lines 853--854
 []\OT1/cmr/m/n/12 In sum-mary, $[]$[][]the[] [][][]fol[]-[]low[]-[]ing[] [][][]
 ini[]-[]tial[] [][][]bound[]-[]ary[] [][][]value[] [][][]prob[]-[]lem[] [][][](
 IBVP)[]
  []
 
-Package color Info: Redefining color UserColor on input line 872.
+Package color Info: Redefining color UserColor on input line 874.
+Package color Info: Redefining color UserColor on input line 876.
+Package color Info: Redefining color UserColor on input line 876.
 [22]
-Package color Info: Redefining color UserColor on input line 874.
-Package color Info: Redefining color UserColor on input line 874.
-
 
 LaTeX Warning: Marginpar on page 23 moved.
 
-Package color Info: Redefining color UserColor on input line 899.
+Package color Info: Redefining color UserColor on input line 901.
+Package color Info: Redefining color UserColor on input line 933.
+Package color Info: Redefining color UserColor on input line 933.
+Package color Info: Redefining color UserColor on input line 933.
+Package color Info: Redefining color UserColor on input line 933.
 [23]
-Package color Info: Redefining color UserColor on input line 931.
-Package color Info: Redefining color UserColor on input line 931.
-Package color Info: Redefining color UserColor on input line 931.
-Package color Info: Redefining color UserColor on input line 931.
-
 
 LaTeX Warning: Marginpar on page 24 moved.
 
 
 LaTeX Warning: Marginpar on page 24 moved.
 
-Package color Info: Redefining color UserColor on input line 938.
+Package color Info: Redefining color UserColor on input line 940.
 
-Overfull \hbox (6.96342pt too wide) in paragraph at lines 938--939
+Overfull \hbox (6.96342pt too wide) in paragraph at lines 940--941
 []\OT1/cmr/m/n/12 Under the pre-ced-ing assumptions,$[]$ ap-prox-i-mate prob-le
 m be-comes:
  []
 
-Package color Info: Redefining color UserColor on input line 967.
-Package color Info: Redefining color UserColor on input line 967.
+Package color Info: Redefining color UserColor on input line 969.
+Package color Info: Redefining color UserColor on input line 969.
 
 LaTeX Warning: Marginpar on page 24 moved.
 
-Package color Info: Redefining color UserColor on input line 974.
+Package color Info: Redefining color UserColor on input line 976.
 [24]
-Package color Info: Redefining color UserColor on input line 1003.
-Package color Info: Redefining color UserColor on input line 1003.
+Package color Info: Redefining color UserColor on input line 1005.
+Package color Info: Redefining color UserColor on input line 1005.
 
 
 LaTeX Warning: Marginpar on page 25 moved.
 
-Package color Info: Redefining color UserColor on input line 1022.
+Package color Info: Redefining color UserColor on input line 1024.
 [25]
-Package color Info: Redefining color UserColor on input line 1051.
-Package color Info: Redefining color UserColor on input line 1058.
+Package color Info: Redefining color UserColor on input line 1053.
+Package color Info: Redefining color UserColor on input line 1060.
  [26]
-Package color Info: Redefining color UserColor on input line 1123.
-Package color Info: Redefining color UserColor on input line 1136.
-Package color Info: Redefining color UserColor on input line 1136.
+Package color Info: Redefining color UserColor on input line 1125.
+Package color Info: Redefining color UserColor on input line 1138.
+Package color Info: Redefining color UserColor on input line 1138.
 
 
 LaTeX Warning: Marginpar on page 27 moved.
 
-Package color Info: Redefining color UserColor on input line 1150.
-Package color Info: Redefining color UserColor on input line 1157.
-Package color Info: Redefining color UserColor on input line 1164.
-Package color Info: Redefining color UserColor on input line 1164.
-Package color Info: Redefining color UserColor on input line 1164.
-Package color Info: Redefining color UserColor on input line 1164.
+Package color Info: Redefining color UserColor on input line 1152.
+Package color Info: Redefining color UserColor on input line 1159.
+Package color Info: Redefining color UserColor on input line 1166.
+Package color Info: Redefining color UserColor on input line 1166.
+Package color Info: Redefining color UserColor on input line 1166.
+Package color Info: Redefining color UserColor on input line 1166.
 
 LaTeX Warning: Marginpar on page 27 moved.
 
@@ -1010,9 +1013,9 @@ LaTeX Warning: Marginpar on page 27 moved.
 LaTeX Warning: Marginpar on page 27 moved.
 
 [27]
-Package color Info: Redefining color UserColor on input line 1180.
-Package color Info: Redefining color UserColor on input line 1180.
-Package color Info: Redefining color UserColor on input line 1180.
+Package color Info: Redefining color UserColor on input line 1182.
+Package color Info: Redefining color UserColor on input line 1182.
+Package color Info: Redefining color UserColor on input line 1182.
 
 
 LaTeX Warning: Marginpar on page 28 moved.
@@ -1025,15 +1028,15 @@ File: Exponential_Integral_approximation.pdf Graphic file (type pdf)
 
 <use Exponential_Integral_approximation.pdf> [28 <C:/Users/Cinar/Documents/mura
 t_cinar/ITU/Lectures/PET504E/Notes/Exponential_Integral_approximation.pdf>]
-Package color Info: Redefining color UserColor on input line 1209.
-Package color Info: Redefining color UserColor on input line 1223.
-Package color Info: Redefining color UserColor on input line 1223.
-Package color Info: Redefining color UserColor on input line 1223.
-Package color Info: Redefining color UserColor on input line 1223.
-Package color Info: Redefining color UserColor on input line 1223.
-Package color Info: Redefining color UserColor on input line 1223.
-Package color Info: Redefining color UserColor on input line 1223.
-Package color Info: Redefining color UserColor on input line 1223.
+Package color Info: Redefining color UserColor on input line 1211.
+Package color Info: Redefining color UserColor on input line 1225.
+Package color Info: Redefining color UserColor on input line 1225.
+Package color Info: Redefining color UserColor on input line 1225.
+Package color Info: Redefining color UserColor on input line 1225.
+Package color Info: Redefining color UserColor on input line 1225.
+Package color Info: Redefining color UserColor on input line 1225.
+Package color Info: Redefining color UserColor on input line 1225.
+Package color Info: Redefining color UserColor on input line 1225.
 
 
 LaTeX Warning: Marginpar on page 29 moved.
@@ -1053,17 +1056,123 @@ LaTeX Warning: Marginpar on page 29 moved.
 
 LaTeX Warning: Marginpar on page 29 moved.
 
-Package color Info: Redefining color UserColor on input line 1229.
-Package color Info: Redefining color UserColor on input line 1229.
+Package color Info: Redefining color UserColor on input line 1231.
+Package color Info: Redefining color UserColor on input line 1231.
 
 LaTeX Warning: Marginpar on page 29 moved.
 
 
 LaTeX Warning: Marginpar on page 29 moved.
+
+Package color Info: Redefining color UserColor on input line 1235.
+Package color Info: Redefining color UserColor on input line 1235.
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+Package color Info: Redefining color UserColor on input line 1246.
+[29]
+Package color Info: Redefining color UserColor on input line 1253.
+Package color Info: Redefining color UserColor on input line 1253.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+Package color Info: Redefining color UserColor on input line 1267.
+Package color Info: Redefining color UserColor on input line 1267.
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+Package color Info: Redefining color UserColor on input line 1273.
+Package color Info: Redefining color UserColor on input line 1273.
+Package color Info: Redefining color UserColor on input line 1273.
+Package color Info: Redefining color UserColor on input line 1273.
+Package color Info: Redefining color UserColor on input line 1273.
+Package color Info: Redefining color UserColor on input line 1273.
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+Package color Info: Redefining color UserColor on input line 1280.
+Package color Info: Redefining color UserColor on input line 1280.
+Package color Info: Redefining color UserColor on input line 1280.
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+Package color Info: Redefining color UserColor on input line 1296.
+Package color Info: Redefining color UserColor on input line 1296.
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+[30]
+Package color Info: Redefining color UserColor on input line 1298.
+ <Line_Finite_Comp.pdf, id=297, 310.18283pt x 502.34875pt>
+File: Line_Finite_Comp.pdf Graphic file (type pdf)
+
+<use Line_Finite_Comp.pdf>
+Package color Info: Redefining color UserColor on input line 1310.
+Package color Info: Redefining color UserColor on input line 1310.
+Package color Info: Redefining color UserColor on input line 1310.
+Package color Info: Redefining color UserColor on input line 1310.
+Package color Info: Redefining color UserColor on input line 1310.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1310--1311
+
+ []
+
+
+LaTeX Warning: Marginpar on page 31 moved.
+
+
+LaTeX Warning: Marginpar on page 31 moved.
+
+
+LaTeX Warning: Marginpar on page 31 moved.
+
+Package color Info: Redefining color UserColor on input line 1322.
+Package color Info: Redefining color UserColor on input line 1328.
+[31] [32 <C:/Users/Cinar/Documents/murat_cinar/ITU/Lectures/PET504E/Notes/Line_
+Finite_Comp.pdf, page is rotated 270 degrees>]
+Package color Info: Redefining color UserColor on input line 1369.
+Package color Info: Redefining color UserColor on input line 1369.
+Package color Info: Redefining color UserColor on input line 1376.
+Package color Info: Redefining color UserColor on input line 1377.
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+[33]
+
+LaTeX Warning: Command \o invalid in math mode on input line 1406.
+
+Package color Info: Redefining color UserColor on input line 1455.
+[34]
+Package color Info: Redefining color UserColor on input line 1465.
+Package color Info: Redefining color UserColor on input line 1465.
+
+
+LaTeX Warning: Marginpar on page 35 moved.
 
 
 (C:\Users\Cinar\Documents\murat_cinar\ITU\Lectures\PET504E\Notes\PET504E_Lectur
-e_Notes.bbl) [29]
+e_Notes.bbl
+
+LaTeX Warning: Command \o invalid in math mode on input line 14.
+
+) [35]
 (C:\Users\Cinar\Documents\murat_cinar\ITU\Lectures\PET504E\Notes\PET504E_Lectur
 e_Notes.aux)
 
@@ -1071,13 +1180,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2973 strings out of 494019
- 40474 string characters out of 3143882
- 184669 words of memory out of 3000000
- 6199 multiletter control sequences out of 15000+200000
+ 3003 strings out of 494019
+ 40907 string characters out of 3143882
+ 184969 words of memory out of 3000000
+ 6228 multiletter control sequences out of 15000+200000
  15481 words of font info for 55 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 42i,21n,21p,1321b,753s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,27n,21p,1321b,753s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/P
@@ -1102,12 +1211,13 @@ ic/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/lat
-xfont/line10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8
-a.pfb>
-Output written on PET504E_Lecture_Notes.pdf (29 pages, 4236524 bytes).
+cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfo
+nt/line10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
+fb>
+Output written on PET504E_Lecture_Notes.pdf (35 pages, 5422164 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
+ 407 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

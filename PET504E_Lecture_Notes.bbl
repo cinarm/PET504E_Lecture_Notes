@@ -10,6 +10,11 @@ R.~Al-Hussainy, H.J. Ramey~Jr., and P.B. Crawford.
 \newblock The flow of real gases through porous media.
 \newblock {\em SPE Journal}, 18(5):624 -- 636, 1966.
 
+\bibitem{Boe_1989_1}
+A.~B${\o}$e, Svein~M. Skjaeveland, and Curtis~H. Whitson.
+\newblock Two-phase pressure test analysis.
+\newblock {\em SPE Formation Evaluation}, 17(4):604--610, 1989.
+
 \bibitem{Bourdet_2002_1}
 D.~Bourdet.
 \newblock {\em Well test analysis: the use of advanced interpretation models}.
@@ -21,11 +26,22 @@ D.~Kale and L.~Mattar.
   technique.
 \newblock {\em Journal of Canadian Petroleum Technology}, 19(4), 1980.
 
+\bibitem{Mueller_1965_1}
+Thomas~D. Mueller and Paul~A. Witherspoon.
+\newblock Pressure interference effects within reservoirs and aquifers.
+\newblock {\em Journal of Petroleum Technology}, 4(4):471--474, 1965.
+
 \bibitem{Peres_1990_1}
 Alvaro~M.M. Peres, Kelson~V. Serra, and Albert~C. Reynolds.
 \newblock Toward a unified theory of well testing for nonlinear-radial-flow
   problems with application to interference tests.
 \newblock {\em SPE Formation Evaluation}, 5(2):151--160, 1990.
+
+\bibitem{Serra_1990_1}
+Kelsen~V. Serra, Alvaro~M.M. Peres, , and Albert~C. Reynolds.
+\newblock Well-test analysis for solution-gas-drive reservoirs: Part 1 -
+  determination of relative and absolute permeabilities.
+\newblock {\em SPE Formation Evaluation}, 5(2):124--132, 1990.
 
 \bibitem{Theis_1935_1}
 C.~Theis.
