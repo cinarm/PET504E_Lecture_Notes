@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Abramowitz_1965_1}
 M.~Abramowitz and IA. Stegun.
@@ -10,6 +10,12 @@ R.~Al-Hussainy, H.J. Ramey~Jr., and P.B. Crawford.
 \newblock The flow of real gases through porous media.
 \newblock {\em SPE Journal}, 18(5):624 -- 636, 1966.
 
+\bibitem{Blasingame_1989_1}
+T.A. Blasingame, J.L. Johnston, W.J. Lee, and R.~Raghavan.
+\newblock The analysis of gas well test data distorted by well bore storage
+  using an explicit deconvolution method.
+\newblock In {\em SPE Gas Technology Symposium}, 7-9 June 1989, Dallas, Texas.
+
 \bibitem{Boe_1989_1}
 A.~B${\o}$e, Svein~M. Skjaeveland, and Curtis~H. Whitson.
 \newblock Two-phase pressure test analysis.
@@ -19,6 +25,17 @@ A.~B${\o}$e, Svein~M. Skjaeveland, and Curtis~H. Whitson.
 D.~Bourdet.
 \newblock {\em Well test analysis: the use of advanced interpretation models}.
 \newblock Handbook of petroleum exploration and production. Elsevier, 2002.
+
+\bibitem{Bourdet_1983_1}
+D.~P. Bourdet, T.~M. Whittle, A.~A. Douglas, and Y.~M. Pirard.
+\newblock A new set of type curves simplifies well test analysis.
+\newblock {\em World Oil}, pages 95--106, 1983.
+
+\bibitem{Hurst_1953_1}
+W.~Hurst.
+\newblock Establishment of the skin effect and its impediment to fluid-flow
+  into a well bore.
+\newblock {\em Pet Eng.}, 25(1):B--6, 1953.
 
 \bibitem{Kale_1980_1}
 D.~Kale and L.~Mattar.
@@ -30,6 +47,18 @@ D.~Kale and L.~Mattar.
 Thomas~D. Mueller and Paul~A. Witherspoon.
 \newblock Pressure interference effects within reservoirs and aquifers.
 \newblock {\em Journal of Petroleum Technology}, 4(4):471--474, 1965.
+
+\bibitem{Onur_1989_2}
+A.M.M. Onur, M.and~Peres and A.C. Reynolds.
+\newblock New pressure functions for well test analysis.
+\newblock In {\em SPE Annual Technical Conference and Exhibition}, 8-11 October
+  1989, San Antonio, Texas.
+
+\bibitem{Onur_1988_1}
+Mustafa Onur and U.~Reynolds, Albert~C.
+\newblock Pressure analysis of multiple-sealing-fault systems and bounded
+  reservoirs by type-curve matching.
+\newblock {\em SPE Formation Evaluation}, (1):197--206, 1988.
 
 \bibitem{Peres_1990_1}
 Alvaro~M.M. Peres, Kelson~V. Serra, and Albert~C. Reynolds.
@@ -48,5 +77,17 @@ C.~Theis.
 \newblock The relation between the lowering of the piezometric surface and the
   rate and duration of discharge of a well using ground water storage.
 \newblock {\em Trans AGU}, pages 519--524, 1935.
+
+\bibitem{Tiab_1979_1}
+D.~Tiab and Henry~B. Crichlow.
+\newblock Pressure analysis of multiple-sealing-fault systems and bounded
+  reservoirs by type-curve matching.
+\newblock {\em SPE Journal}, 19(6):378--392, 1979.
+
+\bibitem{Everdingen_1953_1}
+A.F. van Everdingen.
+\newblock The skin effect and its influence on the productive capacity in a
+  well.
+\newblock {\em Trans AIME}, 198(1):171--176, 1953.
 
 \end{thebibliography}
